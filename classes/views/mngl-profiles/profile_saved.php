@@ -1,0 +1,1 @@
+<div class="updated"><p><strong><?php _e('Your Profile has been saved.', 'mingle'); ?></strong></p></div>

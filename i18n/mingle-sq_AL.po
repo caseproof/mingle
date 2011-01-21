@@ -1,0 +1,734 @@
+# Mingle sg_AL
+# Copyright (C) 2009 Blair Williams
+# This file is distributed under the same license as the Mingle package.
+# Klajdi Hena <khena0225@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mingle 0.0.09\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mingle\n"
+"POT-Creation-Date: 2009-11-24 13:03-0500\n"
+"PO-Revision-Date: 2010-02-23 17:26-0700\n"
+"Last-Translator: Blair Williams <blairchurchwilliams@gmail.com>\n"
+"Language-Team: BCW Language Translation <support@prettylinkpro.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Poedit-Language: Albanian\n"
+"X-Poedit-Country: ALBANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Bookmarks: -1,1585,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: classes/controllers/MnglBoardsController.php:13
+#, php-format
+msgid "%1$s posted to %2$s's board"
+msgstr "%1$s postoi në dërrasën e %2$s"
+
+#: classes/controllers/MnglBoardsController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's post"
+msgstr "%1$s komentoi në postimin e %2$s"
+
+#: classes/controllers/MnglFriendsController.php:14
+#, php-format
+msgid "%1$s is now friends with %2$s"
+msgstr "%1$s është tashmë shok me %2$s"
+
+#: classes/controllers/MnglHelpController.php:20
+#, php-format
+msgid "Mingle must be configured. Go to the %1$sadmin page%2$s to setup your new social network!"
+msgstr "Mingle duhet të konfigurohet. Shko tek faqja e %1$sadmin %2$s për të përgatitur rrjetin tënd shoqëror të ri!"
+
+#: classes/controllers/MnglProfilesController.php:13
+#, php-format
+msgid "%1$s updated %2$s profile"
+msgstr "%1$s rifreskoi profilin e %2$s"
+
+#: classes/helpers/MnglAppHelper.php:43
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d sekondë më përpara"
+msgstr[1] "%d sekonda më përpara"
+
+#: classes/helpers/MnglAppHelper.php:49
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minutë më përpara"
+msgstr[1] "%d minuta më përpara"
+
+#: classes/helpers/MnglAppHelper.php:55
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d orë më përpara"
+msgstr[1] "%d orë më përpara"
+
+#: classes/helpers/MnglAppHelper.php:61
+#, php-format
+msgid "yesterday"
+msgid_plural "%d days ago"
+msgstr[0] "Dje"
+msgstr[1] "%d ditë më përpara"
+
+#: classes/helpers/MnglAppHelper.php:67
+#, php-format
+msgid "last week"
+msgid_plural "%d weeks ago"
+msgstr[0] "javën e kaluar"
+msgstr[1] "%d javë më përpara"
+
+#: classes/helpers/MnglAppHelper.php:73
+#, php-format
+msgid "last month"
+msgid_plural "%d months ago"
+msgstr[0] "muajin e kaluar"
+msgstr[1] "%d muaj më përpara"
+
+#: classes/helpers/MnglAppHelper.php:79
+#, php-format
+msgid "last year"
+msgid_plural "%d years ago"
+msgstr[0] "vitin e kaluar"
+msgstr[1] "%d vjet më përara"
+
+#: classes/helpers/MnglOptionsHelper.php:29
+msgid "Full Name"
+msgstr "Emri i Plotë"
+
+#: classes/helpers/MnglOptionsHelper.php:30
+msgid "Screen Name"
+msgstr "Emri i Ekranit"
+
+#: classes/helpers/MnglOptionsHelper.php:39
+msgid "Public"
+msgstr "Publik"
+
+#: classes/helpers/MnglOptionsHelper.php:40
+msgid "Private"
+msgstr "Privat"
+
+#: classes/helpers/MnglOptionsHelper.php:41
+msgid "Hidden"
+msgstr "Fshehur"
+
+#: classes/helpers/MnglProfileHelper.php:10
+msgid "Female"
+msgstr "Femër"
+
+#: classes/helpers/MnglProfileHelper.php:11
+msgid "Male"
+msgstr "Mashkull"
+
+#: classes/helpers/MnglProfileHelper.php:20
+msgid "I Want My Profile to Only Be Visible To Me and My Friends"
+msgstr "Dua Që Profili Tim Të Jetë i Shikueshëm Vetëm Nga Shokët E Mi"
+
+#: classes/helpers/MnglProfileHelper.php:21
+msgid "I Want My Profile to Be Visible To The World"
+msgstr "Dua Që Profili Tim Të Jetë  I Shikueshëm Nga E Gjithë Bota"
+
+#: classes/models/MnglNotification.php:12
+msgid "Sent when someone requests you as a friend"
+msgstr "Dërguar kur ndonjë të kërkon ty për shok"
+
+#: classes/models/MnglNotification.php:14
+msgid "Sent when a friendship has been confirmed"
+msgstr "Dërguar kur një shoqëri konfirmohet"
+
+#: classes/models/MnglNotification.php:16
+msgid "Sent when someone posts to your Board"
+msgstr "Dërguar kur ndonjë poston dicka në Dërrasën tënde"
+
+#: classes/models/MnglNotification.php:18
+msgid "Sent when someone posts to one of your Board Posts or on a comment thread that you've participated in"
+msgstr "Dërguar kur ndonjë poston në Dërrasën Tënde, ose në ndonjë temë që ti ke marrë pjesë"
+
+#: classes/models/MnglNotification.php:33
+#, php-format
+msgid "%1$s has requested you as a friend on %2$s!"
+msgstr "%1$s të ka kërkuar ty si shok tek %2$s!"
+
+#: classes/models/MnglNotification.php:34
+#, php-format
+msgid "Please visit %s to Accept or Ignore this request."
+msgstr "Ju lutemi vizitoni %s për të Pranuar ose Injoruar këtë kërkesë."
+
+#: classes/models/MnglNotification.php:41
+#, php-format
+msgid "%1$s wants to be your Friend on %2$s"
+msgstr "%1$s dëshiron të behet shok me ty në %2$s"
+
+#: classes/models/MnglNotification.php:59
+#: classes/models/MnglNotification.php:72
+#, php-format
+msgid "You're now friends with %1$s on %2$s!"
+msgstr "Je tashmë shok me %1$s në %2$s!"
+
+#: classes/models/MnglNotification.php:60
+#, php-format
+msgid "Visit %1$s to see %2$s profile."
+msgstr "Vizito %1$s për të parë profilin e %2$s."
+
+#: classes/models/MnglNotification.php:68
+#, php-format
+msgid "%1$s Has Confirmed Your Friend Request on %2$s"
+msgstr "%1$s Ka Konfirmuar Kërkesën Tënde Për Shok në %2$s"
+
+#: classes/models/MnglNotification.php:73
+#, php-format
+msgid "Visit %s to see %s profile."
+msgstr "Vizito %s për të parë profilin e %s"
+
+#: classes/models/MnglNotification.php:81
+#, php-format
+msgid "You're Now Friends With %1$s on %2$s"
+msgstr "Tashmë jeni shok me %1$s në %2$s"
+
+#: classes/models/MnglNotification.php:99
+#, php-format
+msgid "%1$s posted this on your Board at %2$s"
+msgstr "%1$s postoi këtë në dërrasën tënde tek %2$s"
+
+#: classes/models/MnglNotification.php:100
+#, php-format
+msgid "Visit %s to see your Board"
+msgstr "Vizito %s për të parë Dërrasën tënde"
+
+#: classes/models/MnglNotification.php:108
+#, php-format
+msgid "%1$s Posted to Your Board on %2$s"
+msgstr "%1$s Postoi në dërrasën tënde në %2$s"
+
+#: classes/models/MnglNotification.php:140
+#, php-format
+msgid "%1$s commented on your Board Post on %2$s"
+msgstr "%1$s commented on your Board Post on %2$s"
+
+#: classes/models/MnglNotification.php:141
+#, php-format
+msgid "Visit %1$s's Profile at %2$s to see this comment."
+msgstr "Visit %1$s's Profile at %2$s to see this comment."
+
+#: classes/models/MnglNotification.php:150
+#, php-format
+msgid "%1$s commented on a Post on your Board on %2$s"
+msgstr "%1$s commented on a Post on your Board on %2$s"
+
+#: classes/models/MnglNotification.php:156
+#, php-format
+msgid "%1$s commented on %2$s's Board Post"
+msgstr "%1$s commented on %2$s's Board Post"
+
+#: classes/models/MnglNotification.php:166
+#, php-format
+msgid "%1$s commented on %2$s's Board Post on %3$s"
+msgstr "%1$s commented on %2$s's Board Post on %3$s"
+
+#: classes/models/MnglNotification.php:209
+msgid "Thanks!"
+msgstr "Faleminderit!"
+
+#: classes/models/MnglNotification.php:210
+#, php-format
+msgid "%s Team"
+msgstr "Ekipi i %s"
+
+#: classes/models/MnglNotification.php:211
+#, php-format
+msgid "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+msgstr "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+
+#: classes/models/MnglOptions.php:120
+msgid "The Profile Page Must Not Be Blank."
+msgstr "Faqja e profilit nuk duhet të jetë bosh."
+
+#: classes/models/MnglOptions.php:123
+msgid "The Profile Edit Page Must Not Be Blank."
+msgstr "Faqja e redaktimit të profilit nuk duhet të jetë bosh."
+
+#: classes/models/MnglOptions.php:126
+msgid "The Friends Page Must Not Be Blank."
+msgstr "Faqja e shokëve nuk duhet të jetë bosh."
+
+#: classes/models/MnglOptions.php:129
+msgid "The Friend Request Page Must Not Be Blank."
+msgstr "Faqja e kërkesave nuk duhet të jetë bosh."
+
+#: classes/models/MnglOptions.php:132
+msgid "The Activity Page Must Not Be Blank."
+msgstr "Faqja e Aktiviteteve nuk duhet të jetë bosh."
+
+#: classes/models/MnglUser.php:132
+#: classes/models/MnglUser.php:133
+msgid "Her"
+msgstr "Atë"
+
+#: classes/models/MnglUser.php:134
+msgid "She"
+msgstr "Ajo"
+
+#: classes/models/MnglUser.php:138
+msgid "His"
+msgstr "I Atij"
+
+#: classes/models/MnglUser.php:139
+msgid "Him"
+msgstr "Atë"
+
+#: classes/models/MnglUser.php:140
+msgid "He"
+msgstr "Ai"
+
+#: classes/models/MnglUser.php:144
+msgid "His/Her"
+msgstr "Atij/Asaj"
+
+#: classes/models/MnglUser.php:145
+msgid "Him/Her"
+msgstr "Atë"
+
+#: classes/models/MnglUser.php:146
+msgid "He/She"
+msgstr "Ai/Ajo"
+
+#: classes/views/mngl-boards/comment_form.php:15
+#: classes/views/mngl-boards/display.php:49
+#: classes/views/mngl-boards/display.php:89
+msgid "Comment"
+msgstr "Koment"
+
+#: classes/views/mngl-boards/display.php:11
+msgid "What's on your mind?"
+msgstr "C'keni ndër mënd?"
+
+#: classes/views/mngl-boards/display.php:22
+msgid "Share"
+msgstr "Ndaj"
+
+#: classes/views/mngl-boards/display.php:53
+#: classes/views/mngl-boards/display.php:93
+#: classes/views/mngl-boards/display.php:128
+#: classes/views/mngl-friends/list.php:31
+msgid "Delete"
+msgstr "Fshi"
+
+#: classes/views/mngl-boards/display.php:107
+#, php-format
+msgid "Show all %d comments"
+msgstr "Trego të gjitha %d komentet"
+
+#: classes/views/mngl-boards/display.php:144
+msgid "Write a comment."
+msgstr "Shkruaj një koment."
+
+#: classes/views/mngl-boards/private.php:1
+#, php-format
+msgid "%1$s's profile is only visible to %2$s friends."
+msgstr "Profili i %1$s është i dukshëm vetëm për shokët e %2$s."
+
+#: classes/views/mngl-friends/add_button.php:1
+#: classes/views/mngl-friends/friend_requested.php:1
+msgid "Friendship Requested"
+msgstr "Kërkesa u Dërgua"
+
+#: classes/views/mngl-friends/add_button.php:1
+msgid "Add as a Friend"
+msgstr "Shto shokun"
+
+#: classes/views/mngl-friends/already_friend.php:1
+msgid "Friend"
+msgstr "Shok"
+
+#: classes/views/mngl-friends/list.php:4
+#, php-format
+msgid "%s's Friends"
+msgstr "Shokët e %s"
+
+#: classes/views/mngl-friends/list.php:13
+#: classes/views/mngl-profiles/directory.php:7
+msgid "Previous Page"
+msgstr "Faqja e Mëparshme"
+
+#: classes/views/mngl-friends/list.php:45
+#: classes/views/mngl-profiles/directory.php:30
+msgid "Next Page"
+msgstr "Faqja Tjetër"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "That's You!"
+msgstr "Ky jeni ju!"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "Edit"
+msgstr "Redakto"
+
+#: classes/views/mngl-friends/no_friends_found.php:1
+msgid "Apparently you have no friends ... boo hoo :("
+msgstr "Si duket nuk keni ndonjë shok..."
+
+#: classes/views/mngl-friends/requests.php:14
+#, php-format
+msgid "%s wants to be your friend."
+msgstr "%s do të bëhet shoku tënd."
+
+#: classes/views/mngl-friends/requests.php:14
+msgid "Accept"
+msgstr "Prano"
+
+#: classes/views/mngl-friends/requests.php:14
+msgid "Ignore"
+msgstr "Injoro"
+
+#: classes/views/mngl-friends/requests.php:22
+msgid "You don't currently have any friend requests."
+msgstr "S'keni ndonjë kërkesë"
+
+#: classes/views/mngl-options/form.php:2
+msgid "Mingle: Options"
+msgstr "Opsionet"
+
+#: classes/views/mngl-options/form.php:9
+msgid "Mingle Pages"
+msgstr "Faqet"
+
+#: classes/views/mngl-options/form.php:10
+#, php-format
+msgid "Before you can get going with Mingle, you must configure where Mingle pages on your website will appear. You'll want to %1$screate a new page%2$s for each of these pages that mingle needs to work. You should give your page a title and optionally put some content into the page ... just know that once you set the page up here, the page's content will not display."
+msgstr "Para se të vazhdosh me Mingle, ju duhet të konfiguroni se ku do shfaqen faqet e Mingle. Ndofta doni të %1$skrijoni një faqe të re %2$s për cdo faqe që Mingle-it i nevojiten të funksionojë. Duhet të vendosni një titull dhe në se dëshironi disa shkrime në faqe... por dijeni se pasi të keni vendosur faqet këtu, shkrimet nuk do të shikohen."
+
+#: classes/views/mngl-options/form.php:13
+msgid "Profile Page"
+msgstr "Faqja e Profilit"
+
+#: classes/views/mngl-options/form.php:19
+msgid "Profile Edit Page"
+msgstr "Faqja e Redaktimit të Profilit"
+
+#: classes/views/mngl-options/form.php:25
+msgid "Friends Page"
+msgstr "Faqja e Shokëve"
+
+#: classes/views/mngl-options/form.php:31
+msgid "Friend Requests Page"
+msgstr "Faqja e Kërkesave të Shokëve"
+
+#: classes/views/mngl-options/form.php:37
+msgid "Activity Page"
+msgstr "Faqja e Aktiviteteve"
+
+#: classes/views/mngl-options/form.php:43
+msgid "Directory Page"
+msgstr "Faqja e Direktorisë"
+
+#: classes/views/mngl-options/form.php:50
+msgid "Profile Options"
+msgstr "Opsionet e Profilit"
+
+#: classes/views/mngl-options/form.php:51
+msgid "Profile Name"
+msgstr "Emri i Profilit"
+
+#: classes/views/mngl-options/form.php:53
+msgid "Users will use this as their Profile Names"
+msgstr "Përdoruesit do shikojnë këtë si emrat e profilit"
+
+#: classes/views/mngl-options/form.php:54
+msgid "This is how your users will identify themselves on their profiles, posts, comments and activities. <strong>Note:</strong> If you select <code>Full Name</code> the users' <code>Screen Names</code> will still be used until the they add their name."
+msgstr "This is how your users will identify themselves on their profiles, posts, comments and activities. <strong>Note:</strong> If you select <code>Full Name</code> the users' <code>Screen Names</code> will still be used until the they add their name."
+
+#: classes/views/mngl-options/form.php:56
+#: classes/views/mngl-options/form.php:60
+msgid "Default Friend"
+msgstr "Shoku "
+
+#: classes/views/mngl-options/form.php:66
+msgid "This User will be added as a friend to all new signups."
+msgstr "Ky përdorues do të jetë shoku i të gjithëve."
+
+#: classes/views/mngl-options/form.php:69
+msgid "Field Display Options"
+msgstr "Opsionet e fushave"
+
+#: classes/views/mngl-options/form.php:71
+msgid "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+msgstr "Konfiguro fushat që do përdoruesit të shikojnë."
+
+#: classes/views/mngl-options/form.php:74
+msgid "Show Website Field"
+msgstr "Trego fushë e websajtit"
+
+#: classes/views/mngl-options/form.php:80
+msgid "Show Location Field"
+msgstr "Trego fushën e vëndndodhjes"
+
+#: classes/views/mngl-options/form.php:86
+msgid "Show Sex Field"
+msgstr "Trego fushën e gjinisë"
+
+#: classes/views/mngl-options/form.php:92
+msgid "Show Bio Field"
+msgstr "Trego fushën e biografisë"
+
+#: classes/views/mngl-options/form.php:101
+msgid "Update Options"
+msgstr "Rifresko Opsionet"
+
+#: classes/views/mngl-options/options_saved.php:1
+msgid "Options saved."
+msgstr "Opsionet u Ruajtën."
+
+#: classes/views/mngl-profiles/edit.php:6
+msgid "Information"
+msgstr "Informacion"
+
+#: classes/views/mngl-profiles/edit.php:9
+msgid "First Name"
+msgstr "Emri"
+
+#: classes/views/mngl-profiles/edit.php:13
+msgid "Last Name"
+msgstr "Mbiemri"
+
+#: classes/views/mngl-profiles/edit.php:17
+msgid "Email"
+msgstr "Emaili"
+
+#: classes/views/mngl-profiles/edit.php:23
+msgid "Bio"
+msgstr "Biografia"
+
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/edit.php:41
+msgid "private"
+msgstr "private"
+
+#: classes/views/mngl-profiles/edit.php:29
+msgid "URL"
+msgstr "URL"
+
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/profile.php:27
+msgid "Location"
+msgstr "Vëndi"
+
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/profile.php:24
+msgid "Sex"
+msgstr "Gjinia"
+
+#: classes/views/mngl-profiles/edit.php:46
+msgid "Avatar"
+msgstr "Foto"
+
+#: classes/views/mngl-profiles/edit.php:53
+msgid "Privacy"
+msgstr "Fshehtësia"
+
+#: classes/views/mngl-profiles/edit.php:55
+msgid "Notification Settings"
+msgstr "Njoftimet"
+
+#: classes/views/mngl-profiles/edit.php:63
+#, php-format
+msgid "Don't Send Me \"%s\" Notifications"
+msgstr "Mos më dërgo \"%s\" Njoftime"
+
+#: classes/views/mngl-profiles/edit.php:70
+msgid "Update"
+msgstr "Rifresko"
+
+#: classes/views/mngl-profiles/edit_avatar.php:3
+msgid "delete"
+msgstr "fshi"
+
+#: classes/views/mngl-profiles/profile.php:30
+msgid "Website"
+msgstr "Websajti"
+
+#: classes/views/mngl-profiles/profile.php:34
+#: classes/widgets/MnglLoginWidget.php:25
+msgid "Friends"
+msgstr "Shokët"
+
+#: classes/views/mngl-profiles/profile_saved.php:1
+msgid "Your Profile has been saved."
+msgstr "Profili tënd u ruajt."
+
+#: classes/views/shared/errors.php:11
+msgid "ERROR"
+msgstr "GABIM"
+
+#: classes/views/shared/must_configure.php:1
+#, php-format
+msgid "Mingle must be configured. Go to the %s to setup your new social network!"
+msgstr "Mingle duhet të konfigurohet. Shko tek %s për të përgatitur rrjetin tënd shoqëror të ri!"
+
+#: classes/views/shared/must_configure.php:1
+msgid "Mingle Admin Page"
+msgstr "Faqja e Administratorit"
+
+#: classes/views/shared/unauthorized.php:2
+#, php-format
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr "Nuk jeni i autorizuar për të parë këtë faqe. Pse nuk %s dhe provoni përsëri."
+
+#: classes/views/shared/unauthorized.php:2
+msgid "Login"
+msgstr "Hyni"
+
+#: classes/views/shared/unauthorized.php:4
+msgid "Don't have a Login?"
+msgstr "S'keni një hyrje?"
+
+#: classes/views/shared/unauthorized.php:4
+msgid "Register for an Account."
+msgstr "Rregjistrohu për një llogari."
+
+#: classes/views/shared/user_grid.php:3
+msgid "Show All"
+msgstr "Trego të gjitha"
+
+#: classes/widgets/MnglLoginWidget.php:7
+msgid "Mingle Login"
+msgstr "Hyrja"
+
+#: classes/widgets/MnglLoginWidget.php:22
+msgid "Activity"
+msgstr "Aktiviteti"
+
+#: classes/widgets/MnglLoginWidget.php:23
+msgid "Profile"
+msgstr "Profili"
+
+#: classes/widgets/MnglLoginWidget.php:24
+msgid "Settings"
+msgstr "Ndryshimet"
+
+#: classes/widgets/MnglLoginWidget.php:26
+msgid "Friend Requests"
+msgstr "Kërkesat e Shokëve"
+
+#: classes/widgets/MnglLoginWidget.php:28
+msgid "Logout"
+msgstr "Dilni"
+
+#: classes/widgets/MnglLoginWidget.php:31
+#, php-format
+msgid "Login to connect with Others on %s"
+msgstr "Hyni brënda për t'u lidhur me të tjerët në %s"
+
+#: classes/widgets/MnglLoginWidget.php:34
+msgid "Username"
+msgstr "Emri i Përdoruesit"
+
+#: classes/widgets/MnglLoginWidget.php:36
+msgid "Password"
+msgstr "Fjalëkalimi"
+
+#: classes/widgets/MnglLoginWidget.php:38
+msgid "Remember Me"
+msgstr "Më Mbaj Mënd"
+
+#: classes/widgets/MnglLoginWidget.php:41
+msgid "Log In"
+msgstr "Hyr Brënda"
+
+#: classes/widgets/MnglLoginWidget.php:49
+msgid "Register"
+msgstr "Regjistrohu"
+
+#: classes/widgets/MnglLoginWidget.php:53
+msgid "Lost Password?"
+msgstr "Humbët Fjalëkalimin?"
+
+#: classes/widgets/MnglLoginWidget.php:58
+msgid "Directory"
+msgstr "Direktoria"
+
+#: classes/widgets/MnglLoginWidget.php:62
+#, php-format
+msgid "Powered by %sMingle%s"
+msgstr "Fuqizuar nga %sMingle%s"
+
+#: classes/widgets/MnglLoginWidget.php:76
+#: classes/widgets/MnglUsersWidget.php:56
+msgid "Title"
+msgstr "Titulli"
+
+#: classes/widgets/MnglUsersWidget.php:7
+msgid "Mingle Users Grid"
+msgstr "Kutitë e Përdoruesve të Mingle"
+
+#: classes/widgets/MnglUsersWidget.php:34
+#, php-format
+msgid "Powered by %1$sMingle%2$s"
+msgstr "Fuqizuar nga %1$sMingle%2$s"
+
+#: classes/widgets/MnglUsersWidget.php:51
+msgid "Mingle Users"
+msgstr "Përdoruesit e Mingle"
+
+#: classes/widgets/MnglUsersWidget.php:57
+msgid "# of Grid Columns"
+msgstr "Nr. i kollonave të rrjetit"
+
+#: classes/widgets/MnglUsersWidget.php:58
+msgid "# of Grid Rows"
+msgstr "Nr. i rrjeshtave të rrjetit"
+
+#: classes/widgets/MnglUsersWidget.php:60
+msgid "Grid Type"
+msgstr "Lloji i Rrjetit"
+
+#: classes/widgets/MnglUsersWidget.php:62
+msgid "Random Mingle Users"
+msgstr "Përdorues i Rastit"
+
+#: classes/widgets/MnglUsersWidget.php:63
+msgid "Recent Mingle Users"
+msgstr "Përdorues të Fundit"
+
+#: js/mingle.js.php:44
+msgid "Are you sure you want to delete this post?"
+msgstr "Je i sigurtë që do të fshish këtë postim?"
+
+#: js/mingle.js.php:59
+msgid "Are you sure you want to delete this comment?"
+msgstr "Je i sigurtë që do të  fshish këtë koment?"
+
+#: js/mingle.js.php:95
+msgid "Are you sure you want to delete this friend?"
+msgstr "Je i sigurtë që do të fshish këtë shok?"
+
+#: js/mingle.js.php:134
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Je i sigurtë që do të fshish foton?"
+
+#. Plugin Name of an extension
+msgid "Mingle"
+msgstr "Mingle"
+
+#. Plugin URI of an extension
+msgid "http://blairwilliams.com/mingle"
+msgstr "http://blairwilliams.com/mingle"
+
+#. Description of an extension
+msgid "The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network."
+msgstr "Rruga më e lehtë për të shndërruar Wordpressin në një rrjet shoqëror."
+
+#. Author of an extension
+msgid "Blair Williams"
+msgstr "Blair Williams"
+
+#. Author URI of an extension
+msgid "http://blairwilliams.com"
+msgstr "http://blairwilliams.com"
+

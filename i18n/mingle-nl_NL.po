@@ -1,0 +1,1918 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2009 Blair Williams
+# This file is distributed under the same license as the PACKAGE package.
+# Blair Williams <blairchurchwilliams@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mingle WordPress Plugin by Blair Williams\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mingle\n"
+"POT-Creation-Date: 2010-05-26 21:11-0400\n"
+"PO-Revision-Date: 2010-05-29 20:15+0100\n"
+"Last-Translator: Lourens Rolograaf <rolograaf@gmail.com>\n"
+"Language-Team: Dutch nl-NL <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\\n\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+
+#. #-#-#-#-#  mingle.pot (Mingle 0.0.29)  #-#-#-#-#
+#. Plugin Name of an extension
+#: classes/controllers/MnglAppController.php:46
+msgid "Mingle"
+msgstr "Mingle"
+
+#: classes/controllers/MnglBoardsController.php:12
+msgid "Board Posts"
+msgstr "Prikbord Berichten"
+
+#: classes/controllers/MnglBoardsController.php:13
+#, php-format
+msgid "%1$s posted to %2$s's board"
+msgstr "%1$s plaatste een bericht op %2$s's prikbord"
+
+#: classes/controllers/MnglBoardsController.php:15
+msgid "Board Comments"
+msgstr "Prikbord Commentaren"
+
+#: classes/controllers/MnglBoardsController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's post"
+msgstr "%1$s reageerde op %2$s's bericht"
+
+#: classes/controllers/MnglFriendsController.php:14
+#, php-format
+msgid "%1$s is now friends with %2$s"
+msgstr "%1$s is nu bevriend met %2$s"
+
+#: classes/controllers/MnglFriendsController.php:167
+#: classes/views/mngl-profiles/profile.php:46
+#: classes/views/shared/login_widget.php:10
+msgid "Friends"
+msgstr "Vrienden"
+
+#: classes/controllers/MnglHelpController.php:20
+#, php-format
+msgid "Mingle must be configured. Go to the %1$sadmin page%2$s to setup your new social network!"
+msgstr "Mingle moet nog geconfigureerd worden. Ga naar de %1$sadmin page%2$s om instellingen te maken van je nieuwe sociale netwerk!"
+
+#: classes/controllers/MnglProfilesController.php:12
+msgid "Profile Updates"
+msgstr "Profiel Updates"
+
+#: classes/controllers/MnglProfilesController.php:13
+#, php-format
+msgid "%1$s updated %2$s profile"
+msgstr "%1$s heeft %2$s profiel ge-update"
+
+#: classes/helpers/MnglAppHelper.php:108
+#: classes/helpers/MnglAppHelper.php:114
+#: classes/helpers/MnglAppHelper.php:120
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d uur geleden"
+msgstr[1] "%d uren geleden"
+
+#: classes/helpers/MnglAppHelper.php:126
+#, php-format
+msgid "yesterday"
+msgid_plural "%d days ago"
+msgstr[0] "gisteren"
+msgstr[1] "%d dagen geleden"
+
+#: classes/helpers/MnglAppHelper.php:132
+#, php-format
+msgid "last week"
+msgid_plural "%d weeks ago"
+msgstr[0] "vorige week"
+msgstr[1] "%d weken geleden"
+
+#: classes/helpers/MnglAppHelper.php:138
+#, php-format
+msgid "last month"
+msgid_plural "%d months ago"
+msgstr[0] "vorige maand"
+msgstr[1] "%d maanden geleden"
+
+#: classes/helpers/MnglAppHelper.php:144
+#, php-format
+msgid "last year"
+msgid_plural "%d years ago"
+msgstr[0] "vorig jaar"
+msgstr[1] "%d jaar geleden"
+
+#: classes/helpers/MnglAppHelper.php:178
+#, php-format
+msgid "Powered by %1$sMingle%2$s"
+msgstr "Powered by %1$sMingle%2$s"
+
+#: classes/helpers/MnglBoardsHelper.php:32
+msgid "Read More"
+msgstr "Lees Verder"
+
+#: classes/helpers/MnglOptionsHelper.php:29
+msgid "Full Name"
+msgstr "Volledige Naam"
+
+#: classes/helpers/MnglOptionsHelper.php:30
+msgid "Screen Name"
+msgstr "Scherm Naam"
+
+#: classes/helpers/MnglOptionsHelper.php:39
+msgid "Public"
+msgstr "Openbaar"
+
+#: classes/helpers/MnglOptionsHelper.php:40
+msgid "Private"
+msgstr "Privé"
+
+#: classes/helpers/MnglOptionsHelper.php:41
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: classes/helpers/MnglOptionsHelper.php:121
+msgid "Profile Front Page"
+msgstr "Profiel Voorpagina"
+
+#: classes/helpers/MnglOptionsHelper.php:129
+msgid "Profile Info Tab"
+msgstr "Profiel Info Tab"
+
+#: classes/helpers/MnglOptionsHelper.php:136
+#: classes/views/mngl-options/form.php:24
+msgid "Profile Edit Page"
+msgstr "Profiel Wijzigingen Pagina"
+
+#: classes/helpers/MnglOptionsHelper.php:143
+#: classes/views/mngl-options/form.php:50
+msgid "Signup Page"
+msgstr "Registratie Pagina"
+
+#: classes/helpers/MnglOptionsHelper.php:177
+msgid "PHP Mail"
+msgstr "PHP Mail"
+
+#: classes/helpers/MnglOptionsHelper.php:178
+msgid "Sendmail"
+msgstr "Sendmail"
+
+#: classes/helpers/MnglOptionsHelper.php:179
+msgid "SMTP"
+msgstr "SMTP"
+
+#: classes/helpers/MnglOptionsHelper.php:196
+msgid "SSL"
+msgstr "SSL"
+
+#: classes/helpers/MnglOptionsHelper.php:197
+msgid "TLS"
+msgstr "TLS"
+
+#: classes/helpers/MnglProfileHelper.php:16
+#: classes/models/MnglUser.php:179
+msgid "Female"
+msgstr "Vrouw"
+
+#: classes/helpers/MnglProfileHelper.php:17
+#: classes/models/MnglUser.php:186
+msgid "Male"
+msgstr "Man"
+
+#: classes/helpers/MnglProfileHelper.php:26
+msgid "I Want My Profile to Only Be Visible To Me and My Friends"
+msgstr "Ik Wil Dat Mijn Profiel Alleen Voor Mezelf en Mijn Vrienden Zichtbaar Is"
+
+#: classes/helpers/MnglProfileHelper.php:27
+msgid "I Want My Profile to Be Visible To The World"
+msgstr "Ik Wil Dat Mijn Profiel Zichtbaar Is Voor de Hele Wereld"
+
+#: classes/models/MnglNotification.php:11
+msgid "Friendship Request"
+msgstr "Vriendschap Verzoek"
+
+#: classes/models/MnglNotification.php:12
+msgid "Sent when someone requests you as a friend"
+msgstr "Stuur als iemand een je een vriendverzoek doet"
+
+#: classes/models/MnglNotification.php:13
+msgid "Friendship Verification"
+msgstr "Vriendschap Verificatie"
+
+#: classes/models/MnglNotification.php:14
+msgid "Sent when a friendship has been confirmed"
+msgstr "Stuur als een vriendschap wordt bevestigd"
+
+#: classes/models/MnglNotification.php:15
+msgid "Board Post"
+msgstr "Prikbord Bericht"
+
+#: classes/models/MnglNotification.php:16
+msgid "Sent when someone posts to your Board"
+msgstr "Stuur als iemand een bericht op je Prikbord plaatst"
+
+#: classes/models/MnglNotification.php:17
+msgid "Board Comment"
+msgstr "Prikbord Commentaar"
+
+#: classes/models/MnglNotification.php:18
+msgid "Sent when someone posts to one of your Board Posts or on a comment thread that you've participated in"
+msgstr "Stuur als iemand reageert op een van je Prikbord mededelingen of op een commentaardraadwaarin je hebt deelgenomen"
+
+#: classes/models/MnglNotification.php:19
+msgid "Tagged In a Post"
+msgstr "Naamlabel geplaatst in Bericht"
+
+#: classes/models/MnglNotification.php:20
+msgid "Sent when someone tags you in a Board post"
+msgstr "Verstuurd als iemand jouw naamlabel op een Prikbord Bericht plaatst"
+
+#: classes/models/MnglNotification.php:22
+msgid "Tagged In a Comment"
+msgstr "Naamlabel geplaatst in Reactie"
+
+#: classes/models/MnglNotification.php:23
+msgid "Sent when someone tags you in a Board comment"
+msgstr "Verzonden als iemand jouw Naamlabel in een Prikbord bericht gebruikt"
+
+#: classes/models/MnglNotification.php:41
+#, php-format
+msgid "%1$s has requested you as a friend on %2$s!"
+msgstr "%1$s heeft je verzocht vriend te worden op %2$s!"
+
+#: classes/models/MnglNotification.php:42
+#, php-format
+msgid "Please visit %s to Accept or Ignore this request."
+msgstr "Bezoek %s alsjeblieft om dit verzoek te Accepteren of Af te wijzen."
+
+#: classes/models/MnglNotification.php:49
+#, php-format
+msgid "%1$s wants to be your Friend on %2$s"
+msgstr "%1$s wil je Vriend zijn op %2$s"
+
+#: classes/models/MnglNotification.php:70
+#: classes/models/MnglNotification.php:83
+#, php-format
+msgid "You're now friends with %1$s on %2$s!"
+msgstr "Je bent nu bevriend met %1$s op %2$s!"
+
+#: classes/models/MnglNotification.php:71
+#, php-format
+msgid "Visit %1$s to see %2$s profile."
+msgstr "Bezoek %1$s om %2$s profiel te bekijken."
+
+#: classes/models/MnglNotification.php:79
+#, php-format
+msgid "%1$s Has Confirmed Your Friend Request on %2$s"
+msgstr "%1$s Heeft Jouw Vriendschapverzoek Bevestigd op %2$s"
+
+#: classes/models/MnglNotification.php:84
+#, php-format
+msgid "Visit %s to see %s profile."
+msgstr "Bezoek %s om %s profiel te bekijken."
+
+#: classes/models/MnglNotification.php:92
+#, php-format
+msgid "You're Now Friends With %1$s on %2$s"
+msgstr "Je Bent Nu Bevriend Met %1$s op %2$s"
+
+#: classes/models/MnglNotification.php:116
+#, php-format
+msgid "%1$s posted this on your Board at %2$s"
+msgstr "%1$s plaatste dit op jouw Prikbord om %2$s"
+
+#: classes/models/MnglNotification.php:117
+#, php-format
+msgid "Visit %s to see your Board"
+msgstr "Bezoek %s om je Prikbord te bekijken"
+
+#: classes/models/MnglNotification.php:125
+#, php-format
+msgid "%1$s Posted to Your Board on %2$s"
+msgstr "%1$s Plaatste een Bericht op Jouw Prikbord op %2$s"
+
+#: classes/models/MnglNotification.php:139
+#, php-format
+msgid "You were tagged in %1$s's post on %2$s's Board at %3$s"
+msgstr "Jouw Naamlabel is gebruikt in %1$s's bericht op %2$s's Prikbord om %3$s"
+
+#: classes/models/MnglNotification.php:140
+#, php-format
+msgid "Visit %s to see the post you were tagged in."
+msgstr "Bezoek %s om het bericht te bekijken waarin je Naamlabel is gebruikt."
+
+#: classes/models/MnglNotification.php:148
+#, php-format
+msgid "You were tagged in a Post on %s"
+msgstr "Jouw Naamlabel is geplaatst in een Bericht op %s"
+
+#: classes/models/MnglNotification.php:194
+#, php-format
+msgid "%1$s commented on your Board Post on %2$s"
+msgstr "%1$s gaf commentaar op jouw Prikbord Bericht op %2$s"
+
+#: classes/models/MnglNotification.php:195
+#: classes/models/MnglNotification.php:214
+#: classes/models/MnglNotification.php:230
+#, php-format
+msgid "View this comment from %1$s's Board at %2$s."
+msgstr "Bekijk dit commentaar van %1$s's Prikbord op %2$s."
+
+#: classes/models/MnglNotification.php:204
+#, php-format
+msgid "%1$s commented on a Post on your Board on %2$s"
+msgstr "%1$s reageerde op een Bericht op je Prikbord op %2$s"
+
+#: classes/models/MnglNotification.php:213
+#: classes/models/MnglNotification.php:223
+#, php-format
+msgid "%1$s commented on your Post on %2$s's Board on %3$s"
+msgstr "%1$s reageerde op een Bericht op %2$s's  Prikbord op %3$s"
+
+#: classes/models/MnglNotification.php:229
+#, php-format
+msgid "%1$s commented on %2$s's Board Post"
+msgstr "%1$s reageerde op %2$s's Prikbord Bericht"
+
+#: classes/models/MnglNotification.php:240
+#, php-format
+msgid "%1$s commented on %2$s's Board Post on %3$s"
+msgstr "%1$s reageerde op %2$s's Prikbord Bericht op %3$s"
+
+#: classes/models/MnglNotification.php:257
+#, php-format
+msgid "You were tagged in %1$s's comment on %2$s's Board at %3$s"
+msgstr "Je Naamlabel is gebruikt in %1$s's reactie op %2$s's Prikbord op %3$s"
+
+#: classes/models/MnglNotification.php:258
+#, php-format
+msgid "Visit %s to see the comment you were tagged in."
+msgstr "Bezoek %s om het commentaar waar je naamlabel is geplaatst te bekijken"
+
+#: classes/models/MnglNotification.php:266
+#, php-format
+msgid "You were tagged in a comment on %s"
+msgstr "Jouw Naamlabel is geplaatst in een Reactie op %s"
+
+#: classes/models/MnglNotification.php:317
+msgid "Thanks!"
+msgstr "Bedankt!"
+
+#: classes/models/MnglNotification.php:318
+#, php-format
+msgid "%s Team"
+msgstr "%s Team"
+
+#: classes/models/MnglNotification.php:319
+#, php-format
+msgid "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+msgstr "Indien je toekomstige email berichten zoals deze niet meer wilt ontvangen,pas dan je notificatie instellingen aan op %1$s of neem contact op met de beheerdervan dit systeem op %2$s."
+
+#: classes/models/MnglOptions.php:238
+msgid "The Profile Page Must Not Be Blank."
+msgstr "De Profiel Pagina Mag Niet Blanco zijn."
+
+#: classes/models/MnglOptions.php:241
+msgid "The Profile Edit Page Must Not Be Blank."
+msgstr "De Profiel Wijzigingen pagina Mag Niet Blanco zijn."
+
+#: classes/models/MnglOptions.php:244
+msgid "The Friends Page Must Not Be Blank."
+msgstr "De Vrienden Pagina Mag Niet Blanco zijn."
+
+#: classes/models/MnglOptions.php:247
+msgid "The Friend Request Page Must Not Be Blank."
+msgstr "De Vriendschap Verzoek Pagina Mag Niet Blanco zijn"
+
+#: classes/models/MnglOptions.php:250
+msgid "The Activity Page Must Not Be Blank."
+msgstr "De Nieuwsoverzicht Pagina Mag Niet Blanco zijn"
+
+#: classes/models/MnglUpdate.php:43
+msgid "MinglePlus Username"
+msgstr "MinglePlus Gebruikersnaam"
+
+#: classes/models/MnglUpdate.php:44
+msgid "MinglePlus Password"
+msgstr "MinglePlus Wachtwoord"
+
+#: classes/models/MnglUpdate.php:45
+msgid "Your MinglePlus Username or Password was Invalid"
+msgstr "Opgegeven MinglePlus Gebruikersnaam of Wachtwoord was ongeldig"
+
+#: classes/models/MnglUpdate.php:135
+#, php-format
+msgid "Your Username & Password was accepted<br/>Now you can %1$sUpgrade Automatically!%2$s"
+msgstr "Jouw Gebruikersnaam & Wachtwoord zijn geaccepteerd<br/>Je kunt nu %1$sautomatisch Upgraden!%2$s"
+
+#: classes/models/MnglUpdate.php:145
+#: classes/views/shared/errors.php:11
+msgid "ERROR"
+msgstr "ERROR"
+
+#: classes/models/MnglUpdate.php:180
+msgid "Save"
+msgstr "Bewaar"
+
+#. translators: Please don't translate this string -- it is the php formatting of dates. Please modify it accordingly for your locale by following the instructions on this page: http://us3.php.net/manual/en/function.date.php
+#: classes/models/MnglUser.php:116
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: classes/models/MnglUser.php:176
+#: classes/models/MnglUser.php:177
+msgid "Her"
+msgstr "Haar"
+
+#: classes/models/MnglUser.php:178
+msgid "She"
+msgstr "Zij"
+
+#: classes/models/MnglUser.php:183
+msgid "His"
+msgstr "Zijn"
+
+#: classes/models/MnglUser.php:184
+msgid "Him"
+msgstr "Zijn"
+
+#: classes/models/MnglUser.php:185
+msgid "He"
+msgstr "Hij"
+
+#: classes/models/MnglUser.php:190
+msgid "His/Her"
+msgstr "Zijn/Haar"
+
+#: classes/models/MnglUser.php:191
+msgid "Him/Her"
+msgstr "Zijn/Haar"
+
+#: classes/models/MnglUser.php:192
+msgid "He/She"
+msgstr "Hij/Zij"
+
+#: classes/models/MnglUser.php:193
+msgid "Not Available"
+msgstr "Niet Beschikbaar"
+
+#: classes/models/MnglUser.php:281
+msgid "This site prevents robots from registering and you don't appear to be human. If you're a real person, please contact the administrator of this site."
+msgstr "Deze website voorkomt dat robots zich kunnen registreren en jij lijkt niet menselijk. Indien je toch een echt persoon bent, neem s.v.p. concact op met de beheerder van deze website."
+
+#: classes/models/MnglUser.php:284
+#: classes/models/MnglUser.php:335
+msgid "Username must not be blank"
+msgstr "Gebruikersnaam mag niet blanco blijven"
+
+#: classes/models/MnglUser.php:287
+msgid "Username must only contain letters, numbers and/or underscores"
+msgstr "Gebruikersnaam mag alleen letter, cijfers en/of underscore tekens bevatten"
+
+#: classes/models/MnglUser.php:293
+msgid "Username is Already Taken."
+msgstr "Gebruikersnaam is al in gebruik."
+
+#: classes/models/MnglUser.php:296
+msgid "Email must not be blank"
+msgstr "Email mag niet blanco blijven"
+
+#: classes/models/MnglUser.php:299
+msgid "Email must be a real and properly formatted email address"
+msgstr "Email moet een echt en juist geschreven email adres zijn"
+
+#: classes/models/MnglUser.php:302
+msgid "Email Address has already been used by another user."
+msgstr "Email adres is al in gebruik door een andere gebruiker."
+
+#: classes/models/MnglUser.php:305
+msgid "You must select your Gender."
+msgstr "Je moet je Geslacht invullen (man/vrouw)"
+
+#: classes/models/MnglUser.php:312
+msgid "Captcha Image Verification Was Incorrect, Please Try Again"
+msgstr "Captcha Afbeelding Verificatie Was Incorrect, Probeer Nogmaals"
+
+#: classes/models/MnglUser.php:318
+#: classes/models/MnglUser.php:380
+msgid "You must enter a Password."
+msgstr "Je dien een Wachtwoord in te vullen."
+
+#: classes/models/MnglUser.php:321
+#: classes/models/MnglUser.php:383
+msgid "You must enter a Password Confirmation."
+msgstr "Je dien een Wachtwoord Bevestiging in te vullen."
+
+#: classes/models/MnglUser.php:324
+#: classes/models/MnglUser.php:386
+msgid "Your Password and Password Confirmation don't match."
+msgstr "Je Wachtwoord Moet Overeenkomen met Bevestigde Wachtwoord."
+
+#: classes/models/MnglUser.php:341
+msgid "Username was not found"
+msgstr "Gebruikersnaam niet gevonden"
+
+#: classes/models/MnglUser.php:348
+msgid "Your Password was Incorrect"
+msgstr "Je Wachtwoord was Onjuist"
+
+#: classes/models/MnglUser.php:359
+msgid "You must enter a Username or Password"
+msgstr "Je dient een Gebruikersnaam of Wachtwoord in te geven"
+
+#: classes/models/MnglUser.php:369
+msgid "That Username or Email wasn't found."
+msgstr "Die Gebruikersnaam of Email is niet gevonden"
+
+#: classes/models/MnglUser.php:397
+msgid "Password Must Match Password Confirmation."
+msgstr "Wachtwoord Moet Overeenkomen met Bevestigde Wachtwoord."
+
+#: classes/models/MnglUser.php:406
+msgid "Your Avatar wasn't able to be saved."
+msgstr "Het is niet gelukt jouw Avatar op te slaan."
+
+#: classes/models/MnglUser.php:415
+msgid "Your Avatar must be a valid jpg, gif or png."
+msgstr "Jouw Avatar moet een werkend jpg, gif of png bestand zijn."
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:966
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Nieuwe Gebruiker Registratie"
+
+#. translators: In this string, %1$s is the blog's name/title, %2$s is the user's real name, %3$s is the user's username, %4$s is the user's email, and %5$s is the user's profile url
+#: classes/models/MnglUser.php:969
+#, php-format
+msgid ""
+"A new user just joined your community at %1$s!\n"
+"\n"
+"Name: %2$s\n"
+"Username: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"You can view this user's profile here: %5$s"
+msgstr ""
+"Een nieuwe gebruiker heeft zich zojuist in jouw Mingle community aangesloten op %1$s!\n"
+"\n"
+"Naam: %2$s\n"
+"Gebruikersnaam: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"Je kunt het profiel van deze gebruiker hier bekijken: %5$s"
+
+#: classes/models/MnglUser.php:971
+#, php-format
+msgid "There are now %1$s Users on %2$s"
+msgstr "Er zijn nu %1$s Gebruikers op %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:982
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Welkom op %s!"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:985
+#, php-format
+msgid ""
+"%1$s,\n"
+"Welcome to the Community at %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"You can login here: %5$s\n"
+"\n"
+"Enjoy!\n"
+"\n"
+"%2$s Team"
+msgstr ""
+"%1$s,\n"
+"Welkom bij de Mingle Community op %2$s!\n"
+"\n"
+"Gebruikernaam: %3$s\n"
+"Wachtwoord: %4$s\n"
+"Je kunt hier inloggen: %5$s\n"
+"\n"
+"Veel plezier!\n"
+"\n"
+"%2$s Team"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1016
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Wachtwoord Opnieuw instellen"
+
+#. translators: In this string, %1$s is the user's username, %2$s is the blog's name/title, %3$s is the blog's url, %4$s the reset password link
+#: classes/models/MnglUser.php:1019
+#, php-format
+msgid ""
+"Someone requested to reset your password for %1$s on %2$s at %3$s\n"
+"\n"
+"To reset your password visit the following address, otherwise just ignore this email and nothing will happen.\n"
+"\n"
+"%4$s"
+msgstr ""
+"Iemand heeft aangevraagd jouw wachtwoord opnieuw in te stellen %1$s op %2$s om %3$s\n"
+"\n"
+"Om je wachtwoord opnieuw in te stellen bezoek het volgende adres, of negeer dit email bericht en er zal niets veranderen.\n"
+"\n"
+"%4$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1045
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Wachtwoord Verloren/Veranderd"
+
+#. translators: In this string, %1$s is the user's screenname and %2$s is their profile url
+#: classes/models/MnglUser.php:1048
+#, php-format
+msgid ""
+"Password Lost and Changed for user: %1$s\n"
+"You can view %1$s's profile here: %2$s"
+msgstr ""
+"Wachtwoord Verloren en Veranderd voor gebruiker: %1$s\n"
+"Je kunt %1$s's profiel hier bekijken: %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1061
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Je nieuwe Wachtwoord"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:1064
+#, php-format
+msgid ""
+"%1$s,\n"
+"\n"
+"Your Password was successfully reset on %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"\n"
+"You can login here: %5$s"
+msgstr ""
+"%1$s,\n"
+"\n"
+"Je Wachtwoord is succesvol opnieuw ingesteld op %2$s!\n"
+"\n"
+"Gebruikersnaam: %3$s\n"
+"Wachtwoord: %4$s\n"
+"\n"
+"Je kunt hier inloggen: %5$s"
+
+#: classes/views/mngl-boards/board_comment.php:17
+#: classes/views/mngl-boards/board_post.php:42
+#: classes/views/mngl-boards/board_post.php:80
+#: classes/views/mngl-friends/list.php:54
+#: plus/classes/views/mngl-plus-media/media_comment.php:17
+#: plus/classes/views/mngl-plus-media/user_galleries.php:10
+#: plus/classes/views/mngl-plus-messages/list.php:9
+msgid "Delete"
+msgstr "Verwijder"
+
+#: classes/views/mngl-boards/board_post.php:10
+#, php-format
+msgid "Posted on %s's Board"
+msgstr "Gepost op %s's Prikbord"
+
+#: classes/views/mngl-boards/board_post.php:17
+#, php-format
+msgid "Post from %s's Board:"
+msgstr "Post van %s's Prikbord:"
+
+#: classes/views/mngl-boards/board_post.php:35
+#: classes/views/mngl-boards/board_post.php:75
+#: classes/views/mngl-boards/comment_form.php:36
+#: plus/classes/views/mngl-plus-media/comment_form.php:36
+msgid "Comment"
+msgstr "Reactie"
+
+#: classes/views/mngl-boards/board_post.php:38
+#: classes/views/mngl-boards/board_post.php:77
+msgid "View"
+msgstr "Bekijk"
+
+#: classes/views/mngl-boards/board_post.php:94
+#, php-format
+msgid "Show all %d comments"
+msgstr "Laat alle %d reacties zien"
+
+#: classes/views/mngl-boards/comment_form.php:15
+#: plus/classes/views/mngl-plus-media/comment_form.php:15
+msgid "Write a comment."
+msgstr "Schrijf een reactie"
+
+#: classes/views/mngl-boards/display.php:5
+msgid "Board"
+msgstr "Prikbord"
+
+#: classes/views/mngl-boards/display.php:6
+msgid "Info"
+msgstr "Info"
+
+#: classes/views/mngl-boards/display.php:21
+msgid "What's on your mind?"
+msgstr "Wat ben je aan het doen?"
+
+#: classes/views/mngl-boards/display.php:32
+msgid "Share"
+msgstr "Deel"
+
+#: classes/views/mngl-boards/display.php:50
+msgid "Show Older Posts"
+msgstr "Bekijk Oudere Berichten"
+
+#: classes/views/mngl-boards/display.php:57
+#: classes/views/mngl-profiles/edit.php:11
+#: classes/views/shared/signup_form.php:5
+msgid "First Name"
+msgstr "Voornaam"
+
+#: classes/views/mngl-boards/display.php:63
+#: classes/views/mngl-profiles/edit.php:15
+#: classes/views/shared/signup_form.php:9
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: classes/views/mngl-boards/display.php:69
+#: classes/views/mngl-profiles/edit.php:25
+#: classes/views/shared/signup_form.php:27
+msgid "Bio"
+msgstr "Biografie"
+
+#: classes/views/mngl-boards/display.php:75
+#: classes/views/mngl-profiles/edit.php:31
+#: classes/views/mngl-profiles/profile.php:39
+msgid "Birthday"
+msgstr "Verjaardag"
+
+#: classes/views/mngl-boards/display.php:81
+#: classes/views/mngl-profiles/profile.php:42
+#: classes/views/shared/signup_form.php:15
+msgid "Website"
+msgstr "Website"
+
+#: classes/views/mngl-boards/display.php:87
+#: classes/views/mngl-profiles/edit.php:43
+#: classes/views/mngl-profiles/profile.php:36
+#: classes/views/shared/signup_form.php:21
+msgid "Location"
+msgstr "Locatie"
+
+#: classes/views/mngl-boards/display.php:93
+#: classes/views/mngl-profiles/edit.php:49
+#: classes/views/mngl-profiles/profile.php:33
+#: classes/views/shared/signup_form.php:33
+msgid "Gender"
+msgstr "Geslacht"
+
+#: classes/views/mngl-boards/private.php:1
+#, php-format
+msgid "%1$s's profile is only visible to %2$s friends."
+msgstr "%1$s's profiel is alleen zichtbaar voor %2$s vrienden."
+
+#: classes/views/mngl-friends/add_button.php:1
+#: classes/views/mngl-friends/friend_requested.php:1
+msgid "Friendship Requested"
+msgstr "Vriendschap Verzoeken"
+
+#: classes/views/mngl-friends/add_button.php:1
+msgid "Add as a Friend"
+msgstr "Voeg toe als Vriend"
+
+#: classes/views/mngl-friends/already_friend.php:1
+msgid "Friend"
+msgstr "Vriend"
+
+#: classes/views/mngl-friends/list.php:8
+#, php-format
+msgid "%s's Friends"
+msgstr "%s's Vrienden"
+
+#: classes/views/mngl-friends/list.php:12
+msgid "Search Friends..."
+msgstr "Zoek Vrienden..."
+
+#: classes/views/mngl-friends/list.php:21
+#, php-format
+msgid "%s Friend Was Found"
+msgid_plural "%s Friends Were Found"
+msgstr[0] "%s Vriend Gevonden"
+msgstr[1] "%s Vrienden Gevonden"
+
+#: classes/views/mngl-friends/list.php:26
+#: classes/views/mngl-profiles/directory.php:28
+#: plus/classes/views/mngl-plus-messages/list.php:17
+#: plus/classes/views/mngl-plus-messages/list.php:71
+msgid "Previous Page"
+msgstr "Vorige Pagina"
+
+#: classes/views/mngl-friends/list.php:70
+#: classes/views/mngl-profiles/directory.php:63
+#: plus/classes/views/mngl-plus-messages/list.php:24
+#: plus/classes/views/mngl-plus-messages/list.php:78
+msgid "Next Page"
+msgstr "Volgende Pagina"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "That's You!"
+msgstr "Jij zelf dus!"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "Edit"
+msgstr "Edit"
+
+#: classes/views/mngl-friends/no_friends_found.php:1
+msgid "Apparently you have no friends ... boo hoo :("
+msgstr "Kennelijk heb je geen vrienden ... ach gossie :("
+
+#: classes/views/mngl-friends/requests.php:16
+#, php-format
+msgid "%s wants to be your friend."
+msgstr "%s wil bevriend met je worden."
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Accept"
+msgstr "Accepteren"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Ignore"
+msgstr "Afwijzen"
+
+#: classes/views/mngl-friends/requests.php:25
+msgid "You don't currently have any friend requests."
+msgstr "Je hebt momenteel geen vriendschap verzoeken."
+
+#: classes/views/mngl-options/default_friend.php:2
+msgid "Default Friend"
+msgstr "Standaard Vriend"
+
+#: classes/views/mngl-options/default_friends_added.php:1
+msgid "Default Friends Were Added"
+msgstr "Standaard Vrienden Zijn Toegevoegd"
+
+#: classes/views/mngl-options/form.php:2
+msgid "Mingle: Options"
+msgstr "Mingle: Opties"
+
+#: classes/views/mngl-options/form.php:9
+msgid "Mingle Pages"
+msgstr "Mingle Pagina's"
+
+#: classes/views/mngl-options/form.php:10
+#, php-format
+msgid "Before you can get going with Mingle, you must configure where Mingle pages on your website will appear. You'll want to %1$screate a new page%2$s for each of these pages that mingle needs to work. You should give your page a title and optionally put some content into the page ... just know that once you set the page up here, the page's content will not display."
+msgstr "Voordat je met Mingle aan de slag kunt, moet je eerst configureren waar de Mingle pagina's op jouw website zullen verschijnen. Je zult %1$snieuwe pagina's moeten maken%2$s voor elk van deze pagina's die mingle nodig heeft om te werken. Je dient je pagina's te voorzien van een titel en indien gewenst kun je nog wat inhoud toevoegen in de pagina ... echter weet wel dat als je eenmaal de pagina's hier hebt ingesteld, deze pagina inhoud niet meer afgebeeld zal worden."
+
+#: classes/views/mngl-options/form.php:13
+msgid "Profile Page"
+msgstr "Profiel Pagina"
+
+#: classes/views/mngl-options/form.php:17
+msgid "Activity Page"
+msgstr "Nieuwsoverzicht Pagina"
+
+#: classes/views/mngl-options/form.php:28
+msgid "Directory Page"
+msgstr "Ledenlijst Pagina"
+
+#: classes/views/mngl-options/form.php:35
+msgid "Friends Page"
+msgstr "Vrienden Pagina"
+
+#: classes/views/mngl-options/form.php:39
+msgid "Login Page"
+msgstr "Login Pagina"
+
+#: classes/views/mngl-options/form.php:46
+msgid "Friend Requests Page"
+msgstr "Vriendschap Verzoeken Pagina"
+
+#: classes/views/mngl-options/form.php:60
+msgid "Profile Options"
+msgstr "Profiel Opties"
+
+#: classes/views/mngl-options/form.php:62
+msgid "Pretty Profile Urls"
+msgstr "Nette Profiel URLs"
+
+# This menu setting is according the Dutch translated WordPress interface
+#: classes/views/mngl-options/form.php:63
+msgid "When checked, Pretty Profile Urls will allow users to type their screenname following your site's domain name for their url. Note, if you do not have Apache rewrite functioning and have not selected something other than \"Default\" under your General Permalink settings, this will not work."
+msgstr "Wanneer aangevinkt, maken Nette Profiel URLs het mogelijk voor gebruikers een eenvoudige link naar hun profiel te maken door hun schermnaam achter de domeinnaam van je site te plaatsen.Nota Bene, als je niet de Apache herschrijf functionaliteit en in de niet in WP Instellingen | Permalinks iets anders dan \"Standaard\" hebt gekozen, zal dit niet functioneren."
+
+#: classes/views/mngl-options/form.php:64
+msgid "User Registration Email Spam Protection"
+msgstr "Gebruiker Registratie Email Spam Protectie"
+
+#: classes/views/mngl-options/form.php:65
+msgid "When checked, Mingle will use advanced email lookup techniques to validate the user signup to prevent against user registration spam."
+msgstr "Indien aangevinkt, zal Mingle geavanceerde email opzoektechniek gebruiken om te valideren tegen spamregistratie."
+
+#: classes/views/mngl-options/form.php:66
+msgid "Block Robots from Registering as Users"
+msgstr "Blokkeer Robots van Gebruikersregistratie"
+
+#: classes/views/mngl-options/form.php:67
+msgid "When checked, Mingle will attempt to identify the user as legitimate or as a robot (computer program) if it's a robot then registration will be prevented."
+msgstr "Indien aangevinkt, zal Mingle proberen de gebruiker te indentificeren als legitiem of een robot (computer programma), indien het een robot blijkt zal registratie tegengegaan worden."
+
+#: classes/views/mngl-options/form.php:68
+msgid "Require Captcha On User Signup Page"
+msgstr "Vereis Captcha op de Gebruikers Registratie Pagina"
+
+#: classes/views/mngl-options/form.php:69
+msgid "When checked, Mingle will display an image captcha that the user will be required to complete in order to successfully register."
+msgstr "Indien aangevinkt, zal Mingle een captcha (voor computerprogramma slecht herkenbare tekst) afbeelden die de gebruiker goed moet invullen om te kunnen registreren."
+
+#: classes/views/mngl-options/form.php:70
+msgid "Prevent Subscribers Access to the WordPress Admin"
+msgstr "Voorkom Inschrijvers Toegang tot de WordPress Administratie"
+
+#: classes/views/mngl-options/form.php:71
+msgid "When checked, Mingle will redirect non-admin users to their activity page if attempting to go anywhere within /wp-admin."
+msgstr "Indien aangevinkt, zal Mingle niet-beheerders omleiden naar hun activiteiten pagina indien ze proberen ergens binnen de /wp-admin WordPress Interface te komen. "
+
+#: classes/views/mngl-options/form.php:74
+msgid "Default Friends"
+msgstr "Standaard Vrienden"
+
+#: classes/views/mngl-options/form.php:76
+msgid "These Users will be added as a friends to all new signups."
+msgstr "Deze Gebruikers zullen als vrienden worden toegevoegd aan alle nieuwe inschrijvingen"
+
+#: classes/views/mngl-options/form.php:92
+msgid "Add a Default Friend"
+msgstr "Voeg een Standaard Vriend toe"
+
+#: classes/views/mngl-options/form.php:95
+msgid "Invisible Users"
+msgstr "Onzichtbare Gebruikers"
+
+#: classes/views/mngl-options/form.php:97
+msgid "Any users checked below will not be visible to Mingle. They won't have a profile page, friends, be listed in the directory or show up anywhere in mingle."
+msgstr "Elke gebruiker hieronder aangevinkt zal onzichtbaar zijn voor Mingle. Ze zullen geen profielpagina hebben, geen vrienden, niet worden opgenomen in de gebruikerslijst of ergens anders in Mingle genoemd worden."
+
+# I have added in translation that you can deselect as well as select a user while pressing keys. There is a misunderstanding that once you selected something in this menu you cannot unselect anymore, so ther is always one user invisible. 
+# Using Ctrl the choice will toggle.
+#: classes/views/mngl-options/form.php:98
+msgid "Hold down Control Key (the Command Key if you're on a Mac) or the Shift Key to select multiple users."
+msgstr "Houdt de Ctrl toets ingedrukt (of Command toets als je een Mac hebt) of de Shift toets om meerdere gebruikers te (de-)selecteren."
+
+#: classes/views/mngl-options/form.php:101
+msgid "Field Display Options"
+msgstr "Veld Weergave Opties"
+
+# I have translated this literally, but in the Mingle interface it does not seem to make sence? Where is mention of Public/Private/Hidden?
+#: classes/views/mngl-options/form.php:103
+msgid "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+msgstr "Configureer de velden die je de gebruikers wilt laten zien, en of ze die kunnnen weergeven op hun profielen. <code>Openbaar</code> geeft aan dat het veld beschikbaar zal zijn voor gebruikers en dat de waarde die ze invullen zichtbaar zal worden op hun openbare profielen. <code>Privé</code> geeft aan dat het veld beschikbaar zal zijn voor gebruikers maar dat de waarde die ze invullen niet zal worden weergegeven op hun openbare profielen. <code>Verborgen</code> geeft aan dat dit veld niet zichtbaar zal zijn voor gebruikers en niet op hun openbare profielen."
+
+#: classes/views/mngl-options/form.php:106
+msgid "Show Name Fields"
+msgstr "Weergave Naam Veld"
+
+#: classes/views/mngl-options/form.php:110
+msgid "Show Website Field"
+msgstr "Weergave Website Veld"
+
+#: classes/views/mngl-options/form.php:114
+msgid "Show Location Field"
+msgstr "Weergave Locatie Veld"
+
+#: classes/views/mngl-options/form.php:118
+msgid "Show Bio Field"
+msgstr "Weergave Biografie Veld"
+
+#: classes/views/mngl-options/form.php:122
+msgid "Show Birthday Field"
+msgstr "Weergave Verjaardag Veld"
+
+#: classes/views/mngl-options/form.php:126
+msgid "Show Gender Field"
+msgstr "Weergave Geslacht Veld"
+
+#: classes/views/mngl-options/form.php:130
+msgid "Show Password Field"
+msgstr "Weergave Wachtwoord Veld"
+
+#: classes/views/mngl-options/form.php:138
+msgid "Mail Options"
+msgstr "Mail Opties"
+
+# <strong> does not seem to work in the Mingle settings page!
+# Can you check that Blair?
+#: classes/views/mngl-options/form.php:140
+msgid "Configure the way mail is sent from Mingle. This setting will affect how all mail throughout WordPress is sent. If your website is hosted on Windows then you'll probably need to set this to SMTP and enter your credentials. <strong>Note:</strong> If your mail already works and you don't know what this setting means then you should probably leave it alone."
+msgstr "Configureer op welke manier mail wordt verzonden vanuit Mingle. Deze instelling zal alle email verzending binnen WordPress beïnvloeden. Indien je website gehost wordt in een Windows omgeving zul je waarschijnlijk dit moeten instellen op SMTP en je gegevens moeten invullen. <strong>Nota Bene:</strong> Als je email nu al functioneert en je niet weet wat deze instelling precies doet, is het beter hier niets te veranderen!"
+
+#: classes/views/mngl-options/form.php:143
+msgid "Sendmail Path"
+msgstr "Sendmail Pad"
+
+#: classes/views/mngl-options/form.php:148
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: classes/views/mngl-options/form.php:152
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: classes/views/mngl-options/form.php:156
+msgid "SMTP Encryption"
+msgstr "SMTP Encryptie"
+
+#: classes/views/mngl-options/form.php:160
+msgid "SMTP Username"
+msgstr "SMTP Gebruikersnaam"
+
+#: classes/views/mngl-options/form.php:164
+msgid "SMTP Password"
+msgstr "SMTP Wachtwoord"
+
+#: classes/views/mngl-options/form.php:173
+msgid "Update Options"
+msgstr "Opties updaten"
+
+#: classes/views/mngl-options/form.php:178
+msgid "Add Default Friends to Existing Users"
+msgstr "Voeg de Standaard Vrienden toe aan reeds Bestaande Gebruikers"
+
+#: classes/views/mngl-options/options_saved.php:1
+msgid "Options saved."
+msgstr "Opties bewaard."
+
+#: classes/views/mngl-profiles/directory.php:13
+msgid "Search Users..."
+msgstr "Zoek Gebruikers..."
+
+#: classes/views/mngl-profiles/directory.php:23
+#, php-format
+msgid "%s User Was Found"
+msgid_plural "%s Users Were Found"
+msgstr[0] "%s Gebruiker Gevonden"
+msgstr[1] "%s Gebruikers Gevonden"
+
+#: classes/views/mngl-profiles/edit.php:7
+msgid "Information"
+msgstr "Informatie"
+
+#: classes/views/mngl-profiles/edit.php:20
+msgid "Email"
+msgstr "Email"
+
+#: classes/views/mngl-profiles/edit.php:37
+#: plus/classes/views/mngl-plus-media/attach_embed.php:19
+#: plus/classes/views/mngl-plus-media/attach_link.php:19
+msgid "URL"
+msgstr "URL"
+
+#: classes/views/mngl-profiles/edit.php:55
+#: classes/views/mngl-users/reset_password.php:4
+#: classes/views/shared/login_form.php:5
+#: classes/views/shared/login_widget.php:29
+#: classes/views/shared/signup_form.php:48
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: classes/views/mngl-profiles/edit.php:59
+#: classes/views/mngl-users/reset_password.php:8
+#: classes/views/shared/signup_form.php:52
+msgid "Password Confirmation"
+msgstr "Wachtwoord bevestiging"
+
+#: classes/views/mngl-profiles/edit.php:64
+msgid "Avatar"
+msgstr "Avatar"
+
+#: classes/views/mngl-profiles/edit.php:72
+#: plus/classes/views/mngl-plus-options/custom_field.php:9
+msgid "Privacy"
+msgstr "Privacy"
+
+#: classes/views/mngl-profiles/edit.php:74
+msgid "Notification Settings"
+msgstr "Notificatie Instellingen"
+
+#: classes/views/mngl-profiles/edit.php:82
+#, php-format
+msgid "Don't Send Me \"%s\" Notifications"
+msgstr "Stuur me geen \"%s\" Notificaties"
+
+#: classes/views/mngl-profiles/edit.php:89
+msgid "Update"
+msgstr "Update"
+
+#: classes/views/mngl-profiles/edit_avatar.php:3
+msgid "delete"
+msgstr "verwijder"
+
+#: classes/views/mngl-profiles/profile.php:26
+#: plus/classes/views/mngl-plus-media/add_gallery.php:9
+#: plus/classes/views/mngl-plus-options/custom_field.php:6
+msgid "Name"
+msgstr "Naam"
+
+#: classes/views/mngl-profiles/profile_saved.php:1
+msgid "Your Profile has been saved."
+msgstr "Je Profiel is opgeslagen"
+
+#: classes/views/mngl-profiles/profile_status.php:11
+msgid "Clear"
+msgstr "Clear"
+
+#: classes/views/mngl-users/forgot_password.php:1
+msgid "Request a Password Reset"
+msgstr "Verzoek om opnieuw instellen van Wachtwoord "
+
+#: classes/views/mngl-users/forgot_password.php:4
+msgid "Enter Your Username or Email Address"
+msgstr "Voer je Gebruikersnaam of Email adres in"
+
+#: classes/views/mngl-users/forgot_password.php:8
+msgid "Request Password Reset"
+msgstr "Verzoek Wachtwoord opnieuw in te stellen"
+
+#: classes/views/mngl-users/forgot_password_requested.php:1
+msgid "Successfully requested password reset"
+msgstr "Verzoek tot opnieuw instellen wachtwoord was Succesvol"
+
+#: classes/views/mngl-users/forgot_password_requested.php:2
+msgid "Please click on the confirmation link that was just sent to your email address."
+msgstr "S.v.p. klikken op de confirmatie link die net is verstuurd naar je email adres."
+
+#: classes/views/mngl-users/reset_password.php:1
+msgid "Enter your new password"
+msgstr "Voer je nieuwe wachtwoord in"
+
+#: classes/views/mngl-users/reset_password.php:12
+msgid "Reset Password"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:1
+msgid "Password successfully reset"
+msgstr "Wachtwoord succesvol opnieuw ingesteld"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:2
+msgid "Your new password has been emailed to you."
+msgstr "Een wachtwoord wordt je per e-mail toegestuurd."
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+#, php-format
+msgid "Thanks for Registering for %s!"
+msgstr "Bedankt voor je Registratie bij %s!"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+msgid "You should shortly receive an email with your password."
+msgstr "Je zou nu al een email bericht ontvangen moeten hebben met je wachtwoord."
+
+#: classes/views/shared/already_logged_in.php:1
+#, php-format
+msgid "You're already logged in. %1$sLogout.%2$s"
+msgstr "Je bent al ingelogd. %1$sLogout.%2$s"
+
+#: classes/views/shared/login_form.php:3
+#: classes/views/shared/login_widget.php:27
+#: classes/views/shared/signup_form.php:38
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: classes/views/shared/login_form.php:7
+#: classes/views/shared/login_widget.php:31
+msgid "Remember Me"
+msgstr "Blijf volgende keer ingelogd"
+
+#: classes/views/shared/login_form.php:10
+#: classes/views/shared/login_widget.php:34
+msgid "Log In"
+msgstr "Log In"
+
+#: classes/views/shared/login_form.php:19
+#: classes/views/shared/login_widget.php:43
+msgid "Register"
+msgstr "Registreren"
+
+#: classes/views/shared/login_form.php:23
+#: classes/views/shared/login_widget.php:47
+msgid "Lost Password?"
+msgstr "Wachtwoord vergeten?"
+
+#: classes/views/shared/login_widget.php:7
+msgid "Activity"
+msgstr "Nieuwsoverzicht"
+
+#: classes/views/shared/login_widget.php:8
+msgid "Profile"
+msgstr "Profiel"
+
+#: classes/views/shared/login_widget.php:9
+msgid "Settings"
+msgstr "Profiel Wijzigingen"
+
+#: classes/views/shared/login_widget.php:11
+msgid "Friend Requests"
+msgstr "Vriendschap Verzoeken"
+
+#: classes/views/shared/login_widget.php:16
+#: classes/views/shared/login_widget.php:51
+msgid "Directory"
+msgstr "Ledenlijst"
+
+#: classes/views/shared/login_widget.php:20
+msgid "Logout"
+msgstr "Loguit"
+
+#: classes/views/shared/login_widget.php:24
+#, php-format
+msgid "Login to connect with Others on %s"
+msgstr "Login om met Anderen Vriendverbanden te leggen op %s"
+
+#: classes/views/shared/must_configure.php:1
+#, php-format
+msgid "Mingle must be configured. Go to the %s to setup your new social network!"
+msgstr "Mingle dient nog geconfigureerd te worden. Ga naar de %s om je nieuwe sociale netwerk in te stellen!"
+
+#: classes/views/shared/must_configure.php:1
+msgid "Mingle Admin Page"
+msgstr "Mingle Admin Pagina"
+
+#: classes/views/shared/signup_form.php:42
+msgid "E-mail"
+msgstr "E-mail"
+
+#: classes/views/shared/signup_form.php:56
+msgid "A password will be e-mailed to you."
+msgstr "Een wachtwoord wordt je per e-mail toegestuurd."
+
+#: classes/views/shared/signup_form.php:63
+msgid "Enter Captcha Text"
+msgstr "Voer Captcha Tekst in"
+
+#: classes/views/shared/signup_form.php:71
+msgid "Sign Up"
+msgstr "Registreer je"
+
+#: classes/views/shared/unauthorized.php:16
+#, php-format
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr "Je bent niet geauthoriseerd om deze pagina te bekijken. Waarom ga je niet %s en probeer nogmaals."
+
+#: classes/views/shared/unauthorized.php:16
+msgid "Login"
+msgstr "Login"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Don't have a Login?"
+msgstr "Heb je geen Login?"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Register for an Account."
+msgstr "Registreer voor een Account"
+
+#: classes/views/shared/user_grid.php:3
+msgid "Show All"
+msgstr "Geef Alle Weer"
+
+#: classes/widgets/MnglLoginWidget.php:7
+msgid "Mingle Login"
+msgstr "Mingle Login"
+
+#: classes/widgets/MnglLoginWidget.php:50
+#: classes/widgets/MnglUsersWidget.php:56
+msgid "Title"
+msgstr "Titel"
+
+#: classes/widgets/MnglUsersWidget.php:7
+msgid "Mingle Users Grid"
+msgstr "Mingle Gebruikers Rooster"
+
+#: classes/widgets/MnglUsersWidget.php:21
+msgid "Users"
+msgstr "Gebruikers"
+
+#: classes/widgets/MnglUsersWidget.php:51
+msgid "Mingle Users"
+msgstr "Mingle Gebruikers"
+
+#: classes/widgets/MnglUsersWidget.php:57
+msgid "# of Grid Columns"
+msgstr "# Rooster kolommen"
+
+#: classes/widgets/MnglUsersWidget.php:58
+msgid "# of Grid Rows"
+msgstr "@ Rooster Rijen"
+
+#: classes/widgets/MnglUsersWidget.php:60
+msgid "Grid Type"
+msgstr "Rooster Type"
+
+#: classes/widgets/MnglUsersWidget.php:62
+msgid "Random Mingle Users"
+msgstr "Willekeurige Mingle Gebruikers"
+
+#: classes/widgets/MnglUsersWidget.php:63
+msgid "Recent Mingle Users"
+msgstr "Nieuwe Mingle Gebruikers"
+
+#: js/mingle.js.php:86
+msgid "Are you sure you want to delete this post?"
+msgstr "Weet je zeker dat je dit bericht wilt verwijderen?"
+
+#: js/mingle.js.php:102
+msgid "Are you sure you want to delete this comment?"
+msgstr "Weet je zeker dat je deze reactie wilt verwijderen?"
+
+#: js/mingle.js.php:138
+msgid "Are you sure you want to delete this friend?"
+msgstr "Weet je zeker dat je deze vriendschap wilt beÃ«indigen?"
+
+#: js/mingle.js.php:212
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Weet je zeker dat je je Avatar wilt verwijderen?"
+
+#: js/mingle.js.php:257
+#: js/mingle.js.php:262
+#: plus/classes/views/mngl-plus-media/add_media.php:4
+#: plus/classes/views/mngl-plus-media/attach_embed.php:4
+#: plus/classes/views/mngl-plus-media/attach_link.php:4
+#: plus/classes/views/mngl-plus-media/attach_photo.php:4
+#: plus/classes/views/mngl-plus-media/attached_photo.php:14
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Loading..."
+msgstr "Bezig..."
+
+#. translators: Please don't translate this string ... You can see what this date format means here http://docs.jquery.com/UI/Datepicker/formatDate ... try to select a relevant format for those using Mingle in your language.
+#: js/mingle.js.php:352
+msgid "MM d, yy"
+msgstr "d MM yy"
+
+#. translators: Please don't translate this string ... This option indicates whether the first day on the calendar is a Sunday or Monday -- Sunday is represented as a '0' and Monday is represented as a '1'
+#: js/mingle.js.php:355
+msgid "0"
+msgstr "0"
+
+#: js/mingle.js.php:357
+msgid "January"
+msgstr "Januari"
+
+#: js/mingle.js.php:357
+msgid "February"
+msgstr "Februari"
+
+#: js/mingle.js.php:357
+msgid "March"
+msgstr "Maart"
+
+#: js/mingle.js.php:357
+msgid "April"
+msgstr "April"
+
+#: js/mingle.js.php:357
+#: js/mingle.js.php:360
+msgid "May"
+msgstr "Mei"
+
+#: js/mingle.js.php:357
+msgid "June"
+msgstr "Juni"
+
+#: js/mingle.js.php:357
+msgid "July"
+msgstr "Juli"
+
+#: js/mingle.js.php:357
+msgid "August"
+msgstr "Augustus"
+
+#: js/mingle.js.php:357
+msgid "September"
+msgstr "September"
+
+#: js/mingle.js.php:357
+msgid "October"
+msgstr "Oktober"
+
+#: js/mingle.js.php:357
+msgid "November"
+msgstr "November"
+
+#: js/mingle.js.php:357
+msgid "December"
+msgstr "December"
+
+#. translators: This is the short version of the month name...
+#: js/mingle.js.php:360
+msgid "Jan"
+msgstr "Jan"
+
+#: js/mingle.js.php:360
+msgid "Feb"
+msgstr "Feb"
+
+#: js/mingle.js.php:360
+msgid "Mar"
+msgstr "Mar"
+
+#: js/mingle.js.php:360
+msgid "Apr"
+msgstr "Apr"
+
+#: js/mingle.js.php:360
+msgid "Jun"
+msgstr "Jun"
+
+#: js/mingle.js.php:360
+msgid "Jul"
+msgstr "Jul"
+
+#: js/mingle.js.php:360
+msgid "Aug"
+msgstr "Aug"
+
+#: js/mingle.js.php:360
+msgid "Sept"
+msgstr "Sept"
+
+#: js/mingle.js.php:360
+msgid "Oct"
+msgstr "Okt"
+
+#: js/mingle.js.php:360
+msgid "Nov"
+msgstr "Nov"
+
+#: js/mingle.js.php:360
+msgid "Dec"
+msgstr "Dec"
+
+#: js/mingle.js.php:362
+msgid "Sunday"
+msgstr "Zondag"
+
+#: js/mingle.js.php:362
+msgid "Monday"
+msgstr "Maandag"
+
+#: js/mingle.js.php:362
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: js/mingle.js.php:362
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: js/mingle.js.php:362
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: js/mingle.js.php:362
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: js/mingle.js.php:362
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#. translators: This is the short version of the day name...
+#: js/mingle.js.php:365
+msgid "Sun"
+msgstr "Zon"
+
+#: js/mingle.js.php:365
+msgid "Mon"
+msgstr "Maa"
+
+#: js/mingle.js.php:365
+msgid "Tue"
+msgstr "Din"
+
+#: js/mingle.js.php:365
+msgid "Wed"
+msgstr "Woe"
+
+#: js/mingle.js.php:365
+msgid "Thu"
+msgstr "Don"
+
+#: js/mingle.js.php:365
+msgid "Fri"
+msgstr "Vrij"
+
+#: js/mingle.js.php:365
+msgid "Sat"
+msgstr "Zat"
+
+#. translators: This is the minimized short version of the day name
+#: js/mingle.js.php:368
+msgid "Su"
+msgstr "Zo"
+
+#: js/mingle.js.php:368
+msgid "Mo"
+msgstr "Ma"
+
+#: js/mingle.js.php:368
+msgid "Tu"
+msgstr "Di"
+
+#: js/mingle.js.php:368
+msgid "We"
+msgstr "Wo"
+
+#: js/mingle.js.php:368
+msgid "Th"
+msgstr "Do"
+
+#: js/mingle.js.php:368
+msgid "Fr"
+msgstr "Vr"
+
+#: js/mingle.js.php:368
+msgid "Sa"
+msgstr "Za"
+
+#. translators: Please don't translate this string ... Just set it to 'isRTL: true' if your language is drawn from Right-to-Left
+#: js/mingle.js.php:371
+msgid "isRTL: false"
+msgstr "isRTL: false"
+
+#: plus/classes/controllers/MnglPlusAppController.php:111
+msgid "Send Message To..."
+msgstr "Zend Bericht Naar..."
+
+#: plus/classes/controllers/MnglPlusAppController.php:111
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: plus/classes/controllers/MnglPlusAppController.php:111
+msgid "Searching..."
+msgstr "Aan het Zoeken..."
+
+#: plus/classes/controllers/MnglPlusMediaController.php:15
+msgid "Media Comments"
+msgstr "Media Reacties"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's Photo"
+msgstr "%1$s reageerde op %2$s's Foto"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:91
+msgid "Add a Media Gallery"
+msgstr "Voeg een Media Album toe"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:92
+msgid "Create Gallery"
+msgstr "Creëer een Album"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:97
+msgid "Edit Gallery / Upload Media"
+msgstr "Edit Album / Upload Media"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:98
+msgid "Update Gallery / Upload Media"
+msgstr "Vernieuw Album / Upload Media"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:225
+msgid "Message Photos"
+msgstr "Bericht Foto's"
+
+#: plus/classes/controllers/MnglPlusMediaController.php:230
+msgid "Board Photos"
+msgstr "Prikbord Foto's"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:8
+msgid "You"
+msgstr "Jij"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:23
+msgid ", "
+msgstr ", "
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:25
+msgid " and "
+msgstr "en"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:30
+#, php-format
+msgid "Between %s"
+msgstr "Tussen %s"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:9
+msgid "Text Input"
+msgstr "Tekst Ingave"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:10
+msgid "Text Area"
+msgstr "Tekst Vlak"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:11
+msgid "Checkbox"
+msgstr "Aanvinkhokje"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:12
+msgid "Dropdown"
+msgstr "Uitrolmenu"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:13
+msgid "Date"
+msgstr "Datum"
+
+#: plus/classes/models/MnglPlusMessage.php:18
+msgid "Private Message"
+msgstr "Privé Bericht"
+
+#: plus/classes/models/MnglPlusMessage.php:19
+msgid "Sent when someone sends you a message"
+msgstr "Verstuurd als iemand je een bericht stuurt"
+
+#: plus/classes/models/MnglPlusMessage.php:21
+msgid "Private Message Reply"
+msgstr "Privé Bericht Reactie"
+
+#: plus/classes/models/MnglPlusMessage.php:22
+msgid "Sent when someone replies to a message you were included on"
+msgstr "Verstuurd als iemand antwoord op een bericht waar je deelnemer van bent"
+
+#: plus/classes/models/MnglPlusMessage.php:32
+msgid "(no subject)"
+msgstr "(geen onderwerp)"
+
+#: plus/classes/models/MnglPlusMessage.php:223
+msgid "There must be at least one recipient"
+msgstr "Er dient minstens één ontvanger te zijn"
+
+#: plus/classes/models/MnglPlusMessage.php:226
+msgid "Message can't be blank"
+msgstr "Bericht kan niet blanco zijn"
+
+#: plus/classes/models/MnglPlusMessage.php:271
+#, php-format
+msgid "%s sent you a message."
+msgstr "%s stuurde je een bericht."
+
+#: plus/classes/models/MnglPlusMessage.php:272
+#: plus/classes/models/MnglPlusMessage.php:301
+#, php-format
+msgid ""
+"To reply to this message, follow the link below:\n"
+"%s"
+msgstr ""
+"Om te antwoorden op dit bericht, volg de link hieronder:\n"
+"%s"
+
+#: plus/classes/models/MnglPlusMessage.php:283
+#, php-format
+msgid "%1$s sent you a message on %2$s..."
+msgstr "%1$s heeft je een bericht gestuurd op %2$s..."
+
+#: plus/classes/models/MnglPlusMessage.php:300
+#, php-format
+msgid "%s sent a message in reply to a thread."
+msgstr "%s stuurde een bericht als antwoord onder een gespreksdraad."
+
+#: plus/classes/models/MnglPlusMessage.php:312
+#, php-format
+msgid "%1$s replied to a thread on %2$s..."
+msgstr "%1$s antwoorde op een Bericht op %2$s"
+
+#: plus/classes/models/MnglPlusOptions.php:38
+msgid "Mingle Plus Inbox Page must Not be blank"
+msgstr "Mingle Plus Inbox Pagina Mag Niet Blanco zijn."
+
+#: plus/classes/models/MnglPlusOptions.php:41
+msgid "Mingle Plus Media Page must Not be blank"
+msgstr "Mingle Plus Media Pagina Mag Niet Blanco zijn"
+
+#: plus/classes/views/mngl-plus-custom-fields/edit_fields.php:9
+msgid "private"
+msgstr "privÃ©"
+
+#: plus/classes/views/mngl-plus-media/add_gallery.php:13
+msgid "Upload Up to five new Photos into your Gallery"
+msgstr "Upload maximaal vijf nieuwe Foto's naar je Album"
+
+#: plus/classes/views/mngl-plus-media/add_gallery.php:20
+#: plus/classes/views/mngl-plus-media/add_media.php:25
+#: plus/classes/views/mngl-plus-media/attach_photo.php:17
+msgid "Media File"
+msgstr "Media Bestand"
+
+#: plus/classes/views/mngl-plus-media/add_media.php:18
+msgid "Add media"
+msgstr "Media toevoegen"
+
+#: plus/classes/views/mngl-plus-media/add_media.php:32
+#: plus/classes/views/mngl-plus-media/gallery.php:12
+msgid "Add Media"
+msgstr "Media toevoegen"
+
+#: plus/classes/views/mngl-plus-media/attach_embed.php:16
+msgid "Attach an Image or Video From Another Website:"
+msgstr "Voeg een Afbeelding of Video toe van een Andere Website:"
+
+#: plus/classes/views/mngl-plus-media/attach_embed.php:23
+#: plus/classes/views/mngl-plus-media/attach_link.php:23
+#: plus/classes/views/mngl-plus-media/media_bar.php:1
+msgid "Attach"
+msgstr "Toevoegen"
+
+#: plus/classes/views/mngl-plus-media/attach_link.php:16
+msgid "Attach a Link:"
+msgstr "Voeg een Link toe:"
+
+#: plus/classes/views/mngl-plus-media/attach_photo.php:14
+#: plus/classes/views/mngl-plus-media/attach_photo.php:21
+msgid "Attach Photo"
+msgstr "Voeg een Foto toe"
+
+#: plus/classes/views/mngl-plus-media/gallery.php:12
+#, php-format
+msgid "View %s' Photo Galleries"
+msgstr "Bekijk %s' Foto Albums"
+
+#: plus/classes/views/mngl-plus-media/gallery.php:12
+#, php-format
+msgid "View %s' Profile"
+msgstr "Bekijk het Profile van %s"
+
+#: plus/classes/views/mngl-plus-media/gallery_added.php:1
+msgid "Your Gallery was Successfully Added."
+msgstr "Je Album is succesvol toegevoegd."
+
+#: plus/classes/views/mngl-plus-media/media_added_standalone.php:7
+msgid "Your Media Was Uploaded Successfully"
+msgstr "Je Media zijn succesvole ge-upload"
+
+#: plus/classes/views/mngl-plus-media/user_galleries.php:1
+#, php-format
+msgid "%s's Photo Galleries"
+msgstr "%s's Foto Albums"
+
+#: plus/classes/views/mngl-plus-media/user_galleries.php:10
+msgid "Edit / Upload"
+msgstr "Aanpassen / Uploaden"
+
+#: plus/classes/views/mngl-plus-media/user_galleries.php:17
+msgid "Add Media Gallery"
+msgstr "Voeg een Media Album toe"
+
+#: plus/classes/views/mngl-plus-messages/button.php:1
+#, php-format
+msgid "Send %s a Message"
+msgstr "Zend %s een Bericht"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:8
+msgid "Recipients"
+msgstr "Ontvangers"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:14
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:18
+msgid "Message"
+msgstr "Bericht"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:22
+msgid "Send"
+msgstr "Verstuur"
+
+#: plus/classes/views/mngl-plus-messages/list.php:1
+msgid "Compose a Message"
+msgstr "Schrijf een Bericht"
+
+#: plus/classes/views/mngl-plus-messages/list.php:7
+msgid "Mark as Read"
+msgstr "Markeer als Gelezen"
+
+#: plus/classes/views/mngl-plus-messages/list.php:8
+msgid "Mark as Unread"
+msgstr "Markeer als Ongelezen"
+
+#: plus/classes/views/mngl-plus-messages/list.php:11
+msgid "Apply"
+msgstr "Pas toe"
+
+#: plus/classes/views/mngl-plus-messages/list.php:62
+#: plus/classes/views/mngl-plus-messages/view.php:16
+msgid "No Messages Were Found"
+msgstr "Geen Berichten Gevonden"
+
+#: plus/classes/views/mngl-plus-messages/message_sent.php:1
+msgid "Message Sent."
+msgstr "Bericht Verzonden."
+
+#: plus/classes/views/mngl-plus-messages/view.php:1
+msgid "Back to Messages"
+msgstr "Terug naar Berichten"
+
+#: plus/classes/views/mngl-plus-messages/view.php:23
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Reply"
+msgstr "Antwoord"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:1
+msgid "Add a Custom Field"
+msgstr "Voeg een Vrij Veld toe"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:1
+msgid "These fields will be added to each user's profile."
+msgstr "Deze velden zullen bij elk Gebruikersprofiel worden toegevoegd"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_option_button.php:3
+msgid "Add an Option"
+msgstr "Optie Toevoegen"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_option_button.php:4
+msgid "These options added to this dropdown."
+msgstr "Deze opties toegevoegd aan dit uitrolmenu"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:7
+msgid "Type"
+msgstr "Type"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:8
+msgid "Default Value"
+msgstr "Standaard Waarde"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:13
+msgid "Show on the Signup Page"
+msgstr "Geef weer op de Registratie Pagina"
+
+#: plus/classes/views/mngl-plus-options/custom_field_option.php:5
+msgid "Label"
+msgstr "Label"
+
+#: plus/classes/views/mngl-plus-options/custom_field_option.php:6
+msgid "Value"
+msgstr "Waarde"
+
+#: plus/classes/views/mngl-plus-options/custom_fields.php:1
+msgid "Custom Fields"
+msgstr "Vrij toevoegbare Velden"
+
+#: plus/classes/views/mngl-plus-options/pages.php:1
+msgid "MinglePlus Pages"
+msgstr "MinglePlus Pagina's"
+
+#: plus/classes/views/mngl-plus-options/pages.php:2
+msgid "Now setup your MinglePlus Pages to start taking advantage of MinglePlus' awesome features."
+msgstr "Stel nu je MinglePlus Pagina's in, om gebruik te kunnen gaan maken van de fantastische mogelijkheden van MinglePlus."
+
+#: plus/classes/views/mngl-plus-options/pages.php:5
+msgid "Inbox Page"
+msgstr "Inbox Pagina"
+
+#: plus/classes/views/mngl-plus-options/pages.php:9
+msgid "Media Page"
+msgstr "Media Pagina"
+
+#: plus/classes/views/shared/plus_pages_links.php:1
+msgid "Inbox"
+msgstr "Inbox"
+
+#: plus/classes/views/shared/plus_pages_links.php:2
+msgid "Photos"
+msgstr "Foto's"
+
+#: plus/js/mingle-plus.js.php:57
+msgid "Are you sure you want to delete this message?"
+msgstr "Weet je zeker dat je dit bericht wilt verwijderen?"
+
+#: plus/js/mingle-plus.js.php:72
+msgid "Are you sure you want to delete this gallery?"
+msgstr "Weet je zeker dat je dit fotoalbum wilt verwijderen?"
+
+#: plus/js/mingle-plus.js.php:91
+msgid "Are you sure you want to delete these messages?"
+msgstr "Weet je zeker dat je deze berichten wilt verwijderen?"
+
+#. Plugin URI of an extension
+msgid "http://blairwilliams.com/mingle"
+msgstr "http://blairwilliams.com/mingle"
+
+#. Description of an extension
+msgid "The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network."
+msgstr "De simpelste manier om van je standaard WordPress website met een gewone template een Sociaal Netwerk te maken."
+
+#. Author of an extension
+msgid "Blair Williams"
+msgstr "Blair Williams"
+
+#. Author URI of an extension
+msgid "http://blairwilliams.com"
+msgstr "http://blairwilliams.com"
+
+#~ msgid "Visit %1$s's Profile at %2$s to see this comment."
+#~ msgstr "Bezoek %1$s's Profiel op %2$s om zijn reactie te lezen."
+
+#~ msgid "Sex"
+#~ msgstr "Geslacht"

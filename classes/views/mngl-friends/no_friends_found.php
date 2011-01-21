@@ -1,0 +1,1 @@
+<p><?php _e('Apparently you have no friends ... boo hoo :(', 'mingle'); ?></p>

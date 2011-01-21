@@ -1,0 +1,1193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mingle 0.0.18\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mingle\n"
+"POT-Creation-Date: 2010-01-30 15:01-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mertcan Temel <mertjonathan@hotmail.com>\n"
+"Language-Team: Mertcan Temel <mertjonathan@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+
+#. #-#-#-#-#  mingle.pot (Mingle 0.0.20)  #-#-#-#-#
+#. Plugin Name of an extension
+#: classes/controllers/MnglAppController.php:185
+msgid "Mingle"
+msgstr "Mingle"
+
+#: classes/controllers/MnglBoardsController.php:13
+#, php-format
+msgid "%1$s posted to %2$s's board"
+msgstr "%1$s, %2$s'in duvarına yazdı."
+
+#: classes/controllers/MnglBoardsController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's post"
+msgstr "%1$s, %2$s'nin yazısına yorum yaptı."
+
+#: classes/controllers/MnglFriendsController.php:14
+#, php-format
+msgid "%1$s is now friends with %2$s"
+msgstr "%1$s, %2$s ile arkadaş oldu."
+
+#: classes/controllers/MnglFriendsController.php:160
+#: classes/views/mngl-profiles/profile.php:42
+#: classes/views/shared/login_widget.php:10
+msgid "Friends"
+msgstr "Arkadaşlar"
+
+#: classes/controllers/MnglHelpController.php:20
+#, php-format
+msgid "Mingle must be configured. Go to the %1$sadmin page%2$s to setup your new social network!"
+msgstr "Mingle'ın yapılandırılması gerek. %1$Yönetim sayfasına%2$s giderek yeni sosyal ağınızı kurun!"
+
+#: classes/controllers/MnglProfilesController.php:13
+#, php-format
+msgid "%1$s updated %2$s profile"
+msgstr "%1$s profilini güncelledi."
+
+#: classes/helpers/MnglAppHelper.php:108
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d saniye önce"
+msgstr[1] "%d saniye önce"
+
+#: classes/helpers/MnglAppHelper.php:114
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d dakika önce"
+msgstr[1] "%d dakika önce"
+
+#: classes/helpers/MnglAppHelper.php:120
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d saat önce"
+msgstr[1] "%d saat önce"
+
+#: classes/helpers/MnglAppHelper.php:126
+#, php-format
+msgid "yesterday"
+msgid_plural "%d days ago"
+msgstr[0] "dün"
+msgstr[1] "%d gün önce"
+
+#: classes/helpers/MnglAppHelper.php:132
+#, php-format
+msgid "last week"
+msgid_plural "%d weeks ago"
+msgstr[0] "geçen hafta"
+msgstr[1] "%d hafta önce"
+
+#: classes/helpers/MnglAppHelper.php:138
+#, php-format
+msgid "last month"
+msgid_plural "%d months ago"
+msgstr[0] "geçen ay"
+msgstr[1] "%d ay önce"
+
+#: classes/helpers/MnglAppHelper.php:144
+#, php-format
+msgid "last year"
+msgid_plural "%d years ago"
+msgstr[0] "geçen sene"
+msgstr[1] "%d yıl önce"
+
+#: classes/helpers/MnglAppHelper.php:178
+#, php-format
+msgid "Powered by %1$sMingle%2$s"
+msgstr "Powered by %1$sMingle%2$s"
+
+#: classes/helpers/MnglBoardsHelper.php:17
+msgid "Read More"
+msgstr "Daha Fazla"
+
+#: classes/helpers/MnglOptionsHelper.php:29
+msgid "Full Name"
+msgstr "Tam İsim"
+
+#: classes/helpers/MnglOptionsHelper.php:30
+msgid "Screen Name"
+msgstr "Görünen Ad"
+
+#: classes/helpers/MnglOptionsHelper.php:39
+msgid "Public"
+msgstr "Herkes"
+
+#: classes/helpers/MnglOptionsHelper.php:40
+msgid "Private"
+msgstr "Özel"
+
+#: classes/helpers/MnglOptionsHelper.php:41
+msgid "Hidden"
+msgstr "Gizli"
+
+#: classes/helpers/MnglProfileHelper.php:10
+msgid "Female"
+msgstr "Bayan"
+
+#: classes/helpers/MnglProfileHelper.php:11
+msgid "Male"
+msgstr "Bay"
+
+#: classes/helpers/MnglProfileHelper.php:20
+msgid "I Want My Profile to Only Be Visible To Me and My Friends"
+msgstr "Profilimin Sadece Ben ve Arkadaşlarım tarafından Ziyaret Edilebilmesini İstiyorum"
+
+#: classes/helpers/MnglProfileHelper.php:21
+msgid "I Want My Profile to Be Visible To The World"
+msgstr "Profilimin Herkes Tarafından Ziyaret Edilebilmesini İstiyorum"
+
+#: classes/models/MnglNotification.php:12
+msgid "Sent when someone requests you as a friend"
+msgstr "Birisi arkadaşlık isteğinde bulunduğu zaman gönder"
+
+#: classes/models/MnglNotification.php:14
+msgid "Sent when a friendship has been confirmed"
+msgstr "Bir arkadaşlık isteği onaylandığı zaman gönder"
+
+#: classes/models/MnglNotification.php:16
+msgid "Sent when someone posts to your Board"
+msgstr "Birisi duvarıma yazdığı zaman gönder"
+
+#: classes/models/MnglNotification.php:18
+msgid "Sent when someone posts to one of your Board Posts or on a comment thread that you've participated in"
+msgstr "Birisi Duvar yazılarıma veya yorumlarıma cevap yazarsa gönder."
+
+#: classes/models/MnglNotification.php:35
+#, php-format
+msgid "%1$s has requested you as a friend on %2$s!"
+msgstr "%1$s, sizi %2$s'da arkadaşı olarak ekledi!"
+
+#: classes/models/MnglNotification.php:36
+#, php-format
+msgid "Please visit %s to Accept or Ignore this request."
+msgstr "Lütfen, bu isteği kabul edip etmediğinizi belirtmek için %s'i ziyaret edin."
+
+#: classes/models/MnglNotification.php:43
+#, php-format
+msgid "%1$s wants to be your Friend on %2$s"
+msgstr "%1$s, %2$s'da arkadaşınız olmak istiyor."
+
+#: classes/models/MnglNotification.php:64
+#: classes/models/MnglNotification.php:77
+#, php-format
+msgid "You're now friends with %1$s on %2$s!"
+msgstr "%1$s ile %2$s'da arkadaş oldunuz!"
+
+#: classes/models/MnglNotification.php:65
+#, php-format
+msgid "Visit %1$s to see %2$s profile."
+msgstr "%1$s'in profilini ziyaret edin."
+
+#: classes/models/MnglNotification.php:73
+#, php-format
+msgid "%1$s Has Confirmed Your Friend Request on %2$s"
+msgstr "%1$s, %2$s'daki arkadaşlık isteğinizi onayladı."
+
+#: classes/models/MnglNotification.php:78
+#, php-format
+msgid "Visit %s to see %s profile."
+msgstr "%s profili görmek için %s'i ziyaret edin."
+
+#: classes/models/MnglNotification.php:86
+#, php-format
+msgid "You're Now Friends With %1$s on %2$s"
+msgstr "%1$s ile %2$s'da arkadaş oldunuz."
+
+#: classes/models/MnglNotification.php:108
+#, php-format
+msgid "%1$s posted this on your Board at %2$s"
+msgstr "%1$s, %2$s'da duvarınıza bunu yazdı"
+
+#: classes/models/MnglNotification.php:109
+#, php-format
+msgid "Visit %s to see your Board"
+msgstr "Duvarınızı görmek için %s'ı ziyaret edin."
+
+#: classes/models/MnglNotification.php:117
+#, php-format
+msgid "%1$s Posted to Your Board on %2$s"
+msgstr "%1$s, %2$s'da Duvarınıza birşey yazdı"
+
+#: classes/models/MnglNotification.php:156
+#, php-format
+msgid "%1$s commented on your Board Post on %2$s"
+msgstr "1$s, %2$s'da duvar yazınıza bir yorum yaptı."
+
+#: classes/models/MnglNotification.php:157
+#, php-format
+msgid "View this comment from %1$s's Board at %2$s."
+msgstr "%2$s'da, %1$s'in duvarından bu yorumu görüntüleyin."
+
+#: classes/models/MnglNotification.php:166
+#, php-format
+msgid "%1$s commented on a Post on your Board on %2$s"
+msgstr "%1$s, %2$s'da Duvarınızdaki bir yazıya yorum yaptı."
+
+#: classes/models/MnglNotification.php:172
+#, php-format
+msgid "%1$s commented on %2$s's Board Post"
+msgstr "%1$s, %2$s'in Duvar Yazısına bir yorum yaptı."
+
+#: classes/models/MnglNotification.php:182
+#, php-format
+msgid "%1$s commented on %2$s's Board Post on %3$s"
+msgstr "%1$s, %3$s'da %2$s'in Duvar yazısına bir yorum yaptı."
+
+#: classes/models/MnglNotification.php:228
+msgid "Thanks!"
+msgstr "Teşekkürler!"
+
+#: classes/models/MnglNotification.php:229
+#, php-format
+msgid "%s Team"
+msgstr "%s Takımı"
+
+#: classes/models/MnglNotification.php:230
+#, php-format
+msgid "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+msgstr "Eğer bunun gibi e-postaların size gelmesini istemiyorsanız, lütfen %1$s'daki bildirim ayarlarını yapın yada %2$s'da sistem yöneticileriyle iletişime geçin."
+
+#: classes/models/MnglOptions.php:156
+msgid "The Profile Page Must Not Be Blank."
+msgstr "Profil Sayfası Boş Olmamalıdır."
+
+#: classes/models/MnglOptions.php:159
+msgid "The Profile Edit Page Must Not Be Blank."
+msgstr "Profil Düzenleme Sayfası Boş Olmamalıdır."
+
+#: classes/models/MnglOptions.php:162
+msgid "The Friends Page Must Not Be Blank."
+msgstr "Arkadaşlar Sayfası Boş Olmamalıdır."
+
+#: classes/models/MnglOptions.php:165
+msgid "The Friend Request Page Must Not Be Blank."
+msgstr "Arkadaş İstekleri Sayfası Boş Olmamalıdır."
+
+#: classes/models/MnglOptions.php:168
+msgid "The Activity Page Must Not Be Blank."
+msgstr "Faaliyet Sayfası Boş Olmamalıdır."
+
+#: classes/models/MnglUpdate.php:43
+msgid "MinglePlus Username"
+msgstr "MinglePlus Kullanıcı Adı"
+
+#: classes/models/MnglUpdate.php:44
+msgid "MinglePlus Password"
+msgstr "MinglePlus Parolası"
+
+#: classes/models/MnglUpdate.php:45
+msgid "Your MinglePlus Username or Password was Invalid"
+msgstr "MinglePlus Kullanıcı adı veya Parolası Geçersiz"
+
+#: classes/models/MnglUpdate.php:135
+#, php-format
+msgid "Your Username & Password was accepted<br/>Now you can %1$sUpgrade Automatically!%2$s"
+msgstr "Kullanıcı adı ve Parola kabul edildi<br/>Şimdi %1$sotomatik olarak yükseltebilirsiniz!%2$s"
+
+#: classes/models/MnglUpdate.php:145
+#: classes/views/shared/errors.php:11
+msgid "ERROR"
+msgstr "HATA"
+
+#: classes/models/MnglUpdate.php:180
+msgid "Save"
+msgstr "Kaydet"
+
+#: classes/models/MnglUser.php:161
+#: classes/models/MnglUser.php:162
+msgid "Her"
+msgstr "onun"
+
+#: classes/models/MnglUser.php:163
+msgid "She"
+msgstr "o"
+
+#: classes/models/MnglUser.php:167
+msgid "His"
+msgstr "onun"
+
+#: classes/models/MnglUser.php:168
+msgid "Him"
+msgstr "onu"
+
+#: classes/models/MnglUser.php:169
+msgid "He"
+msgstr "o"
+
+#: classes/models/MnglUser.php:173
+msgid "His/Her"
+msgstr "onun"
+
+#: classes/models/MnglUser.php:174
+msgid "Him/Her"
+msgstr "ona"
+
+#: classes/models/MnglUser.php:175
+msgid "He/She"
+msgstr "o"
+
+#: classes/models/MnglUser.php:248
+#: classes/models/MnglUser.php:279
+msgid "Username must not be blank"
+msgstr "Kullanıcı adı boş olmamalıdır"
+
+#: classes/models/MnglUser.php:251
+msgid "Username must only contain letters, numbers and/or underscores"
+msgstr "Kullanıcı adı sadece harf, rakam ve/veya altçizgi içermelidir"
+
+#: classes/models/MnglUser.php:257
+msgid "Username is Already Taken."
+msgstr "Kullanıcı adı başka biri tarafından kullanılıyor."
+
+#: classes/models/MnglUser.php:260
+msgid "Email must not be blank"
+msgstr "Eposta boş olmamalıdır"
+
+#: classes/models/MnglUser.php:263
+msgid "Email must be a real and properly formatted email address"
+msgstr "Eposta gerçek ve e-posta adresi formatında olmalıdır"
+
+#: classes/models/MnglUser.php:266
+msgid "Email Address has already been used by another user."
+msgstr "Eposta adresi başka bir kullanıcı tarafından kullanılıyor."
+
+#: classes/models/MnglUser.php:269
+msgid "You must select your Sex."
+msgstr "Cinsiyetinizi seçmelisiniz."
+
+#: classes/models/MnglUser.php:285
+msgid "Username was not found"
+msgstr "Kullanıcı adı bulunamadı"
+
+#: classes/models/MnglUser.php:292
+msgid "Your Password was Incorrect"
+msgstr "Parolanız geçersiz"
+
+#: classes/models/MnglUser.php:304
+msgid "Password Must Match Password Confirmation."
+msgstr "Parola ile Parola Doğrulama Aynı Olmalıdır."
+
+#: classes/models/MnglUser.php:313
+msgid "Your Avatar wasn't able to be saved."
+msgstr "Avatarınız Kaydedilemedi."
+
+#: classes/models/MnglUser.php:322
+msgid "Your Avatar must be a valid jpg, gif or png."
+msgstr "Avatarınız jpg,gif veya png formatında olmalıdır."
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:834
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Yeni Kullanıcı Kaydı"
+
+#. translators: In this string, %1$s is the blog's name/title, %2$s is the user's real name, %3$s is the user's username, %4$s is the user's email, and %5$s is the user's profile url
+#: classes/models/MnglUser.php:837
+#, php-format
+msgid ""
+"A new user just joined your community at %1$s!\n"
+"\n"
+"Name: %2$s\n"
+"Username: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"You can view this user's profile here: %5$s"
+msgstr ""
+"%1$s'da yeni bir kullanıcı kaydoldu!\n"
+"\n"
+"İsim: %2$s\n"
+"Kullanıcı adı: %3$s\n"
+"E-Posta: %4$s\n"
+"\n"
+"Buradan kullanıcının profilini görüntüleyebilirsiniz: %5$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:848
+#, php-format
+msgid "Welcome to %s!"
+msgstr "%s'a Hoş Geldiniz!"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:851
+#, php-format
+msgid ""
+"%1$s,\n"
+"Welcome to the Community at %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"You can login here: %5$s\n"
+"\n"
+"Enjoy!\n"
+"\n"
+"%2$s Team"
+msgstr ""
+"%1$s,\n"
+"%2$s'a Hoşgeldiniz!\n"
+"\n"
+"Kullanıcı Adı: %3$s\n"
+"Parola: %4$s\n"
+"Buradan oturum açabilirsiniz: %5$s\n"
+"\n"
+"%2$s Team"
+
+#: classes/views/mngl-boards/board_comment.php:17
+#: classes/views/mngl-boards/board_post.php:42
+#: classes/views/mngl-boards/board_post.php:79
+#: classes/views/mngl-friends/list.php:54
+#: plus/classes/views/mngl-plus-messages/list.php:9
+msgid "Delete"
+msgstr "Sil"
+
+#: classes/views/mngl-boards/board_post.php:10
+#, php-format
+msgid "Posted on %s's Board"
+msgstr "%s'in Duvarına Gönderildi"
+
+#: classes/views/mngl-boards/board_post.php:17
+#, php-format
+msgid "Post from %s's Board:"
+msgstr "%s'in Duvarından Yazı:"
+
+#: classes/views/mngl-boards/board_post.php:35
+#: classes/views/mngl-boards/board_post.php:74
+#: classes/views/mngl-boards/comment_form.php:36
+msgid "Comment"
+msgstr "Yorum yap"
+
+#: classes/views/mngl-boards/board_post.php:38
+#: classes/views/mngl-boards/board_post.php:76
+msgid "View"
+msgstr "Görüntüle"
+
+#: classes/views/mngl-boards/board_post.php:93
+#, php-format
+msgid "Show all %d comments"
+msgstr "%d yorumun tümünü göster."
+
+#: classes/views/mngl-boards/comment_form.php:15
+msgid "Write a comment."
+msgstr "Bir yorum yazın."
+
+#: classes/views/mngl-boards/display.php:10
+msgid "What's on your mind?"
+msgstr "Aklında Ne Var?"
+
+#: classes/views/mngl-boards/display.php:21
+msgid "Share"
+msgstr "Paylaş"
+
+#: classes/views/mngl-boards/display.php:39
+msgid "Show Older Posts"
+msgstr "Daha Önceki Yazıları Göster"
+
+#: classes/views/mngl-boards/private.php:1
+#, php-format
+msgid "%1$s's profile is only visible to %2$s friends."
+msgstr "%1$s'in Profili Sadece Arkadaşları Tarafından Ziyaret Edilebilir."
+
+#: classes/views/mngl-friends/add_button.php:1
+#: classes/views/mngl-friends/friend_requested.php:1
+msgid "Friendship Requested"
+msgstr "Arkadaşlık Talep Edildi."
+
+#: classes/views/mngl-friends/add_button.php:1
+msgid "Add as a Friend"
+msgstr "Arkadaş olarak ekle."
+
+#: classes/views/mngl-friends/already_friend.php:1
+msgid "Friend"
+msgstr "Arkadaş"
+
+#: classes/views/mngl-friends/list.php:8
+#, php-format
+msgid "%s's Friends"
+msgstr "%s'in Arkadaşları"
+
+#: classes/views/mngl-friends/list.php:12
+msgid "Search Friends..."
+msgstr "Arkadaşları Ara..."
+
+#: classes/views/mngl-friends/list.php:21
+#, php-format
+msgid "%s Friend Was Found"
+msgid_plural "%s Friends Were Found"
+msgstr[0] "%s Arkadaş Bulundu"
+msgstr[1] "%s Arkadaş Bulundu"
+
+#: classes/views/mngl-friends/list.php:26
+#: classes/views/mngl-profiles/directory.php:25
+msgid "Previous Page"
+msgstr "Önceki Sayfa"
+
+#: classes/views/mngl-friends/list.php:69
+#: classes/views/mngl-profiles/directory.php:60
+msgid "Next Page"
+msgstr "Sonraki Sayfa"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "That's You!"
+msgstr "Bu Sensin!"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "Edit"
+msgstr "Düzenle"
+
+#: classes/views/mngl-friends/no_friends_found.php:1
+msgid "Apparently you have no friends ... boo hoo :("
+msgstr "Görünüşe göre hiç arkadaşınız yok... :("
+
+#: classes/views/mngl-friends/requests.php:16
+#, php-format
+msgid "%s wants to be your friend."
+msgstr "%s seninle arkadaş olmak istiyor."
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Accept"
+msgstr "Kabul et"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Ignore"
+msgstr "Reddet"
+
+#: classes/views/mngl-friends/requests.php:25
+msgid "You don't currently have any friend requests."
+msgstr "Şimdilik hiç arkadaşlık isteğiniz yok."
+
+#: classes/views/mngl-options/default_friend.php:2
+msgid "Default Friend"
+msgstr "Varsayılan Arkadaş"
+
+#: classes/views/mngl-options/default_friends_added.php:1
+msgid "Default Friends Were Added"
+msgstr "Varsayılan Arkadaşlar Eklendi."
+
+#: classes/views/mngl-options/form.php:2
+msgid "Mingle: Options"
+msgstr "Mingle: Seçenekler"
+
+#: classes/views/mngl-options/form.php:9
+msgid "Mingle Pages"
+msgstr "Mingle Sayfaları"
+
+#: classes/views/mngl-options/form.php:10
+#, php-format
+msgid "Before you can get going with Mingle, you must configure where Mingle pages on your website will appear. You'll want to %1$screate a new page%2$s for each of these pages that mingle needs to work. You should give your page a title and optionally put some content into the page ... just know that once you set the page up here, the page's content will not display."
+msgstr "Mingle ile çalışmaya başlamadan önce, Mingle sayfalarının sitenizin neresinde görüntüleneceğini ayarlamalısınız. Mingle'ın çalışması için yeni bir %1$ssayfa yarat%2$smanız gerekebilir. Sayfanıza bir başlık vermeli ve isteğe bağlı olarak sayfaya bir içerik girmelisiniz... buradan seçtiğiniz sayfadaki içerik, kullanıcılar tarafından görüntülenemeyecektir."
+
+#: classes/views/mngl-options/form.php:13
+msgid "Profile Page"
+msgstr "Profil Sayfası"
+
+#: classes/views/mngl-options/form.php:17
+msgid "Activity Page"
+msgstr "Faaliyet Sayfası"
+
+#: classes/views/mngl-options/form.php:24
+msgid "Profile Edit Page"
+msgstr "Profil Düzenleme Sayfası"
+
+#: classes/views/mngl-options/form.php:28
+msgid "Directory Page"
+msgstr "Tüm Kullanıcıları Bulunduğu Sayfa"
+
+#: classes/views/mngl-options/form.php:35
+msgid "Friends Page"
+msgstr "Arkadaşlar Sayfası"
+
+#: classes/views/mngl-options/form.php:39
+msgid "Login Page"
+msgstr "Oturum Açma Sayfası"
+
+#: classes/views/mngl-options/form.php:46
+msgid "Friend Requests Page"
+msgstr "Arkadaş İstekleri Sayfası"
+
+#: classes/views/mngl-options/form.php:50
+msgid "Signup Page"
+msgstr "Kayıt Olma Sayfası"
+
+#: classes/views/mngl-options/form.php:60
+msgid "Profile Options"
+msgstr "Profil Seçenekleri"
+
+#: classes/views/mngl-options/form.php:62
+msgid "Pretty Profile Urls"
+msgstr "Güzel Profil Url'leri"
+
+#: classes/views/mngl-options/form.php:63
+msgid "When checked, Pretty Profile Urls will allow users to type their screenname following your site's domain name for their url. Note, if you do not have Apache rewrite functioning and have not selected something other than \"Default\" under your General Permalink settings, this will not work."
+msgstr "İşaretlendiğinde, Şık Profil Adresleri kullanıcılara, <code>http://adresiniz.com/kullanıcıadı/</code> şeklinde profil linkleri oluşturmalarına izin verir. Not: Apache rewrite fonksiyonu aktif değilse ve Ayarlar, Kalıcı Bağlantılar menüsünde \"Varsayılan\" haricinde birşey seçmediyseniz, Bu özellik çalışmayacaktır."
+
+#: classes/views/mngl-options/form.php:64
+msgid "User Registration Email Spam Protection"
+msgstr "Kullanıcı Kaydı, Eposta Spam(istenmeyen) Koruması"
+
+#: classes/views/mngl-options/form.php:65
+msgid "When checked, Mingle will use advanced email lookup techniques to validate the user signup to prevent against user registration spam."
+msgstr "İşaretlendiğinde, Mingle istenmeyen kullanıcı kayıtlarına karşı farklı eposta doğrulama teknikleri kullanacaktır."
+
+#: classes/views/mngl-options/form.php:68
+msgid "Default Friends"
+msgstr "Varsayılan Arkadaşlar"
+
+#: classes/views/mngl-options/form.php:70
+msgid "These Users will be added as a friends to all new signups."
+msgstr "Bu Kullanıcılar, Siteye Yeni Kayıt Olan Tüm Kullanıcılarla Otomatik Olarak Arkadaş Olacaklardır."
+
+#: classes/views/mngl-options/form.php:86
+msgid "Add a Default Friend"
+msgstr "Varsayılan Arkadaş Ekle"
+
+#: classes/views/mngl-options/form.php:89
+msgid "Invisible Users"
+msgstr "Görünmez Kullanıcılar"
+
+#: classes/views/mngl-options/form.php:91
+msgid "Any users checked below will not be visible to Mingle. They won't have a profile page, friends, be listed in the directory or show up anywhere in mingle."
+msgstr "Burada işaretlenen kullanıcılar Mingle özelliklerini kullanamayacaklar. Bu kullanıcıların profil sayfası, arkadaşları olmayacak ve mingle ile ilgili hiç bir yerde görüntülenmeyecekler."
+
+#: classes/views/mngl-options/form.php:92
+msgid "Hold down Control Key (the Command Key if you're on a Mac) or the Shift Key to select multiple users."
+msgstr "Birden çok kullanıcı seçmek için Control tuşunu (Mac kullanıyorsanız Command tuşunu) veya Shift tuşunu basılı tutun."
+
+#: classes/views/mngl-options/form.php:95
+msgid "Field Display Options"
+msgstr "Alan Gösterim Seçenekleri"
+
+#: classes/views/mngl-options/form.php:97
+msgid "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+msgstr "Kullanıcılarınız kendi profillerinde görmelerini istediğiniz alanları yapılandırın. <code>Herkes</code> ayarını seçerseniz, kullanıcılar ilgili alana kendi bilgilerini girebilecek ve bu bilgiler profillerinde gösterilebilecektir. <code>Özel</code> ayarını seçerseniz, kullanıcılar ilgili alanı doldurabilir ancak bu bilgiler profillerinde gösterilmez. <code>Gizli</code> seçeneğini ilgili alanı kullanıcılardan gizler. Yani kullanıcılar bu alanı dolduramaz ve bu alan profillerinde görüntülenmez."
+
+#: classes/views/mngl-options/form.php:100
+msgid "Show Website Field"
+msgstr "Website alanını göster"
+
+#: classes/views/mngl-options/form.php:106
+msgid "Show Location Field"
+msgstr "Konum alanını göster"
+
+#: classes/views/mngl-options/form.php:112
+msgid "Show Sex Field"
+msgstr "Cinsiyet alanını göster"
+
+#: classes/views/mngl-options/form.php:118
+msgid "Show Bio Field"
+msgstr "Kendin Hakkında alanını göster"
+
+#: classes/views/mngl-options/form.php:129
+msgid "Update Options"
+msgstr "Ayarları Güncelle"
+
+#: classes/views/mngl-options/form.php:134
+msgid "Add Default Friends to Existing Users"
+msgstr "Varsayılan arkadaşları, mevcut kullanıcıların arkadaşı olarak ekle"
+
+#: classes/views/mngl-options/options_saved.php:1
+msgid "Options saved."
+msgstr "Ayarlar Kaydedildi."
+
+#: classes/views/mngl-profiles/directory.php:11
+msgid "Search Users..."
+msgstr "Kullanıcıları Ara..."
+
+#: classes/views/mngl-profiles/directory.php:20
+#, php-format
+msgid "%s User Was Found"
+msgid_plural "%s Users Were Found"
+msgstr[0] "%s Kullanıcı Bulundu"
+msgstr[1] "%s Kullanıcı Bulundu"
+
+#: classes/views/mngl-profiles/edit.php:6
+msgid "Information"
+msgstr "Bilgi"
+
+#: classes/views/mngl-profiles/edit.php:9
+#: classes/views/shared/signup_form.php:4
+msgid "First Name"
+msgstr "İlk isim"
+
+#: classes/views/mngl-profiles/edit.php:13
+#: classes/views/shared/signup_form.php:8
+msgid "Last Name"
+msgstr "Soy İsim"
+
+#: classes/views/mngl-profiles/edit.php:17
+msgid "Email"
+msgstr "Eposta"
+
+#: classes/views/mngl-profiles/edit.php:23
+msgid "Bio"
+msgstr "Kendin Hakkında"
+
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/edit.php:41
+msgid "private"
+msgstr "Özel"
+
+#: classes/views/mngl-profiles/edit.php:29
+msgid "URL"
+msgstr "URL"
+
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/profile.php:35
+msgid "Location"
+msgstr "Konum"
+
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/profile.php:32
+#: classes/views/shared/signup_form.php:20
+msgid "Sex"
+msgstr "Cinsiyet"
+
+#: classes/views/mngl-profiles/edit.php:46
+#: classes/views/shared/login_form.php:5
+#: classes/views/shared/login_widget.php:22
+msgid "Password"
+msgstr "Parola"
+
+#: classes/views/mngl-profiles/edit.php:50
+msgid "Password Confirmation"
+msgstr "Parola Doğrulama"
+
+#: classes/views/mngl-profiles/edit.php:54
+msgid "Avatar"
+msgstr "Avatar"
+
+#: classes/views/mngl-profiles/edit.php:61
+#: plus/classes/views/mngl-plus-options/custom_field.php:5
+msgid "Privacy"
+msgstr "Gizlilik"
+
+#: classes/views/mngl-profiles/edit.php:63
+msgid "Notification Settings"
+msgstr "Bildirim Ayarları"
+
+#: classes/views/mngl-profiles/edit.php:71
+#, php-format
+msgid "Don't Send Me \"%s\" Notifications"
+msgstr "Bana \"%s\" Bildirimlerini Gönderme"
+
+#: classes/views/mngl-profiles/edit.php:78
+msgid "Update"
+msgstr "Güncelle"
+
+#: classes/views/mngl-profiles/edit_avatar.php:3
+msgid "delete"
+msgstr "sil"
+
+#: classes/views/mngl-profiles/profile.php:25
+#: plus/classes/views/mngl-plus-options/custom_field.php:2
+msgid "Name"
+msgstr "İsim"
+
+#: classes/views/mngl-profiles/profile.php:38
+msgid "Website"
+msgstr "Websitesi"
+
+#: classes/views/mngl-profiles/profile_saved.php:1
+msgid "Your Profile has been saved."
+msgstr "Profiliniz Güncellendi."
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+#, php-format
+msgid "Thanks for Registering for %s!"
+msgstr "%s için Kaydolduğunuz için Teşekkürler!"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+msgid "You should shortly receive an email with your password."
+msgstr "Kısa süre içinde parolanızı içeren bir mail alacaksınız."
+
+#: classes/views/shared/already_logged_in.php:1
+#, php-format
+msgid "You're already logged in. %1$sLogout.%2$s"
+msgstr "Zaten Oturum Açmıştınız. %1$sOturumu Kapat.%2$s"
+
+#: classes/views/shared/login_form.php:3
+#: classes/views/shared/login_widget.php:20
+#: classes/views/shared/signup_form.php:12
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: classes/views/shared/login_form.php:7
+#: classes/views/shared/login_widget.php:24
+msgid "Remember Me"
+msgstr "Beni Hatırla"
+
+#: classes/views/shared/login_form.php:10
+#: classes/views/shared/login_widget.php:27
+msgid "Log In"
+msgstr "Oturum Aç"
+
+#: classes/views/shared/login_form.php:19
+#: classes/views/shared/login_widget.php:36
+msgid "Register"
+msgstr "Kayıt Ol"
+
+#: classes/views/shared/login_form.php:23
+#: classes/views/shared/login_widget.php:40
+msgid "Lost Password?"
+msgstr "Kayıp Parola?"
+
+#: classes/views/shared/login_widget.php:7
+msgid "Activity"
+msgstr "Faaliyet"
+
+#: classes/views/shared/login_widget.php:8
+msgid "Profile"
+msgstr "Profil"
+
+#: classes/views/shared/login_widget.php:9
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: classes/views/shared/login_widget.php:11
+msgid "Friend Requests"
+msgstr "Arkadaş İstekleri"
+
+#: classes/views/shared/login_widget.php:14
+msgid "Logout"
+msgstr "Oturumu Kapat"
+
+#: classes/views/shared/login_widget.php:17
+#, php-format
+msgid "Login to connect with Others on %s"
+msgstr "%s'da diğerleriyle iletişime geçmek için oturum açın"
+
+#: classes/views/shared/login_widget.php:46
+msgid "Directory"
+msgstr "Tüm Kullanıcılar"
+
+#: classes/views/shared/must_configure.php:1
+#, php-format
+msgid "Mingle must be configured. Go to the %s to setup your new social network!"
+msgstr "Mingle'ın yapılandırılması gerek. %s'a giderek yeni sosyal ağınızı kurun!"
+
+#: classes/views/shared/must_configure.php:1
+msgid "Mingle Admin Page"
+msgstr "Mingle Yönetim Sayfası"
+
+#: classes/views/shared/signup_form.php:16
+msgid "E-mail"
+msgstr "E-posta"
+
+#: classes/views/shared/signup_form.php:22
+msgid "A password will be e-mailed to you."
+msgstr "Bir parola size e-posta yoluyla gönderilecektir."
+
+#: classes/views/shared/signup_form.php:24
+msgid "Sign Up"
+msgstr "Kayıt Ol"
+
+#: classes/views/shared/unauthorized.php:16
+#, php-format
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr "Bu sayfayı görmek için yetkili değilsiniz. Neden %sıp tekrar denemiyorsunuz?"
+
+#: classes/views/shared/unauthorized.php:16
+msgid "Login"
+msgstr "Oturum Aç"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Don't have a Login?"
+msgstr "Kayıtlı değil misiniz?"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Register for an Account."
+msgstr "Kayıt Olun."
+
+#: classes/views/shared/user_grid.php:3
+msgid "Show All"
+msgstr "Tümünü Göster"
+
+#: classes/widgets/MnglLoginWidget.php:7
+msgid "Mingle Login"
+msgstr "Mingle Oturum Aç"
+
+#: classes/widgets/MnglLoginWidget.php:43
+#: classes/widgets/MnglUsersWidget.php:56
+msgid "Title"
+msgstr "Başlık"
+
+#: classes/widgets/MnglUsersWidget.php:7
+msgid "Mingle Users Grid"
+msgstr "Mingle Kullancıı Alanı"
+
+#: classes/widgets/MnglUsersWidget.php:21
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: classes/widgets/MnglUsersWidget.php:51
+msgid "Mingle Users"
+msgstr "Mingle Kullanıcıları"
+
+#: classes/widgets/MnglUsersWidget.php:57
+msgid "# of Grid Columns"
+msgstr "# of Grid Columns"
+
+#: classes/widgets/MnglUsersWidget.php:58
+msgid "# of Grid Rows"
+msgstr "# of Grid Rows"
+
+#: classes/widgets/MnglUsersWidget.php:60
+msgid "Grid Type"
+msgstr "Alan türü"
+
+#: classes/widgets/MnglUsersWidget.php:62
+msgid "Random Mingle Users"
+msgstr "Rasgele Mingle Kullanıcıları"
+
+#: classes/widgets/MnglUsersWidget.php:63
+msgid "Recent Mingle Users"
+msgstr "En son Mingle Kullanıcıları"
+
+#: js/mingle.js.php:72
+msgid "Are you sure you want to delete this post?"
+msgstr "Bu yazıyı silmek istediğinize emin misiniz?"
+
+#: js/mingle.js.php:88
+msgid "Are you sure you want to delete this comment?"
+msgstr "Bu yorumu silmek istediğinize emin misiniz?"
+
+#: js/mingle.js.php:125
+msgid "Are you sure you want to delete this friend?"
+msgstr "Bu arkadaşı silmek istediğinize emin misiniz?"
+
+#: js/mingle.js.php:191
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Avatarınızı silmek istediğinize emin misiniz?"
+
+#: js/mingle.js.php:236
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:8
+msgid "You"
+msgstr "Sen"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:23
+msgid ", "
+msgstr ","
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:25
+msgid " and "
+msgstr " ve"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:30
+#, php-format
+msgid "Between %s"
+msgstr "%s arasında"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:9
+msgid "Text Input"
+msgstr "Metin Girişi"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:10
+msgid "Text Area"
+msgstr "Metin Bölgesi"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:11
+msgid "Checkbox"
+msgstr "Doğrulama Kutusu"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:12
+msgid "Dropdown"
+msgstr "Açılır liste"
+
+#: plus/classes/models/MnglPlusMessage.php:18
+msgid "Private Message"
+msgstr "Özel Mesaj"
+
+#: plus/classes/models/MnglPlusMessage.php:19
+msgid "Sent when someone sends you a message"
+msgstr "Birisi sana mesaj gönderdiği zaman gönder."
+
+#: plus/classes/models/MnglPlusMessage.php:21
+msgid "Private Message Reply"
+msgstr "Özel Mesaj Cevaplama"
+
+#: plus/classes/models/MnglPlusMessage.php:22
+msgid "Sent when someone replies to a message you were included on"
+msgstr "Birisi ilgili olduğun bir mesaja cevap verirse gönder"
+
+#: plus/classes/models/MnglPlusMessage.php:32
+msgid "(no subject)"
+msgstr "(konu yok)"
+
+#: plus/classes/models/MnglPlusMessage.php:223
+msgid "There must be at least one recipient"
+msgstr "En az bir alıcı olmak zorunda"
+
+#: plus/classes/models/MnglPlusMessage.php:226
+msgid "Message can't be blank"
+msgstr "Mesaj boş olmamalıdır"
+
+#: plus/classes/models/MnglPlusMessage.php:271
+#, php-format
+msgid "%s sent you a message."
+msgstr "%s size bir mesaj gönderdi."
+
+#: plus/classes/models/MnglPlusMessage.php:272
+#: plus/classes/models/MnglPlusMessage.php:301
+#, php-format
+msgid ""
+"To reply to this message, follow the link below:\n"
+"%s"
+msgstr ""
+"Bu mesaja cevap vermek için, Bu linki izleyin:\n"
+"%s"
+
+#: plus/classes/models/MnglPlusMessage.php:283
+#, php-format
+msgid "%1$s sent you a message on %2$s..."
+msgstr "%1$s, size %2$s'da bir mesaj gönderdi."
+
+#: plus/classes/models/MnglPlusMessage.php:300
+#, php-format
+msgid "%s sent a message in reply to a thread."
+msgstr "%s bir konuya cevap yazdı."
+
+#: plus/classes/models/MnglPlusMessage.php:312
+#, php-format
+msgid "%1$s replied to a thread on %2$s..."
+msgstr "%1$s, %2$s'da bir konuya cevap yazdı..."
+
+#: plus/classes/models/MnglPlusOptions.php:29
+msgid "Mingle Plus Inbox Page must Not be blank"
+msgstr "MinglePlus Gelen Kutusu Sayfası Boş Olamaz"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:8
+msgid "Recipients"
+msgstr "Alıcılar"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:14
+msgid "Subject"
+msgstr "Konu"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:18
+msgid "Message"
+msgstr "Mesaj"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:22
+msgid "Send"
+msgstr "Gönder"
+
+#: plus/classes/views/mngl-plus-messages/list.php:1
+msgid "Compose a Message"
+msgstr "Bir mesaj yarat"
+
+#: plus/classes/views/mngl-plus-messages/list.php:7
+msgid "Mark as Read"
+msgstr "Okundu olarak işaretle"
+
+#: plus/classes/views/mngl-plus-messages/list.php:8
+msgid "Mark as Unread"
+msgstr "Okunmadı olarak işaretle"
+
+#: plus/classes/views/mngl-plus-messages/list.php:11
+msgid "Apply"
+msgstr "Uygula"
+
+#: plus/classes/views/mngl-plus-messages/list.php:47
+#: plus/classes/views/mngl-plus-messages/view.php:16
+msgid "No Messages Were Found"
+msgstr "Hiç mesaj bulunamadı."
+
+#: plus/classes/views/mngl-plus-messages/message_sent.php:1
+msgid "Message Sent."
+msgstr "Mesaj Gönderildi."
+
+#: plus/classes/views/mngl-plus-messages/view.php:1
+msgid "Back to Messages"
+msgstr "Mesajlara geri gön."
+
+#: plus/classes/views/mngl-plus-messages/view.php:23
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Reply"
+msgstr "Cevapla"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:3
+msgid "Add a Custom Field"
+msgstr "Özel Alan Ekle"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:4
+msgid "These fields will be added to each user's profile."
+msgstr "Bu alanlar her bir kullanıcının profiline eklenecek"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:3
+msgid "Type"
+msgstr "Tür"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:4
+msgid "Default Value"
+msgstr "Varsayılan Değer"
+
+#: plus/classes/views/mngl-plus-options/custom_fields.php:1
+msgid "Custom Fields"
+msgstr "Özel alanlar"
+
+#: plus/classes/views/mngl-plus-options/pages.php:1
+msgid "MinglePlus Pages"
+msgstr "MinglePlus Sayfaları"
+
+#: plus/classes/views/mngl-plus-options/pages.php:2
+msgid "Now setup your MinglePlus Pages to start taking advantage of MinglePlus' awesome features."
+msgstr "MinglePlus'ın mükemmel özelliklerini almak için MinglePlus sayfanızı kurun."
+
+#: plus/classes/views/mngl-plus-options/pages.php:3
+msgid "Inbox Page"
+msgstr "Gelen Kutusu Sayfası"
+
+#: plus/classes/views/shared/plus_pages_links.php:1
+msgid "Inbox"
+msgstr "Gelen Kutusu"
+
+#: plus/js/mingle-plus.js.php:33
+msgid "Are you sure you want to delete this message?"
+msgstr "Bu mesajı silmek istediğinize emin misiniz?"
+
+#: plus/js/mingle-plus.js.php:52
+msgid "Are you sure you want to delete these messages?"
+msgstr "Bu mesajları silmek istediğinize emin misiniz?"
+
+#: plus/js/mingle-plus.js.php:89
+msgid "Send Message To..."
+msgstr "...a bir mesaj gönder"
+
+#: plus/js/mingle-plus.js.php:89
+msgid "No results"
+msgstr "Sonuç Yok"
+
+#: plus/js/mingle-plus.js.php:89
+msgid "Searching..."
+msgstr "Aranıyor..."
+
+#. Plugin URI of an extension
+msgid "http://blairwilliams.com/mingle"
+msgstr "http://blairwilliams.com/mingle"
+
+#. Description of an extension
+msgid "The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network."
+msgstr "Stantart bir Wordpress sitesini standart bir wordpress temasıyla, sosyal bir ağa çevirmenin en kolay yolu."
+
+#. Author of an extension
+msgid "Blair Williams"
+msgstr "Blair Williams"
+
+#. Author URI of an extension
+msgid "http://blairwilliams.com"
+msgstr "http://blairwilliams.com"
+
+#~ msgid "Display Name"
+#~ msgstr "Görüntülenen Ad"
+

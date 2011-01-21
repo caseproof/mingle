@@ -1,0 +1,1 @@
+<div class="updated"><p><strong><?php _e('Default Friends Were Added', 'mingle'); ?></strong></p></div>

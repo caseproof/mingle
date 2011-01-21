@@ -1,0 +1,2 @@
+<?php global $mngl_options; ?>
+<p class="friend-notice"><strong><?php _e("That's You!", 'mingle'); ?></strong> - <a href="<?php echo get_permalink($mngl_options->profile_edit_page_id); ?>">[<?php _e('Edit', 'mingle'); ?>]</a></p>

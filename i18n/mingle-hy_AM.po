@@ -1,0 +1,1661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Blair Williams
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mingle 0.0.21\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mingle\n"
+"POT-Creation-Date: 2010-02-22 23:04-0500\n"
+"PO-Revision-Date: 2010-02-23 17:15-0700\n"
+"Last-Translator: Blair Williams <blairchurchwilliams@gmail.com>\n"
+"Language-Team: Karo Kendimian <chesmorana@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Poedit-Language: Armenian\n"
+"X-Poedit-Country: Armenia\n"
+
+#. #-#-#-#-#  mingle.pot (Mingle 0.0.22)  #-#-#-#-#
+#. Plugin Name of an extension
+#: classes/controllers/MnglAppController.php:186
+msgid "Mingle"
+msgstr "Մինգլ"
+
+#: classes/controllers/MnglBoardsController.php:13
+#, php-format
+msgid "%1$s posted to %2$s's board"
+msgstr "%1$sը հրապարակել է %2$s'ի գրատախտակին"
+
+#: classes/controllers/MnglBoardsController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's post"
+msgstr "%1$s-ը մեկնաբանել է %2$s-ի հրապարակումը"
+
+#: classes/controllers/MnglFriendsController.php:14
+#, php-format
+msgid "%1$s is now friends with %2$s"
+msgstr "Այժմ %1$s-ն ու %2$s-ն ընկերներ են"
+
+#: classes/controllers/MnglFriendsController.php:167
+#: classes/views/mngl-profiles/profile.php:46
+#: classes/views/shared/login_widget.php:10
+msgid "Friends"
+msgstr "Ընկերներ"
+
+#: classes/controllers/MnglHelpController.php:20
+#, php-format
+msgid "Mingle must be configured. Go to the %1$sadmin page%2$s to setup your new social network!"
+msgstr "Անհրաժեշտ է Մինգլը կարգավորել: Այցելեք %1$sՂեկավարման Էջ%2$s կարգավորելու համար ձեր սոցիալական ցանցը:"
+
+#: classes/controllers/MnglProfilesController.php:13
+#, php-format
+msgid "%1$s updated %2$s profile"
+msgstr "%1$s-ը թարմացրել է %2$s բնութագիրը"
+
+#: classes/helpers/MnglAppHelper.php:108
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d վայրկեան առաջ"
+
+#: classes/helpers/MnglAppHelper.php:114
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d րոպե առաջ"
+
+#: classes/helpers/MnglAppHelper.php:120
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d ժամ առաջ"
+
+#: classes/helpers/MnglAppHelper.php:126
+#, php-format
+msgid "yesterday"
+msgid_plural "%d days ago"
+msgstr[0] "%d օր առաջ"
+
+#: classes/helpers/MnglAppHelper.php:132
+#, php-format
+msgid "last week"
+msgid_plural "%d weeks ago"
+msgstr[0] "%d շաբաթ առաջ"
+
+#: classes/helpers/MnglAppHelper.php:138
+#, php-format
+msgid "last month"
+msgid_plural "%d months ago"
+msgstr[0] "%d ամիս առաջ"
+
+#: classes/helpers/MnglAppHelper.php:144
+#, php-format
+msgid "last year"
+msgid_plural "%d years ago"
+msgstr[0] "%d տարի առաջ"
+
+#: classes/helpers/MnglAppHelper.php:178
+#, php-format
+msgid "Powered by %1$sMingle%2$s"
+msgstr "Աշխատում է %1$sՄինգլ%2$s պլատֆորմի վրա"
+
+#: classes/helpers/MnglBoardsHelper.php:31
+msgid "Read More"
+msgstr "Շարունակեք կարդալ"
+
+#: classes/helpers/MnglOptionsHelper.php:29
+msgid "Full Name"
+msgstr "Ամբողջական անունը"
+
+#: classes/helpers/MnglOptionsHelper.php:30
+msgid "Screen Name"
+msgstr "Էկրանի անունը"
+
+#: classes/helpers/MnglOptionsHelper.php:39
+msgid "Public"
+msgstr "Հասարակական"
+
+#: classes/helpers/MnglOptionsHelper.php:40
+#: classes/views/mngl-options/form.php:157
+msgid "Private"
+msgstr "Մասնավոր"
+
+#: classes/helpers/MnglOptionsHelper.php:41
+msgid "Hidden"
+msgstr "Թաքցրած"
+
+#: classes/helpers/MnglProfileHelper.php:16
+#: classes/models/MnglUser.php:179
+msgid "Female"
+msgstr "Էգ"
+
+#: classes/helpers/MnglProfileHelper.php:17
+#: classes/models/MnglUser.php:186
+msgid "Male"
+msgstr "Արու"
+
+#: classes/helpers/MnglProfileHelper.php:26
+msgid "I Want My Profile to Only Be Visible To Me and My Friends"
+msgstr "Ուզում եմ որ իմ բնութագիրը տեսանելի լինի միայն ինձ եւ իմ ընկերներին"
+
+#: classes/helpers/MnglProfileHelper.php:27
+msgid "I Want My Profile to Be Visible To The World"
+msgstr "Ուզում եմ որ իմ բնութագիրը տեսանելի լինի համայն աշխարհին"
+
+#: classes/models/MnglNotification.php:12
+msgid "Sent when someone requests you as a friend"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը ցանկանում է ձեզ հետ ընկերանալ"
+
+#: classes/models/MnglNotification.php:14
+msgid "Sent when a friendship has been confirmed"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը հաստատում է ձեր ընկերանալը"
+
+#: classes/models/MnglNotification.php:16
+msgid "Sent when someone posts to your Board"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը հրապարկում է ձեր գրատախտակին"
+
+#: classes/models/MnglNotification.php:18
+msgid "Sent when someone posts to one of your Board Posts or on a comment thread that you've participated in"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը հրապարակում է ձեր գրատախտակի հրապարակումներից մեկին, կամ մեկնաբանումներից մեկին, որին դուք մասնակցել եք"
+
+#: classes/models/MnglNotification.php:20
+msgid "Sent when someone tags you in a Board post"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը պիտակավորում է ձեզ գրատախտակի հրապարակման մեջ"
+
+#: classes/models/MnglNotification.php:23
+msgid "Sent when someone tags you in a Board comment"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը պիտակավորում է ձեզ գրատախտակի մեկնաբանության մեջ"
+
+#: classes/models/MnglNotification.php:41
+#, php-format
+msgid "%1$s has requested you as a friend on %2$s!"
+msgstr "%1$s-ը խնդրում է ընկերանալ ձեզ հետ %2$s-ի վրա"
+
+#: classes/models/MnglNotification.php:42
+#, php-format
+msgid "Please visit %s to Accept or Ignore this request."
+msgstr "Խնդրվում է այցելել %s խնդրանքը ընդունելու կամ մերժելու համար"
+
+#: classes/models/MnglNotification.php:49
+#, php-format
+msgid "%1$s wants to be your Friend on %2$s"
+msgstr "%1$s-ը ուզում ընկերանալ ձեզ հետ %2$s-ի վրա"
+
+#: classes/models/MnglNotification.php:70
+#: classes/models/MnglNotification.php:83
+#, php-format
+msgid "You're now friends with %1$s on %2$s!"
+msgstr "Այժմ դուք եւ %1$s ընկերներ եք %2$s-ի վրա"
+
+#: classes/models/MnglNotification.php:71
+#, php-format
+msgid "Visit %1$s to see %2$s profile."
+msgstr "Այցելեք %1$s տեսնելու համար %2$s-ի բնութագիրը:"
+
+#: classes/models/MnglNotification.php:79
+#, php-format
+msgid "%1$s Has Confirmed Your Friend Request on %2$s"
+msgstr "%1$s-ը հաստատել է ձեր ընկերացման խնդրանքը %2$s-ի վրա"
+
+#: classes/models/MnglNotification.php:84
+#, php-format
+msgid "Visit %s to see %s profile."
+msgstr "Այցելեք %s տեսնելու համար %s-ի բնութագիրը:"
+
+#: classes/models/MnglNotification.php:92
+#, php-format
+msgid "You're Now Friends With %1$s on %2$s"
+msgstr "Այժմ Դուք Ընկերներ Եք %1$sի Հետ %2$s Վրա"
+
+#: classes/models/MnglNotification.php:116
+#, php-format
+msgid "%1$s posted this on your Board at %2$s"
+msgstr "%1$s-ը հրապարակել է սա ձեր %2$sի գրատախտակի վրա"
+
+#: classes/models/MnglNotification.php:117
+#, php-format
+msgid "Visit %s to see your Board"
+msgstr "Այցելեք %s տեսնելու համար ձեր գրատախտակը"
+
+#: classes/models/MnglNotification.php:125
+#, php-format
+msgid "%1$s Posted to Your Board on %2$s"
+msgstr "%1$s-ը հրապարակել է ձեր գրատախտակին %2$s-ի վրա"
+
+#: classes/models/MnglNotification.php:139
+#, php-format
+msgid "You were tagged in %1$s's post on %2$s's Board at %3$s"
+msgstr "Դուք պիտակավորվել եք %1$s-ի հրապարակման մեջ %2$s-ի գրատախտակին, %3$s-ի վրա"
+
+#: classes/models/MnglNotification.php:140
+#, php-format
+msgid "Visit %s to see the post you were tagged in."
+msgstr "Այցելեք %s տեսնելու համար այն հրապարակումը, որտեղ դուք պիտակավորվել էիք:"
+
+#: classes/models/MnglNotification.php:148
+#, php-format
+msgid "You were tagged in a Post on %s"
+msgstr "Դուք հիշվել եք %s-ի մի հրապարակման մեջ:"
+
+#: classes/models/MnglNotification.php:190
+#, php-format
+msgid "%1$s commented on your Board Post on %2$s"
+msgstr "%1$s-ը հրապարակել է ձեր գրատախտակի հրապարակման վրա %2$s-ում"
+
+#: classes/models/MnglNotification.php:191
+#, php-format
+msgid "View this comment from %1$s's Board at %2$s."
+msgstr "Դիտարկել այս մեկնաբանումը %1$s-ի %2$sի գրատախտակին:"
+
+#: classes/models/MnglNotification.php:200
+#, php-format
+msgid "%1$s commented on a Post on your Board on %2$s"
+msgstr "%1$s-ը մեկնաբանել է %2$s-ի ձեր գրատախտակի մի հրապարակումը"
+
+#: classes/models/MnglNotification.php:206
+#, php-format
+msgid "%1$s commented on %2$s's Board Post"
+msgstr "%1$s-ը մեկնաբանել է %2$s-ի գրատախտակի հրապարակումը"
+
+#: classes/models/MnglNotification.php:216
+#, php-format
+msgid "%1$s commented on %2$s's Board Post on %3$s"
+msgstr "%1$s-ը մեկնաբանել է %2$s-ի գրատախտակի հրապարակումը %3$s-ի վրա"
+
+#: classes/models/MnglNotification.php:231
+#, php-format
+msgid "You were tagged in %1$s's comment on %2$s's Board at %3$s"
+msgstr "Դուք պիտակավորվել եք %1$s-ի մեկնաբանության մեջ %2$s-ի գրատախտակին, %3$s-ի վրա"
+
+#: classes/models/MnglNotification.php:232
+#, php-format
+msgid "Visit %s to see the comment you were tagged in."
+msgstr "Այցելեք %s տեսնելու համար այն մեկնաբանությունը, որտեղ դուք պիտակավորվել էիք:"
+
+#: classes/models/MnglNotification.php:240
+#, php-format
+msgid "You were tagged in a comment on %s"
+msgstr "Դուք հիշվել եք %s-ի մի մեկնաբանության մեջ:"
+
+#: classes/models/MnglNotification.php:287
+msgid "Thanks!"
+msgstr "Շնորհակալություն"
+
+#: classes/models/MnglNotification.php:288
+#, php-format
+msgid "%s Team"
+msgstr "%s Խումբ"
+
+#: classes/models/MnglNotification.php:289
+#, php-format
+msgid "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+msgstr "Եթե դուք ցանկանում եք հետագա էլ. նամակների առաքումը դադարեցնել, խնդրում ենք մշակել ձեր հուշումների կարգավորումները այցելելով %1$s, կամ կապ հաստատեք համակարգի ղեկավարի հետ %2$s:"
+
+#: classes/models/MnglOptions.php:177
+msgid "The Profile Page Must Not Be Blank."
+msgstr "Բնութագրի էջը չի կարելի դատարկ թողնել:"
+
+#: classes/models/MnglOptions.php:180
+msgid "The Profile Edit Page Must Not Be Blank."
+msgstr "Բնութագրի Մշակման էջը չի կարելի դատարկ թողնել:"
+
+#: classes/models/MnglOptions.php:183
+msgid "The Friends Page Must Not Be Blank."
+msgstr "Ընկերների էջը չի կարելի դատարկ թողնել:"
+
+#: classes/models/MnglOptions.php:186
+msgid "The Friend Request Page Must Not Be Blank."
+msgstr "Ընկերացման Խնդրանքի էջը չի կարելի դատարկ թողնել:"
+
+#: classes/models/MnglOptions.php:189
+msgid "The Activity Page Must Not Be Blank."
+msgstr "Գործունեության էջը չի կարելի դատարկ թողնել:"
+
+#: classes/models/MnglUpdate.php:43
+msgid "MinglePlus Username"
+msgstr "ՄինգլՊլյուսի Օգտագործողի Անուն"
+
+#: classes/models/MnglUpdate.php:44
+msgid "MinglePlus Password"
+msgstr "ՄինգլՊլյուսի Գաղտնաբառ"
+
+#: classes/models/MnglUpdate.php:45
+msgid "Your MinglePlus Username or Password was Invalid"
+msgstr "Ձեր ՄինգլՊլյուսի Օգտագործողի Անունն ու Գաղտնաբառը անվավեր են"
+
+#: classes/models/MnglUpdate.php:135
+#, php-format
+msgid "Your Username & Password was accepted<br/>Now you can %1$sUpgrade Automatically!%2$s"
+msgstr "Ձեր ՄինգլՊլյուսի Օգտագործողի Անունն ու Գաղտնաբառը ընդունվել են<br/>Այժմ դուք կարող եք %1$sինքնաբերաբար բարեկարգել%2$s"
+
+#: classes/models/MnglUpdate.php:145
+#: classes/views/shared/errors.php:11
+msgid "ERROR"
+msgstr "ՍԽԱԼ"
+
+#: classes/models/MnglUpdate.php:180
+msgid "Save"
+msgstr "Հիշել"
+
+#. translators: Please don't translate this string -- it is the php formatting of dates. Please modify it accordingly for your locale by following the instructions on this page: http://us3.php.net/manual/en/function.date.php
+#: classes/models/MnglUser.php:116
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: classes/models/MnglUser.php:176
+#: classes/models/MnglUser.php:177
+msgid "Her"
+msgstr "նրան"
+
+#: classes/models/MnglUser.php:178
+msgid "She"
+msgstr "նա"
+
+#: classes/models/MnglUser.php:183
+msgid "His"
+msgstr "նրա"
+
+#: classes/models/MnglUser.php:184
+msgid "Him"
+msgstr "նրան"
+
+#: classes/models/MnglUser.php:185
+msgid "He"
+msgstr "Նա"
+
+#: classes/models/MnglUser.php:190
+msgid "His/Her"
+msgstr "նրա"
+
+#: classes/models/MnglUser.php:191
+msgid "Him/Her"
+msgstr "նրան"
+
+#: classes/models/MnglUser.php:192
+msgid "He/She"
+msgstr "Նա"
+
+#: classes/models/MnglUser.php:193
+msgid "Not Available"
+msgstr "Հասանելի չէ"
+
+#: classes/models/MnglUser.php:275
+#: classes/models/MnglUser.php:318
+msgid "Username must not be blank"
+msgstr "Օգտագործողի անունը չի կարելի դատարկ թողնել"
+
+#: classes/models/MnglUser.php:278
+msgid "Username must only contain letters, numbers and/or underscores"
+msgstr "Օգտագործողի անունը պետք է պարունակի միայն տառեր, թվանշաններ կամ ստորագիծ"
+
+#: classes/models/MnglUser.php:284
+msgid "Username is Already Taken."
+msgstr "Տվյալ օգտագործողի անունը արդեն առնված է"
+
+#: classes/models/MnglUser.php:287
+msgid "Email must not be blank"
+msgstr "Էլ. փոստը չի կարելի դատարկ թողնել"
+
+#: classes/models/MnglUser.php:290
+msgid "Email must be a real and properly formatted email address"
+msgstr "Էլ. Փոստը պետք է լինի իսկական եւ վավեր ձեւ ունենա"
+
+#: classes/models/MnglUser.php:293
+msgid "Email Address has already been used by another user."
+msgstr "Տվյալ Էլ. Փոստի հասցեն արդեն օգտագործվում է այլ օգտագործողի կողմից:"
+
+#: classes/models/MnglUser.php:296
+msgid "You must select your Gender."
+msgstr "Դուք պետք է նշեք ձեր սեռը:"
+
+#: classes/models/MnglUser.php:301
+#: classes/models/MnglUser.php:363
+msgid "You must enter a Password."
+msgstr "Դուք պետք է մուտքագրեք ձեր գաղտնաբառը:"
+
+#: classes/models/MnglUser.php:304
+#: classes/models/MnglUser.php:366
+msgid "You must enter a Password Confirmation."
+msgstr "Դուք պետք է մուտքագրեք գաղտնաբառի հաստատումը:"
+
+#: classes/models/MnglUser.php:307
+#: classes/models/MnglUser.php:369
+msgid "Your Password and Password Confirmation don't match."
+msgstr "Գաղտնաբառը եւ գաղտնաբառի հաստատումը չեն համընկնում"
+
+#: classes/models/MnglUser.php:324
+msgid "Username was not found"
+msgstr "Օգտագործողի անունը չի հայտնաբերվել"
+
+#: classes/models/MnglUser.php:331
+msgid "Your Password was Incorrect"
+msgstr "Ձեր գաղտնաբառը ճիշտ չէ"
+
+#: classes/models/MnglUser.php:342
+msgid "You must enter a Username or Password"
+msgstr "Դուք պետք է մուտքագրեք Օգտագործողի Անուն կամ Էլ. Փոստ"
+
+#: classes/models/MnglUser.php:352
+msgid "That Username or Email wasn't found."
+msgstr "Օգտագործողի անունը կամ էլ. փոստը չի հայտնաբերվել:"
+
+#: classes/models/MnglUser.php:380
+msgid "Password Must Match Password Confirmation."
+msgstr "Գաղտնաբառը եւ գաղտնաբառի հաստատումը պետք է համընկնեն"
+
+#: classes/models/MnglUser.php:389
+msgid "Your Avatar wasn't able to be saved."
+msgstr "Ձեր ավատարը հնարավոր չէր հիշել:"
+
+#: classes/models/MnglUser.php:398
+msgid "Your Avatar must be a valid jpg, gif or png."
+msgstr "Ձեր ավատարը պետք է վավեր jpg, gif կամ png լինի:"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:923
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Նոր Օգտագործողի Գրանցում"
+
+#. translators: In this string, %1$s is the blog's name/title, %2$s is the user's real name, %3$s is the user's username, %4$s is the user's email, and %5$s is the user's profile url
+#: classes/models/MnglUser.php:926
+#, php-format
+msgid ""
+"A new user just joined your community at %1$s!\n"
+"\n"
+"Name: %2$s\n"
+"Username: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"You can view this user's profile here: %5$s"
+msgstr ""
+"Մի նոր օգտագործող միացել է մեր հասարակությանը %1$s-ին\n"
+"\n"
+"Անուն՝ %2$s\n"
+"Օգտագործողի անուն՝ %3$s\n"
+"Էլ. Փոստ՝ %4$s\n"
+"\n"
+"Դուք կարող եք դիտել այս օգտագործողի բնութագիրն այստեղ՝ %5$s"
+
+#: classes/models/MnglUser.php:928
+#, php-format
+msgid "There are now %1$s Users on %2$s"
+msgstr "Այժմ %2$s-ի վրա %1$s օգտագործող կա:"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:939
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Բարի գալուստ %s"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:942
+#, php-format
+msgid ""
+"%1$s,\n"
+"Welcome to the Community at %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"You can login here: %5$s\n"
+"\n"
+"Enjoy!\n"
+"\n"
+"%2$s Team"
+msgstr ""
+"%1$s,\n"
+"Բարի գալուստ դեպի մեր %2$s հասարակությունը\n"
+"\n"
+"Օգտագործողի Անուն: %3$s\n"
+"Գաղտնաբառ: %4$s\n"
+"Կարող եք մուտք գործել այստեղից: %5$s\n"
+"\n"
+"Վայելեք\n"
+"\n"
+"%2$s Խումբ"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:973
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] գաղտնաբառը վերականգնվել է"
+
+#. translators: In this string, %1$s is the user's username, %2$s is the blog's name/title, %3$s is the blog's url, %4$s the reset password link
+#: classes/models/MnglUser.php:976
+#, php-format
+msgid ""
+"Someone requested to reset your password for %1$s on %2$s at %3$s\n"
+"\n"
+"To reset your password visit the following address, otherwise just ignore this email and nothing will happen.\n"
+"\n"
+"%4$s"
+msgstr ""
+"Ինչ-որ մեկը պահանջել է վերականգնել ձեր %1$s-ի գաղտնաբառը %2$s-ի վրա, %3$s-ին:\n"
+"\n"
+"Ձեր գաղտնաբառը վերականգնելու համար այցելեք հետեւյալ կայքը, այլապես արհամարհեք այս հաղորդագրությունը եւ ոչինչ չի փոխվի:\n"
+"\n"
+"%4$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1002
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Գաղտնաբառը կորցրած/փոփոխած"
+
+#. translators: In this string, %1$s is the user's screenname and %2$s is their profile url
+#: classes/models/MnglUser.php:1005
+#, php-format
+msgid ""
+"Password Lost and Changed for user: %1$s\n"
+"You can view %1$s's profile here: %2$s"
+msgstr ""
+"Գաղտնաբառը կորած եւ փոփոխված է %1$s օգտագործողի համար:\n"
+"Դուք կարող եք %1$s-ի բնութագիրը տեսնել այստեղ՝ %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1018
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Ձեր նոր գաղտնաբառը"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:1021
+#, php-format
+msgid ""
+"%1$s,\n"
+"\n"
+"Your Password was successfully reset on %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"\n"
+"You can login here: %5$s"
+msgstr ""
+"%1$s,\n"
+"\n"
+"Ձեր Գաղտնաբառը հաջողությամբ վերականգնվել է %2$s-ի վրա\n"
+"\n"
+"Օգտագործողի Անուն: %3$s\n"
+"Գաղտնաբառ: %4$s\n"
+"\n"
+"Կարող եք մուտք գործել այստեղից: %5$s"
+
+#: classes/views/mngl-boards/board_comment.php:17
+#: classes/views/mngl-boards/board_post.php:42
+#: classes/views/mngl-boards/board_post.php:79
+#: classes/views/mngl-friends/list.php:54
+#: plus/classes/views/mngl-plus-messages/list.php:9
+msgid "Delete"
+msgstr "Ջնջել"
+
+#: classes/views/mngl-boards/board_post.php:10
+#, php-format
+msgid "Posted on %s's Board"
+msgstr "Հրապարակվել է %sի գրատախտակին"
+
+#: classes/views/mngl-boards/board_post.php:17
+#, php-format
+msgid "Post from %s's Board:"
+msgstr "Հրապարակում %sի գրատախտակին"
+
+#: classes/views/mngl-boards/board_post.php:35
+#: classes/views/mngl-boards/board_post.php:74
+#: classes/views/mngl-boards/comment_form.php:36
+msgid "Comment"
+msgstr "Մեկնաբանում"
+
+#: classes/views/mngl-boards/board_post.php:38
+#: classes/views/mngl-boards/board_post.php:76
+msgid "View"
+msgstr "Դիտել"
+
+#: classes/views/mngl-boards/board_post.php:93
+#, php-format
+msgid "Show all %d comments"
+msgstr "Տեսնել բոլոր %d մեկնաբանությունները"
+
+#: classes/views/mngl-boards/comment_form.php:15
+msgid "Write a comment."
+msgstr "Մեկնաբանել"
+
+#: classes/views/mngl-boards/display.php:4
+msgid "Board"
+msgstr "Գրատախտակ"
+
+#: classes/views/mngl-boards/display.php:5
+msgid "Info"
+msgstr "Տեղեկատվություն"
+
+#: classes/views/mngl-boards/display.php:20
+msgid "What's on your mind?"
+msgstr "Ի՞նչ կա-չկա"
+
+#: classes/views/mngl-boards/display.php:31
+msgid "Share"
+msgstr "Կիսվել"
+
+#: classes/views/mngl-boards/display.php:49
+msgid "Show Older Posts"
+msgstr "Ցուցադրել Հին Հրապարակումները"
+
+#: classes/views/mngl-boards/display.php:56
+#: classes/views/mngl-profiles/edit.php:9
+#: classes/views/shared/signup_form.php:5
+msgid "First Name"
+msgstr "Անուն"
+
+#: classes/views/mngl-boards/display.php:62
+#: classes/views/mngl-profiles/edit.php:13
+#: classes/views/shared/signup_form.php:9
+msgid "Last Name"
+msgstr "Ազգանուն"
+
+#: classes/views/mngl-boards/display.php:69
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/shared/signup_form.php:27
+msgid "Bio"
+msgstr "Կենսագրություն"
+
+#: classes/views/mngl-boards/display.php:75
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/profile.php:39
+msgid "Birthday"
+msgstr "Ծննդյան օր"
+
+#: classes/views/mngl-boards/display.php:81
+#: classes/views/mngl-profiles/profile.php:42
+#: classes/views/shared/signup_form.php:15
+msgid "Website"
+msgstr "Կայք"
+
+#: classes/views/mngl-boards/display.php:87
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/profile.php:36
+#: classes/views/shared/signup_form.php:21
+msgid "Location"
+msgstr "Վայր"
+
+#: classes/views/mngl-boards/display.php:93
+#: classes/views/mngl-profiles/edit.php:47
+#: classes/views/mngl-profiles/profile.php:33
+#: classes/views/shared/signup_form.php:33
+msgid "Gender"
+msgstr "Սեռ"
+
+#: classes/views/mngl-boards/private.php:1
+#, php-format
+msgid "%1$s's profile is only visible to %2$s friends."
+msgstr "%1$sի բնութագիրը տեսանելի է միայն %2$s ընկերներին:"
+
+#: classes/views/mngl-friends/add_button.php:1
+#: classes/views/mngl-friends/friend_requested.php:1
+msgid "Friendship Requested"
+msgstr "Ընկերացումը խնդրվել է"
+
+#: classes/views/mngl-friends/add_button.php:1
+msgid "Add as a Friend"
+msgstr "Ավելացնել որպես ընկեր"
+
+#: classes/views/mngl-friends/already_friend.php:1
+msgid "Friend"
+msgstr "Ընկեր"
+
+#: classes/views/mngl-friends/list.php:8
+#, php-format
+msgid "%s's Friends"
+msgstr "%sի Ընկերները"
+
+#: classes/views/mngl-friends/list.php:12
+msgid "Search Friends..."
+msgstr "Ընկերների Որոնում"
+
+#: classes/views/mngl-friends/list.php:21
+#, php-format
+msgid "%s Friend Was Found"
+msgid_plural "%s Friends Were Found"
+msgstr[0] "%s ընկեր է գտնվել"
+
+#: classes/views/mngl-friends/list.php:26
+#: classes/views/mngl-profiles/directory.php:28
+#: plus/classes/views/mngl-plus-messages/list.php:17
+#: plus/classes/views/mngl-plus-messages/list.php:71
+msgid "Previous Page"
+msgstr "Նախորդ Էջ"
+
+#: classes/views/mngl-friends/list.php:69
+#: classes/views/mngl-profiles/directory.php:63
+#: plus/classes/views/mngl-plus-messages/list.php:24
+#: plus/classes/views/mngl-plus-messages/list.php:78
+msgid "Next Page"
+msgstr "Հաջորդ էջ"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "That's You!"
+msgstr "Դա Դուք Եք"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "Edit"
+msgstr "Մշակում"
+
+#: classes/views/mngl-friends/no_friends_found.php:1
+msgid "Apparently you have no friends ... boo hoo :("
+msgstr "Փաստորեն դուք դեռ ոչ մի ընկեր չունեք... Այ քեզ բա՜ն :("
+
+#: classes/views/mngl-friends/requests.php:16
+#, php-format
+msgid "%s wants to be your friend."
+msgstr "%sն ուզում է ընկերանալ ձեզ հետ:"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Accept"
+msgstr "Ընդունել"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Ignore"
+msgstr "Արհամարհել"
+
+#: classes/views/mngl-friends/requests.php:25
+msgid "You don't currently have any friend requests."
+msgstr "Այս պահին դուք չունեք ընկերացման խնդրանքներ:"
+
+#: classes/views/mngl-options/default_friend.php:2
+msgid "Default Friend"
+msgstr "Բոլորի Ընկեր"
+
+#: classes/views/mngl-options/default_friends_added.php:1
+msgid "Default Friends Were Added"
+msgstr "Բոլորի ընկերը ավելացվել է"
+
+#: classes/views/mngl-options/form.php:2
+msgid "Mingle: Options"
+msgstr "Մինգլի Ընտրանքներ"
+
+#: classes/views/mngl-options/form.php:9
+msgid "Mingle Pages"
+msgstr "Մինգլի Էջեր"
+
+#: classes/views/mngl-options/form.php:10
+#, php-format
+msgid "Before you can get going with Mingle, you must configure where Mingle pages on your website will appear. You'll want to %1$screate a new page%2$s for each of these pages that mingle needs to work. You should give your page a title and optionally put some content into the page ... just know that once you set the page up here, the page's content will not display."
+msgstr "Մինչեւ սկսել Մինգլի օգտագործումը, դուք պետք է կարգավորեք որտեղ են Մինգլի էջերը հայտվելու ձեր կայքում: Դուք պետք է %1$sստեղծեք մի նոր էջ%2$s ամեն մի հետեւյալ էջի համար որպեսզի Մինգլը աշխատի: Դուք պետք է ձեր էջին խորագիր հորինեք: Կարող եք նաեւ էջի պարունակությունը փոփոխել հարմարեցնելով ձեր կարիքներին: Պարզապես իմացեք որ հենց էջը ավելացնեք այստեղ, դրա պարունակությունը այլեւս չի երեւալու:"
+
+#: classes/views/mngl-options/form.php:13
+msgid "Profile Page"
+msgstr "Բնութագրի Էջ"
+
+#: classes/views/mngl-options/form.php:17
+msgid "Activity Page"
+msgstr "Գործունեության Էջ"
+
+#: classes/views/mngl-options/form.php:24
+msgid "Profile Edit Page"
+msgstr "Բնութագրի Մշակման Էջ"
+
+#: classes/views/mngl-options/form.php:28
+msgid "Directory Page"
+msgstr "Ցանկի Էջ"
+
+#: classes/views/mngl-options/form.php:35
+msgid "Friends Page"
+msgstr "Ընկերների Էջ"
+
+#: classes/views/mngl-options/form.php:39
+msgid "Login Page"
+msgstr "Մուտքի Էջ"
+
+#: classes/views/mngl-options/form.php:46
+msgid "Friend Requests Page"
+msgstr "Ընկերացման Խնդրանքի Էջ"
+
+#: classes/views/mngl-options/form.php:50
+msgid "Signup Page"
+msgstr "Գրացման Էջ"
+
+#: classes/views/mngl-options/form.php:60
+msgid "Profile Options"
+msgstr "Բնութագրի Ընտրանքներ"
+
+#: classes/views/mngl-options/form.php:62
+msgid "Pretty Profile Urls"
+msgstr "Բնութագրի Գեղեցիկ Հղումներ"
+
+#: classes/views/mngl-options/form.php:63
+msgid "When checked, Pretty Profile Urls will allow users to type their screenname following your site's domain name for their url. Note, if you do not have Apache rewrite functioning and have not selected something other than \"Default\" under your General Permalink settings, this will not work."
+msgstr ""
+"Երբ նշված է, Բնութագրի Գեղեցիկ Հղումները օգտագործողներին թույլ է տալիս մուտքագրել իրենց էկրանի անունները ձեր կայքի հասցեյից հետո:\n"
+"Նկատեք, որ եթե դուք չունեք APACHE rewrite ֆունկցիոնալը կամ եթե ձեր General Permalink Settings-ի տակ Default-ից բացի այլ բան եք նշել, այս ֆունկցիան չի գործելու:"
+
+#: classes/views/mngl-options/form.php:64
+msgid "User Registration Email Spam Protection"
+msgstr "Օգտագործողի Գրանցում Էլ. Փոստի Սպամից Պաշտպանություն"
+
+#: classes/views/mngl-options/form.php:65
+msgid "When checked, Mingle will use advanced email lookup techniques to validate the user signup to prevent against user registration spam."
+msgstr "Երբ նշված է, Մինգլը պիտի օգտագործի առաջավոր էլ. փոստի ստուգման հնարքներ վավերացնելու համար օգտագործողի գրանցումը, սպամից պաշտպանվելու համար:"
+
+#: classes/views/mngl-options/form.php:66
+msgid "Prevent Subscribers Access to the WordPress Admin"
+msgstr "Արգելել բաժանորդագրվածներին մատչել WordPress-ի ադմինիստրատիվ բաժին"
+
+#: classes/views/mngl-options/form.php:67
+msgid "When checked, Mingle will redirect non-admin users to their activity page if attempting to go anywhere within /wp-admin."
+msgstr "Երբ նշված է եւ երբ ոչ-ադմինիստրատիվ օգտագործողները փորձեն քչփորել խորքերը, Մինգլը ինքնաբերաբար նրանց պիտի ուղորդի դեպի նրանց գործունեության էջը:"
+
+#: classes/views/mngl-options/form.php:70
+msgid "Default Friends"
+msgstr "Բոլորի Ընկերները"
+
+#: classes/views/mngl-options/form.php:72
+msgid "These Users will be added as a friends to all new signups."
+msgstr "Հետեւյալ օգտագործողները պիտի ավելացվեն բոլոր նոր գրացվողներին որպես լռելյան ընկերներ:"
+
+#: classes/views/mngl-options/form.php:88
+msgid "Add a Default Friend"
+msgstr "Ավելացնել որպես \"Բոլորի Ընկեր\""
+
+#: classes/views/mngl-options/form.php:91
+msgid "Invisible Users"
+msgstr "Անտեսանելի Օգտագործողներ"
+
+#: classes/views/mngl-options/form.php:93
+msgid "Any users checked below will not be visible to Mingle. They won't have a profile page, friends, be listed in the directory or show up anywhere in mingle."
+msgstr "Ներքեւում նշված օգտագործողները Մինգլին անտեսանելի պիտի լինեն: Սրանք պիտի չունենան բնութագրի էջ, ընկերներ, հայտնվեն ցանկում կամ առհասարակ երեւեն Մինգլում ինչ-որ մի տեղ:"
+
+#: classes/views/mngl-options/form.php:94
+msgid "Hold down Control Key (the Command Key if you're on a Mac) or the Shift Key to select multiple users."
+msgstr "Սեղմած պահեք Ctrl կոճակը (Command կոճակը եթե դուք Mac եք օգտագործում) կամ Shift կոճակը բազմակի ընտրություն կատարելու համար:"
+
+#: classes/views/mngl-options/form.php:97
+msgid "Field Display Options"
+msgstr "Դաշտի Ցուցադրման Ընտրանքներ"
+
+#: classes/views/mngl-options/form.php:99
+msgid "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+msgstr ""
+"Կարգավորեք դաշտերը որոնք ուզում եք որ ձեր օգտագործողները տեսնեն եւ որ նրանք պիտի կարողանան ցուցադրել նրանց բնութագրերում:\n"
+"<code>Public</code> ցույց է տալիս որ դաշտը հասանելի պիտի լինի օգտագործողներին եւ որ դրա առաջ մուտքագրած արժեքը տեսանելի պիտի լինի նրանց հասարակական բնութագրերում:\n"
+"<code>Private</code> ցույց է տալիս որ դաշտը տեսանելի պիտի լինի օգտագործողներին բայց նրա դիմաց մուտքագրած արժեքը անտեսանելի պիտի լինի նրանց հասարակական բնութագրերում:\n"
+"<code>Hidden</code> ցույց է տալիս որ դաշտը անտեսանելի է լինելու բոլոր օգտագործողների համար:"
+
+#: classes/views/mngl-options/form.php:102
+msgid "Show Name Fields"
+msgstr "Ցուցադրել Անվան Դաշտերը"
+
+#: classes/views/mngl-options/form.php:107
+#: classes/views/mngl-options/form.php:116
+#: classes/views/mngl-options/form.php:125
+#: classes/views/mngl-options/form.php:134
+#: classes/views/mngl-options/form.php:143
+#: classes/views/mngl-options/form.php:152
+#: classes/views/mngl-options/form.php:159
+#: plus/classes/views/mngl-plus-options/custom_field.php:13
+msgid "Show on the Signup Page"
+msgstr "Ցուցադրել Գրացման Էջի մեջ"
+
+#: classes/views/mngl-options/form.php:111
+msgid "Show Website Field"
+msgstr "Ցուցադրել Կայքի Դաշտը"
+
+#: classes/views/mngl-options/form.php:120
+msgid "Show Location Field"
+msgstr "Ցուցադրել Վայրի Դաշտը"
+
+#: classes/views/mngl-options/form.php:129
+msgid "Show Bio Field"
+msgstr "Ցուցադրել Կենսագրության Դաշտը"
+
+#: classes/views/mngl-options/form.php:138
+msgid "Show Birthday Field"
+msgstr "Ցուցադրել Ծննդյան Օրվա Դաշտը"
+
+#: classes/views/mngl-options/form.php:147
+msgid "Show Gender Field"
+msgstr "Ցուցադրել Սեռի Դաշտը"
+
+#: classes/views/mngl-options/form.php:156
+msgid "Show Password Field"
+msgstr "Ցուցադրել Գաղտնաբառի Դաշտը"
+
+#: classes/views/mngl-options/form.php:168
+msgid "Update Options"
+msgstr "Ընտրանքների Թարմացում"
+
+#: classes/views/mngl-options/form.php:173
+msgid "Add Default Friends to Existing Users"
+msgstr "Ավելացնել Բոլորի Ընկերները Առկա Օգտագործողներին"
+
+#: classes/views/mngl-options/options_saved.php:1
+msgid "Options saved."
+msgstr "Ընտրանքները հիշված են:"
+
+#: classes/views/mngl-profiles/directory.php:13
+msgid "Search Users..."
+msgstr "Օգտագործողների Որոնում..."
+
+#: classes/views/mngl-profiles/directory.php:23
+#, php-format
+msgid "%s User Was Found"
+msgid_plural "%s Users Were Found"
+msgstr[0] "%s օգտագործող է գտնվել"
+
+#: classes/views/mngl-profiles/edit.php:6
+msgid "Information"
+msgstr "Տեղեկություն"
+
+#: classes/views/mngl-profiles/edit.php:17
+msgid "Email"
+msgstr "Էլ. Փոստ"
+
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/edit.php:47
+#: plus/classes/views/mngl-plus-custom-fields/edit_fields.php:9
+msgid "private"
+msgstr "մասնավոր"
+
+#: classes/views/mngl-profiles/edit.php:35
+msgid "URL"
+msgstr "URL"
+
+#: classes/views/mngl-profiles/edit.php:52
+#: classes/views/mngl-users/reset_password.php:4
+#: classes/views/shared/login_form.php:5
+#: classes/views/shared/login_widget.php:22
+#: classes/views/shared/signup_form.php:48
+msgid "Password"
+msgstr "Գաղտնաբառ"
+
+#: classes/views/mngl-profiles/edit.php:56
+#: classes/views/mngl-users/reset_password.php:8
+#: classes/views/shared/signup_form.php:52
+msgid "Password Confirmation"
+msgstr "Գաղտնաբառի Հավաստում"
+
+#: classes/views/mngl-profiles/edit.php:60
+msgid "Avatar"
+msgstr "Ավատար"
+
+#: classes/views/mngl-profiles/edit.php:68
+#: plus/classes/views/mngl-plus-options/custom_field.php:9
+msgid "Privacy"
+msgstr "Գաղտնիություն"
+
+#: classes/views/mngl-profiles/edit.php:70
+msgid "Notification Settings"
+msgstr "Հուշումների Կարգավորումներ"
+
+#: classes/views/mngl-profiles/edit.php:78
+#, php-format
+msgid "Don't Send Me \"%s\" Notifications"
+msgstr "Ինձ չուղարկել \"%s\" հուշումներ"
+
+#: classes/views/mngl-profiles/edit.php:85
+msgid "Update"
+msgstr "Թարմացում"
+
+#: classes/views/mngl-profiles/edit_avatar.php:3
+msgid "delete"
+msgstr "ջնջել"
+
+#: classes/views/mngl-profiles/profile.php:26
+#: plus/classes/views/mngl-plus-options/custom_field.php:6
+msgid "Name"
+msgstr "Անուն"
+
+#: classes/views/mngl-profiles/profile_saved.php:1
+msgid "Your Profile has been saved."
+msgstr "Ձեր բնութագիրը հիշված է:"
+
+#: classes/views/mngl-users/forgot_password.php:1
+msgid "Request a Password Reset"
+msgstr "Գաղտնաբառի Վերականգնման Պահանջ"
+
+#: classes/views/mngl-users/forgot_password.php:4
+msgid "Enter Your Username or Email Address"
+msgstr "Մուտքագրեք ձեր օգտագործողի անունը կամ էլ. փոստը"
+
+#: classes/views/mngl-users/forgot_password.php:8
+msgid "Request Password Reset"
+msgstr "Գաղտնաբառի Վերականգնման Խնդրանք"
+
+#: classes/views/mngl-users/forgot_password_requested.php:1
+msgid "Successfully requested password reset"
+msgstr "Գաղտնաբառի վերականգնման պահանջն ավարտվեց հաջողությամբ"
+
+#: classes/views/mngl-users/forgot_password_requested.php:2
+msgid "Please click on the confirmation link that was just sent to your email address."
+msgstr "Խնդրում ենք սեղմել հաստատման հղման վրա, որը հենց նոր ուղարկվեց ձեր էլ. հասցեին:"
+
+#: classes/views/mngl-users/reset_password.php:1
+msgid "Enter your new password"
+msgstr "Մուտքագրեք ձեր նոր գաղտնաբառը"
+
+#: classes/views/mngl-users/reset_password.php:12
+msgid "Reset Password"
+msgstr "Գաղտնաբառի Վերականգնում"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:1
+msgid "Password successfully reset"
+msgstr "Գաղտնաբառը հաջողությամբ վերականգնվեց"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:2
+msgid "Your new password has been emailed to you."
+msgstr "Ձեր նոր գաղտնաբառն արդեն ուղարկվել է ձեր էլ. փոստին:"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+#, php-format
+msgid "Thanks for Registering for %s!"
+msgstr "Շնորհակալություն %s-ին գրանցվելու համար:"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+msgid "You should shortly receive an email with your password."
+msgstr "Դուք շուտով կստանաք էլ. նամակ, որտեղ նշված կլինի ձեր գաղտնաբառը:"
+
+#: classes/views/shared/already_logged_in.php:1
+#, php-format
+msgid "You're already logged in. %1$sLogout.%2$s"
+msgstr "Դուք արդեն մուտք եք գործել: %1$sԴուրս Գալ%2$s:"
+
+#: classes/views/shared/login_form.php:3
+#: classes/views/shared/login_widget.php:20
+#: classes/views/shared/signup_form.php:38
+msgid "Username"
+msgstr "Օգտագործողի Անուն"
+
+#: classes/views/shared/login_form.php:7
+#: classes/views/shared/login_widget.php:24
+msgid "Remember Me"
+msgstr "Ինձ Հիշել"
+
+#: classes/views/shared/login_form.php:10
+#: classes/views/shared/login_widget.php:27
+msgid "Log In"
+msgstr "Մուտք"
+
+#: classes/views/shared/login_form.php:19
+#: classes/views/shared/login_widget.php:36
+msgid "Register"
+msgstr "Գրանցում"
+
+#: classes/views/shared/login_form.php:23
+#: classes/views/shared/login_widget.php:40
+msgid "Lost Password?"
+msgstr "Գաղտնաբառը մոռացե՞լ եք:"
+
+#: classes/views/shared/login_widget.php:7
+msgid "Activity"
+msgstr "Գործունեություն"
+
+#: classes/views/shared/login_widget.php:8
+msgid "Profile"
+msgstr "Բնութագիր"
+
+#: classes/views/shared/login_widget.php:9
+msgid "Settings"
+msgstr "Կարգավորումներ"
+
+#: classes/views/shared/login_widget.php:11
+msgid "Friend Requests"
+msgstr "Ընկերացման Խնդրանքներ"
+
+#: classes/views/shared/login_widget.php:14
+msgid "Logout"
+msgstr "Դուրս Գալ"
+
+#: classes/views/shared/login_widget.php:17
+#, php-format
+msgid "Login to connect with Others on %s"
+msgstr "Մուտք գործեք %s-ի վրայի մյուսների հետ կապնվելու համար"
+
+#: classes/views/shared/login_widget.php:46
+msgid "Directory"
+msgstr "Ցանկ"
+
+#: classes/views/shared/must_configure.php:1
+#, php-format
+msgid "Mingle must be configured. Go to the %s to setup your new social network!"
+msgstr "Անհրաժեշտ է Մինգլը կարգավորել: Գնացեք %s կարգավորելու համար ձեր նոր սոցիալական ցանցը:"
+
+#: classes/views/shared/must_configure.php:1
+msgid "Mingle Admin Page"
+msgstr "Մինգլի Ղեկավարման Էջ"
+
+#: classes/views/shared/signup_form.php:42
+msgid "E-mail"
+msgstr "Էլ. Փոստ"
+
+#: classes/views/shared/signup_form.php:56
+msgid "A password will be e-mailed to you."
+msgstr "Մի գաղտնաբառ ուղարկվելու է ձեր էլ. փոստին:"
+
+#: classes/views/shared/signup_form.php:59
+msgid "Sign Up"
+msgstr "Գրանցում"
+
+#: classes/views/shared/unauthorized.php:16
+#, php-format
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr "Դուք իրավասու չեք տվյալ էջը տեսնելու: Ինչու դուք չեք %s եւ կրկին փորձում:"
+
+#: classes/views/shared/unauthorized.php:16
+msgid "Login"
+msgstr "Մուտք"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Don't have a Login?"
+msgstr "Մուտք չունե՞ք:"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Register for an Account."
+msgstr "Գրանցեք ձեր Հաշիվը"
+
+#: classes/views/shared/user_grid.php:3
+msgid "Show All"
+msgstr "Ցուցադրել Բոլորը"
+
+#: classes/widgets/MnglLoginWidget.php:7
+msgid "Mingle Login"
+msgstr "Մինգլի Մուտք"
+
+#: classes/widgets/MnglLoginWidget.php:50
+#: classes/widgets/MnglUsersWidget.php:56
+msgid "Title"
+msgstr "Խորագիր"
+
+#: classes/widgets/MnglUsersWidget.php:7
+msgid "Mingle Users Grid"
+msgstr "Մինգլի Օգտագործողների Աղյուսակ"
+
+#: classes/widgets/MnglUsersWidget.php:21
+msgid "Users"
+msgstr "Օգտագործողներ"
+
+#: classes/widgets/MnglUsersWidget.php:51
+msgid "Mingle Users"
+msgstr "Մինգլի Օգտագործողներ"
+
+#: classes/widgets/MnglUsersWidget.php:57
+msgid "# of Grid Columns"
+msgstr "Աղյուսակի սյուների թիվը"
+
+#: classes/widgets/MnglUsersWidget.php:58
+msgid "# of Grid Rows"
+msgstr "Աղյուսակի տողերի թիվը"
+
+#: classes/widgets/MnglUsersWidget.php:60
+msgid "Grid Type"
+msgstr "Աղյուսակի Տեսակը"
+
+#: classes/widgets/MnglUsersWidget.php:62
+msgid "Random Mingle Users"
+msgstr "Պատահական Մինգլի Օգտագործողներ"
+
+#: classes/widgets/MnglUsersWidget.php:63
+msgid "Recent Mingle Users"
+msgstr "Նոր Մինգլի Օգտագործողներ"
+
+#: js/mingle.js.php:66
+msgid "Are you sure you want to delete this post?"
+msgstr "Դուք վստա՞հ եք, որ ուզում եք ջնջել այս հրապարակումը:"
+
+#: js/mingle.js.php:82
+msgid "Are you sure you want to delete this comment?"
+msgstr "Դուք վստա՞հ եք, որ ուզում եք ջնջել այս մեկնաբանումը:"
+
+#: js/mingle.js.php:118
+msgid "Are you sure you want to delete this friend?"
+msgstr "Դուք վստա՞հ եք, որ ուզում եք հեռացնել այս ընկերոջը:"
+
+#: js/mingle.js.php:192
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Դուք վստա՞հ եք, որ ուզում եք ջնջել այս ավատարը:"
+
+#: js/mingle.js.php:237
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Loading..."
+msgstr "Բեռնավորվում է..."
+
+#. translators: Please don't translate this string ... You can see what this date format means here http://docs.jquery.com/UI/Datepicker/formatDate ... try to select a relevant format for those using Mingle in your language.
+#: js/mingle.js.php:295
+msgid "MM d, yy"
+msgstr "d MM yy"
+
+#. translators: Please don't translate this string ... This option indicates whether the first day on the calendar is a Sunday or Monday -- Sunday is represented as a '0' and Monday is represented as a '1'
+#: js/mingle.js.php:298
+msgid "0"
+msgstr "0"
+
+#: js/mingle.js.php:300
+msgid "January"
+msgstr "Հունվար"
+
+#: js/mingle.js.php:300
+msgid "February"
+msgstr "Փետրվար"
+
+#: js/mingle.js.php:300
+msgid "March"
+msgstr "Մարտ"
+
+#: js/mingle.js.php:300
+msgid "April"
+msgstr "Ապրիլ"
+
+#: js/mingle.js.php:300
+#: js/mingle.js.php:303
+msgid "May"
+msgstr "Մայիս"
+
+#: js/mingle.js.php:300
+msgid "June"
+msgstr "Հունիս"
+
+#: js/mingle.js.php:300
+msgid "July"
+msgstr "Հուլիս"
+
+#: js/mingle.js.php:300
+msgid "August"
+msgstr "Օգոստոս"
+
+#: js/mingle.js.php:300
+msgid "September"
+msgstr "Սեպտեմբեր"
+
+#: js/mingle.js.php:300
+msgid "October"
+msgstr "Հոկտեմբեր"
+
+#: js/mingle.js.php:300
+msgid "November"
+msgstr "Նոյեմբեր"
+
+#: js/mingle.js.php:300
+msgid "December"
+msgstr "Դեկտեմբեր"
+
+#. translators: This is the short version of the month name...
+#: js/mingle.js.php:303
+msgid "Jan"
+msgstr "Հնվ"
+
+#: js/mingle.js.php:303
+msgid "Feb"
+msgstr "Փտր"
+
+#: js/mingle.js.php:303
+msgid "Mar"
+msgstr "Մրտ"
+
+#: js/mingle.js.php:303
+msgid "Apr"
+msgstr "Ապր"
+
+#: js/mingle.js.php:303
+msgid "Jun"
+msgstr "Հնս"
+
+#: js/mingle.js.php:303
+msgid "Jul"
+msgstr "Հլս"
+
+#: js/mingle.js.php:303
+msgid "Aug"
+msgstr "Օգս"
+
+#: js/mingle.js.php:303
+msgid "Sept"
+msgstr "Սեպտ"
+
+#: js/mingle.js.php:303
+msgid "Oct"
+msgstr "Հկտ"
+
+#: js/mingle.js.php:303
+msgid "Nov"
+msgstr "Նյբ"
+
+#: js/mingle.js.php:303
+msgid "Dec"
+msgstr "Դկտ"
+
+#: js/mingle.js.php:305
+msgid "Sunday"
+msgstr "Կիրակի"
+
+#: js/mingle.js.php:305
+msgid "Monday"
+msgstr "Երկուշաբթի"
+
+#: js/mingle.js.php:305
+msgid "Tuesday"
+msgstr "Երեքշաբթի"
+
+#: js/mingle.js.php:305
+msgid "Wednesday"
+msgstr "Չորեքշաբթի"
+
+#: js/mingle.js.php:305
+msgid "Thursday"
+msgstr "Հինգշաբթի"
+
+#: js/mingle.js.php:305
+msgid "Friday"
+msgstr "Ուրբաթ"
+
+#: js/mingle.js.php:305
+msgid "Saturday"
+msgstr "Շաբաթ"
+
+#. translators: This is the short version of the day name...
+#: js/mingle.js.php:308
+msgid "Sun"
+msgstr "Կիր"
+
+#: js/mingle.js.php:308
+msgid "Mon"
+msgstr "Երկ"
+
+#: js/mingle.js.php:308
+msgid "Tue"
+msgstr "Երք"
+
+#: js/mingle.js.php:308
+msgid "Wed"
+msgstr "Չրք"
+
+#: js/mingle.js.php:308
+msgid "Thu"
+msgstr "Հնգ"
+
+#: js/mingle.js.php:308
+msgid "Fri"
+msgstr "Ուր"
+
+#: js/mingle.js.php:308
+msgid "Sat"
+msgstr "Շբթ"
+
+#. translators: This is the minimized short version of the day name
+#: js/mingle.js.php:311
+msgid "Su"
+msgstr "Կր"
+
+#: js/mingle.js.php:311
+msgid "Mo"
+msgstr "Բշ"
+
+#: js/mingle.js.php:311
+msgid "Tu"
+msgstr "Գշ"
+
+#: js/mingle.js.php:311
+msgid "We"
+msgstr "Դշ"
+
+#: js/mingle.js.php:311
+msgid "Th"
+msgstr "Եշ"
+
+#: js/mingle.js.php:311
+msgid "Fr"
+msgstr "Ուր"
+
+#: js/mingle.js.php:311
+msgid "Sa"
+msgstr "Շբ"
+
+#. translators: Please don't translate this string ... Just set it to 'isRTL: true' if your language is drawn from Right-to-Left
+#: js/mingle.js.php:314
+msgid "isRTL: false"
+msgstr "isRTL: false"
+
+#: plus/classes/controllers/MnglPlusAppController.php:197
+msgid "Send Message To..."
+msgstr "Հաղորդագրություն Ուղարկել Դեպի..."
+
+#: plus/classes/controllers/MnglPlusAppController.php:197
+msgid "No results"
+msgstr "Ոչ մի արդյունք"
+
+#: plus/classes/controllers/MnglPlusAppController.php:197
+msgid "Searching..."
+msgstr "Որոնում ենք..."
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:8
+msgid "You"
+msgstr "Դուք"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:23
+msgid ", "
+msgstr ","
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:25
+msgid " and "
+msgstr "եւ"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:30
+#, php-format
+msgid "Between %s"
+msgstr "%sի միջեւ"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:9
+msgid "Text Input"
+msgstr "Տեքստի մուտքագրում"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:10
+msgid "Text Area"
+msgstr "Տեքստի Դաշտ"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:11
+msgid "Checkbox"
+msgstr "Նշման տուփ"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:12
+msgid "Dropdown"
+msgstr "Բացովի"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:13
+msgid "Date"
+msgstr "Ամսաթիվ"
+
+#: plus/classes/models/MnglPlusMessage.php:18
+msgid "Private Message"
+msgstr "Մասնավոր Հաղորդագրություն"
+
+#: plus/classes/models/MnglPlusMessage.php:19
+msgid "Sent when someone sends you a message"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը ձեզ հաղորդագրություն է ուղարկում"
+
+#: plus/classes/models/MnglPlusMessage.php:21
+msgid "Private Message Reply"
+msgstr "Մասնավոր Հաղորդագության Պատասխան"
+
+#: plus/classes/models/MnglPlusMessage.php:22
+msgid "Sent when someone replies to a message you were included on"
+msgstr "Ուղարկվում է երբ ինչ-որ մեկը պատասխանում է մի հաղորդագրության որին դուք մասնակցել եք"
+
+#: plus/classes/models/MnglPlusMessage.php:32
+msgid "(no subject)"
+msgstr "(Անվերնագիր)"
+
+#: plus/classes/models/MnglPlusMessage.php:223
+msgid "There must be at least one recipient"
+msgstr "Առնվազն մեկ ստացող է հարկավոր"
+
+#: plus/classes/models/MnglPlusMessage.php:226
+msgid "Message can't be blank"
+msgstr "Հաղորդագրությունը չի կարող դատարկ լինել"
+
+#: plus/classes/models/MnglPlusMessage.php:271
+#, php-format
+msgid "%s sent you a message."
+msgstr "%s-ը ձեզ հաղորդագրություն է ուղարկել:"
+
+#: plus/classes/models/MnglPlusMessage.php:272
+#: plus/classes/models/MnglPlusMessage.php:301
+#, php-format
+msgid ""
+"To reply to this message, follow the link below:\n"
+"%s"
+msgstr ""
+"Այս հաղորդագրության պատասխանելու համար հետեւեք այս հղմանը՝\n"
+"%s"
+
+#: plus/classes/models/MnglPlusMessage.php:283
+#, php-format
+msgid "%1$s sent you a message on %2$s..."
+msgstr "%1$s-ը ձեզ հաղորդագրություն է ուղարկել %2$s-ի վրա"
+
+#: plus/classes/models/MnglPlusMessage.php:300
+#, php-format
+msgid "%s sent a message in reply to a thread."
+msgstr "%s-ը պատասխան հաղորդագրություն է ուղարկել քննարկման մեջ:"
+
+#: plus/classes/models/MnglPlusMessage.php:312
+#, php-format
+msgid "%1$s replied to a thread on %2$s..."
+msgstr "%1$s-ը պատասխանել է մի քննարկման %2$s-ի վրա"
+
+#: plus/classes/models/MnglPlusOptions.php:32
+msgid "Mingle Plus Inbox Page must Not be blank"
+msgstr "Մինգլ Պլյուսի Նամակատուփի Էջը չի կարող դատարկ լինել"
+
+#: plus/classes/views/mngl-plus-messages/button.php:1
+#, php-format
+msgid "Send %s a Message"
+msgstr "%s-ին Հաղորդագրություն Ուղարկել"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:8
+msgid "Recipients"
+msgstr "Ստացողներ"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:14
+msgid "Subject"
+msgstr "Խորագիր"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:18
+msgid "Message"
+msgstr "Հաղորդագրություն"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:22
+msgid "Send"
+msgstr "Ուղարկել"
+
+#: plus/classes/views/mngl-plus-messages/list.php:1
+msgid "Compose a Message"
+msgstr "Հաղորդագրության Ստեղծում"
+
+#: plus/classes/views/mngl-plus-messages/list.php:7
+msgid "Mark as Read"
+msgstr "Նշել որպես՝ Կարդացած"
+
+#: plus/classes/views/mngl-plus-messages/list.php:8
+msgid "Mark as Unread"
+msgstr "Նշել որպես Չկարդացած"
+
+#: plus/classes/views/mngl-plus-messages/list.php:11
+msgid "Apply"
+msgstr "Կիրառում"
+
+#: plus/classes/views/mngl-plus-messages/list.php:62
+#: plus/classes/views/mngl-plus-messages/view.php:16
+msgid "No Messages Were Found"
+msgstr "Հաղորդագրություններ չգտնվեցին"
+
+#: plus/classes/views/mngl-plus-messages/message_sent.php:1
+msgid "Message Sent."
+msgstr "Հաղորդագրությունն Ուղարկված է:"
+
+#: plus/classes/views/mngl-plus-messages/view.php:1
+msgid "Back to Messages"
+msgstr "Վերադարձ դեպի Հաղորդագրություններ"
+
+#: plus/classes/views/mngl-plus-messages/view.php:23
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Reply"
+msgstr "Պատասխանել"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:1
+msgid "Add a Custom Field"
+msgstr "Ավելացնել մի Հատուկ Դաշտ"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:1
+msgid "These fields will be added to each user's profile."
+msgstr "Հետեւյալ դաշտերը պիտի ավելացվեն բոլոր օգտագործողների բնութագրի էջերին:"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_option_button.php:3
+msgid "Add an Option"
+msgstr "Ընտրանք Ավելացնել"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_option_button.php:4
+msgid "These options added to this dropdown."
+msgstr "Այս ընտրանքները ավելացվել են այս ներբացվող ցուցակին:"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:7
+msgid "Type"
+msgstr "Տեսակ"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:8
+msgid "Default Value"
+msgstr "Լռելյան Արժեք"
+
+#: plus/classes/views/mngl-plus-options/custom_field_option.php:5
+msgid "Label"
+msgstr "Պիտակ"
+
+#: plus/classes/views/mngl-plus-options/custom_field_option.php:6
+msgid "Value"
+msgstr "Արժեք"
+
+#: plus/classes/views/mngl-plus-options/custom_fields.php:1
+msgid "Custom Fields"
+msgstr "Հատուկ Դաշտեր"
+
+#: plus/classes/views/mngl-plus-options/pages.php:1
+msgid "MinglePlus Pages"
+msgstr "ՄինգլՊլյուսի Էջեր"
+
+#: plus/classes/views/mngl-plus-options/pages.php:2
+msgid "Now setup your MinglePlus Pages to start taking advantage of MinglePlus' awesome features."
+msgstr "Այժմ ստեղծեք եւ կարգավորեք ձեր ՄինգլՊլյուս էջերը որպեսզի կարողանաք օգտվել ՄինգլՊլյուսի ընձեռած հիանալի հնարավորություններից:"
+
+#: plus/classes/views/mngl-plus-options/pages.php:3
+msgid "Inbox Page"
+msgstr "Նամակատուփի Էջ"
+
+#: plus/classes/views/shared/plus_pages_links.php:1
+msgid "Inbox"
+msgstr "Նամակատուփ"
+
+#: plus/js/mingle-plus.js.php:57
+msgid "Are you sure you want to delete this message?"
+msgstr "Դուք վստա՞հ եք, որ ուզում եք ջնջել այս հաղորդագրությունը:"
+
+#: plus/js/mingle-plus.js.php:76
+msgid "Are you sure you want to delete these messages?"
+msgstr "Դուք վստա՞հ եք, որ ուզում եք ջնջել այս հաղորդագրությունները:"
+
+#. Plugin URI of an extension
+msgid "http://blairwilliams.com/mingle"
+msgstr "http://blairwilliams.com/mingle"
+
+#. Description of an extension
+msgid "The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network."
+msgstr "Պարզագույն եղանակը՝ ձեր ստանդարտ թեմայով ստանդարտ WordPress կայքը Սոցիալական Ցանց դարձնելու համար:"
+
+#. Author of an extension
+msgid "Blair Williams"
+msgstr "Բլեյր Ուիլյամս"
+
+#. Author URI of an extension
+msgid "http://blairwilliams.com"
+msgstr "http://blairwilliams.com"
+
+#~ msgid "Sex"
+#~ msgstr "Սեռ"

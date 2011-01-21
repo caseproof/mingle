@@ -1,0 +1,1672 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Blair Williams
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mingle 0.0.22\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mingle\n"
+"POT-Creation-Date: 2010-02-22 23:04-0500\n"
+"PO-Revision-Date: 2010-02-28 02:57+0200\n"
+"Last-Translator: Petrovan Ionut <pim.ionut@gmail.com>\n"
+"Language-Team: Petrovan Ionut <pim.ionut@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. #-#-#-#-#  mingle.pot (Mingle 0.0.22)  #-#-#-#-#
+#. Plugin Name of an extension
+#: classes/controllers/MnglAppController.php:186
+msgid "Mingle"
+msgstr "Mingle"
+
+#: classes/controllers/MnglBoardsController.php:13
+#, php-format
+msgid "%1$s posted to %2$s's board"
+msgstr "%1$s a postat la Tabla lui %2$s "
+
+#: classes/controllers/MnglBoardsController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's post"
+msgstr "%1$s a comentat la postarea lui %2$s "
+
+#: classes/controllers/MnglFriendsController.php:14
+#, php-format
+msgid "%1$s is now friends with %2$s"
+msgstr "%1$s este acum prieten(ă) cu %2$s "
+
+#: classes/controllers/MnglFriendsController.php:167
+#: classes/views/mngl-profiles/profile.php:46
+#: classes/views/shared/login_widget.php:10
+msgid "Friends"
+msgstr "Prieteni "
+
+#: classes/controllers/MnglHelpController.php:20
+#, php-format
+msgid "Mingle must be configured. Go to the %1$sadmin page%2$s to setup your new social network!"
+msgstr "Mingle trebuie configurat. Du-te la %1$spagina de administrare%2$s pentru a configura noua ta retea de socializare! "
+
+#: classes/controllers/MnglProfilesController.php:13
+#, php-format
+msgid "%1$s updated %2$s profile"
+msgstr "%1$s şi-a actualizat profilul %2$s "
+
+#: classes/helpers/MnglAppHelper.php:108
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d secundă în urmă"
+msgstr[1] "%d secunde în urmă"
+msgstr[2] "%d secunde în urmă"
+
+#: classes/helpers/MnglAppHelper.php:114
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minut în urmă"
+msgstr[1] "%d minute în urmă"
+msgstr[2] "%d minute în urmă"
+
+#: classes/helpers/MnglAppHelper.php:120
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d oră în urmă "
+msgstr[1] "%d ore în urmă"
+msgstr[2] "%d ore în urmă"
+
+#: classes/helpers/MnglAppHelper.php:126
+#, php-format
+msgid "yesterday"
+msgid_plural "%d days ago"
+msgstr[0] "ieri"
+msgstr[1] "%d zile în urmă"
+msgstr[2] "%d zile în urmă"
+
+#: classes/helpers/MnglAppHelper.php:132
+#, php-format
+msgid "last week"
+msgid_plural "%d weeks ago"
+msgstr[0] "săptămâna trecută"
+msgstr[1] "%d săptămâni în urmă"
+msgstr[2] "%d săptămâni în urmă"
+
+#: classes/helpers/MnglAppHelper.php:138
+#, php-format
+msgid "last month"
+msgid_plural "%d months ago"
+msgstr[0] "luna trecută"
+msgstr[1] "%d luni în urmă"
+msgstr[2] "%d luni în urmă"
+
+#: classes/helpers/MnglAppHelper.php:144
+#, php-format
+msgid "last year"
+msgid_plural "%d years ago"
+msgstr[0] "anul trecut"
+msgstr[1] "%d ani în urmă"
+msgstr[2] "%d ani în urmă"
+
+#: classes/helpers/MnglAppHelper.php:178
+#, php-format
+msgid "Powered by %1$sMingle%2$s"
+msgstr "Facut de %1$sMingle%2$s "
+
+#: classes/helpers/MnglBoardsHelper.php:31
+msgid "Read More"
+msgstr "Citeşte mai departe"
+
+#: classes/helpers/MnglOptionsHelper.php:29
+msgid "Full Name"
+msgstr "Numele complet"
+
+#: classes/helpers/MnglOptionsHelper.php:30
+msgid "Screen Name"
+msgstr "Pseudonim"
+
+#: classes/helpers/MnglOptionsHelper.php:39
+msgid "Public"
+msgstr "Public"
+
+#: classes/helpers/MnglOptionsHelper.php:40
+#: classes/views/mngl-options/form.php:157
+msgid "Private"
+msgstr "Privat"
+
+#: classes/helpers/MnglOptionsHelper.php:41
+msgid "Hidden"
+msgstr "Ascuns"
+
+#: classes/helpers/MnglProfileHelper.php:16
+#: classes/models/MnglUser.php:179
+msgid "Female"
+msgstr "Feminin"
+
+#: classes/helpers/MnglProfileHelper.php:17
+#: classes/models/MnglUser.php:186
+msgid "Male"
+msgstr "Masculin"
+
+#: classes/helpers/MnglProfileHelper.php:26
+msgid "I Want My Profile to Only Be Visible To Me and My Friends"
+msgstr "Vreau ca profilul să fie vizibil pentru mine şi prietenii mei "
+
+#: classes/helpers/MnglProfileHelper.php:27
+msgid "I Want My Profile to Be Visible To The World"
+msgstr "Vreau ca profilul meu să fie vizibil pentru toată lumea "
+
+#: classes/models/MnglNotification.php:12
+msgid "Sent when someone requests you as a friend"
+msgstr "Trimis când cineva vrea să fie prieten(ă) cu tine"
+
+#: classes/models/MnglNotification.php:14
+msgid "Sent when a friendship has been confirmed"
+msgstr "Trimis când cineva ţi-a confirmat cererea de prietenie"
+
+#: classes/models/MnglNotification.php:16
+msgid "Sent when someone posts to your Board"
+msgstr "Trimis când cineva a postat la Tabla Mea"
+
+#: classes/models/MnglNotification.php:18
+msgid "Sent when someone posts to one of your Board Posts or on a comment thread that you've participated in"
+msgstr "Trimis atunci când cineva a postat sau a comentat ceva pe paginile unde ai participat şi tu"
+
+#: classes/models/MnglNotification.php:20
+msgid "Sent when someone tags you in a Board post"
+msgstr "Trimis când cineva te identifică într-un post"
+
+#: classes/models/MnglNotification.php:23
+msgid "Sent when someone tags you in a Board comment"
+msgstr "Trimis când cineva te identifică într-un comentariu"
+
+#: classes/models/MnglNotification.php:41
+#, php-format
+msgid "%1$s has requested you as a friend on %2$s!"
+msgstr "%1$s îţi solicită prietenia pe %2$s! "
+
+#: classes/models/MnglNotification.php:42
+#, php-format
+msgid "Please visit %s to Accept or Ignore this request."
+msgstr "Vă rugăm vizitaţi %s pentru a Accepta sau Ignora această cerere."
+
+#: classes/models/MnglNotification.php:49
+#, php-format
+msgid "%1$s wants to be your Friend on %2$s"
+msgstr "%1$s vrea să fie prieten(ă) cu tine pe %2$s"
+
+#: classes/models/MnglNotification.php:70
+#: classes/models/MnglNotification.php:83
+#, php-format
+msgid "You're now friends with %1$s on %2$s!"
+msgstr "Eşti acum prieten(ă) cu %1$s pe %2$s!"
+
+#: classes/models/MnglNotification.php:71
+#, php-format
+msgid "Visit %1$s to see %2$s profile."
+msgstr "Vizitează %1$s pentru a vedea profilul lui %2$s"
+
+#: classes/models/MnglNotification.php:79
+#, php-format
+msgid "%1$s Has Confirmed Your Friend Request on %2$s"
+msgstr "%1$s A confirmat cererea ta de prietenie pe %2$s"
+
+#: classes/models/MnglNotification.php:84
+#, php-format
+msgid "Visit %s to see %s profile."
+msgstr "Vizitează %s pentru a vedea profilul lui %s"
+
+#: classes/models/MnglNotification.php:92
+#, php-format
+msgid "You're Now Friends With %1$s on %2$s"
+msgstr "Eşti acum prieten(ă) cu %1$s pe %2$s"
+
+#: classes/models/MnglNotification.php:116
+#, php-format
+msgid "%1$s posted this on your Board at %2$s"
+msgstr "%1$s postat pe Tabla Mea, la %2$s"
+
+#: classes/models/MnglNotification.php:117
+#, php-format
+msgid "Visit %s to see your Board"
+msgstr "Vizitează %s pentru a-ţi vedea Tabla"
+
+#: classes/models/MnglNotification.php:125
+#, php-format
+msgid "%1$s Posted to Your Board on %2$s"
+msgstr "%1$s Postat pe Tabla Ta la %2$s"
+
+#: classes/models/MnglNotification.php:139
+#, php-format
+msgid "You were tagged in %1$s's post on %2$s's Board at %3$s"
+msgstr "Ai fost identificat in %1$s's publicat pe %2$s's pagină la %3$s"
+
+#: classes/models/MnglNotification.php:140
+#, php-format
+msgid "Visit %s to see the post you were tagged in."
+msgstr "Vizitează %s pentru a vedea postul în care ai fost identificat(ă)."
+
+#: classes/models/MnglNotification.php:148
+#, php-format
+msgid "You were tagged in a Post on %s"
+msgstr "Ai fost identificat(ă) într-o postare pe %s"
+
+#: classes/models/MnglNotification.php:190
+#, php-format
+msgid "%1$s commented on your Board Post on %2$s"
+msgstr "%1$s a comentat la o postare de pe Tabla Ta pe %2$s"
+
+#: classes/models/MnglNotification.php:191
+#, php-format
+msgid "View this comment from %1$s's Board at %2$s."
+msgstr "Vezi acest comentariu de pe Tabla lui %1$s's postat la %2$s."
+
+#: classes/models/MnglNotification.php:200
+#, php-format
+msgid "%1$s commented on a Post on your Board on %2$s"
+msgstr "%1$s a comentat la o postare de pe Tabla Ta la %2$s"
+
+#: classes/models/MnglNotification.php:206
+#, php-format
+msgid "%1$s commented on %2$s's Board Post"
+msgstr "%1$s a comentat la postarea lui %2$s "
+
+#: classes/models/MnglNotification.php:216
+#, php-format
+msgid "%1$s commented on %2$s's Board Post on %3$s"
+msgstr "%1$s a comentat la o postare de pe Tabla lui %2$s pe %3$s "
+
+#: classes/models/MnglNotification.php:231
+#, php-format
+msgid "You were tagged in %1$s's comment on %2$s's Board at %3$s"
+msgstr "Ai fost idendificat(ă) în comentariul lui %1$s's pe pagina lui %2$s's la %3$s"
+
+#: classes/models/MnglNotification.php:232
+#, php-format
+msgid "Visit %s to see the comment you were tagged in."
+msgstr "Vizitează %s pentru a vedea comentariul în care ai fost identificat(ă)."
+
+#: classes/models/MnglNotification.php:240
+#, php-format
+msgid "You were tagged in a comment on %s"
+msgstr "Ai fost identificat(ă) într-un comentariu pe %s"
+
+#: classes/models/MnglNotification.php:287
+msgid "Thanks!"
+msgstr "Mulţumesc!"
+
+#: classes/models/MnglNotification.php:288
+#, php-format
+msgid "%s Team"
+msgstr "%s Echipa"
+
+#: classes/models/MnglNotification.php:289
+#, php-format
+msgid "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+msgstr "Dacă vrei să nu mai primeşti in viitor email-uri ca acestea, modifică setările privind notificările la %1$s sau contactează administratorul site-ului. %2$s. "
+
+#: classes/models/MnglOptions.php:177
+msgid "The Profile Page Must Not Be Blank."
+msgstr "Pagina Profil nu trebuie să fie goală."
+
+#: classes/models/MnglOptions.php:180
+msgid "The Profile Edit Page Must Not Be Blank."
+msgstr "Pagina Editare Profil nu trebuie să fie goală."
+
+#: classes/models/MnglOptions.php:183
+msgid "The Friends Page Must Not Be Blank."
+msgstr "Pagina Prieteni nu trebuie să fie goală."
+
+#: classes/models/MnglOptions.php:186
+msgid "The Friend Request Page Must Not Be Blank."
+msgstr "Pagina  Cereri de Prietenie nu trebuie să fie goală."
+
+#: classes/models/MnglOptions.php:189
+msgid "The Activity Page Must Not Be Blank."
+msgstr "Pagina Activitate nu trebuie să fie goală."
+
+#: classes/models/MnglUpdate.php:43
+msgid "MinglePlus Username"
+msgstr "MinglePlus Nume Utilizator"
+
+#: classes/models/MnglUpdate.php:44
+msgid "MinglePlus Password"
+msgstr "MinglePlus Parola"
+
+#: classes/models/MnglUpdate.php:45
+msgid "Your MinglePlus Username or Password was Invalid"
+msgstr "Numele de Utilizator sau Parola sunt incorecte"
+
+#: classes/models/MnglUpdate.php:135
+#, php-format
+msgid "Your Username & Password was accepted<br/>Now you can %1$sUpgrade Automatically!%2$s"
+msgstr "Numele de Utilizator si Parola au fost acceptate<br/>Acum poţi %1$sActualizare Automată!%2$s "
+
+#: classes/models/MnglUpdate.php:145
+#: classes/views/shared/errors.php:11
+msgid "ERROR"
+msgstr "EROARE"
+
+#: classes/models/MnglUpdate.php:180
+msgid "Save"
+msgstr "Salvează"
+
+#. translators: Please don't translate this string -- it is the php formatting of dates. Please modify it accordingly for your locale by following the instructions on this page: http://us3.php.net/manual/en/function.date.php
+#: classes/models/MnglUser.php:116
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: classes/models/MnglUser.php:176
+#: classes/models/MnglUser.php:177
+msgid "Her"
+msgstr "Ei"
+
+#: classes/models/MnglUser.php:178
+msgid "She"
+msgstr "Ea"
+
+#: classes/models/MnglUser.php:183
+msgid "His"
+msgstr "Lui"
+
+#: classes/models/MnglUser.php:184
+msgid "Him"
+msgstr "El "
+
+#: classes/models/MnglUser.php:185
+msgid "He"
+msgstr "El"
+
+#: classes/models/MnglUser.php:190
+msgid "His/Her"
+msgstr "Lui/Ei"
+
+#: classes/models/MnglUser.php:191
+msgid "Him/Her"
+msgstr "El/Ea"
+
+#: classes/models/MnglUser.php:192
+msgid "He/She"
+msgstr "El/Ea"
+
+#: classes/models/MnglUser.php:193
+msgid "Not Available"
+msgstr "Indisponibil"
+
+#: classes/models/MnglUser.php:275
+#: classes/models/MnglUser.php:318
+msgid "Username must not be blank"
+msgstr "Introduceţi Numele de Utilizator"
+
+#: classes/models/MnglUser.php:278
+msgid "Username must only contain letters, numbers and/or underscores"
+msgstr "Numele de utilizator trebuie să conţină doar litere, cifre şi / sau subliniază"
+
+#: classes/models/MnglUser.php:284
+msgid "Username is Already Taken."
+msgstr "Numele de Utilizator este deja luat."
+
+#: classes/models/MnglUser.php:287
+msgid "Email must not be blank"
+msgstr "Introduceţi adresa de e-mail"
+
+#: classes/models/MnglUser.php:290
+msgid "Email must be a real and properly formatted email address"
+msgstr "Adresa de e-mail trebuie să fie reală şi introdusă corect "
+
+#: classes/models/MnglUser.php:293
+msgid "Email Address has already been used by another user."
+msgstr "Adresa aceasta de e-mail este folosită deja de altcineva"
+
+#: classes/models/MnglUser.php:296
+msgid "You must select your Gender."
+msgstr "Selectati Genul."
+
+#: classes/models/MnglUser.php:301
+#: classes/models/MnglUser.php:363
+msgid "You must enter a Password."
+msgstr "Introduce-ţi o Parolă."
+
+#: classes/models/MnglUser.php:304
+#: classes/models/MnglUser.php:366
+msgid "You must enter a Password Confirmation."
+msgstr "Reintroduceţi Parola pentru Confirmare Parolă ."
+
+#: classes/models/MnglUser.php:307
+#: classes/models/MnglUser.php:369
+msgid "Your Password and Password Confirmation don't match."
+msgstr "Parola introdusă nu se potriveşte cu parola de confirmare."
+
+#: classes/models/MnglUser.php:324
+msgid "Username was not found"
+msgstr "Numele de Utilizator nu a fost găsit."
+
+#: classes/models/MnglUser.php:331
+msgid "Your Password was Incorrect"
+msgstr "Parola ta este incorectă"
+
+#: classes/models/MnglUser.php:342
+msgid "You must enter a Username or Password"
+msgstr "Introduce-ţi Numele de Utilizator sau Parola"
+
+#: classes/models/MnglUser.php:352
+msgid "That Username or Email wasn't found."
+msgstr "Respectivul Nume de Utilizator sau E-mail nu a fost găsit."
+
+#: classes/models/MnglUser.php:380
+msgid "Password Must Match Password Confirmation."
+msgstr "Parola trebuie sa se potriveasca cu cea din Confirmare Parola."
+
+#: classes/models/MnglUser.php:389
+msgid "Your Avatar wasn't able to be saved."
+msgstr "Avatarul tău nu a putut fi salvat."
+
+#: classes/models/MnglUser.php:398
+msgid "Your Avatar must be a valid jpg, gif or png."
+msgstr "Pentru ca Avatarul tau să fie valid trebuie să aibă urmatoarele extensii jpg, gif sau png."
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:923
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Înregistrare Utilizator Nou"
+
+#. translators: In this string, %1$s is the blog's name/title, %2$s is the user's real name, %3$s is the user's username, %4$s is the user's email, and %5$s is the user's profile url
+#: classes/models/MnglUser.php:926
+#, php-format
+msgid ""
+"A new user just joined your community at %1$s!\n"
+"\n"
+"Name: %2$s\n"
+"Username: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"You can view this user's profile here: %5$s"
+msgstr ""
+"Un nou utilizator s-a alăturat comunităţii noastre la %1$s!\n"
+"\n"
+"Nume: %2$s\n"
+"Nume Utilizator: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"Poţi vedea profilul acestui utilizator aici: %5$s"
+
+#: classes/models/MnglUser.php:928
+#, php-format
+msgid "There are now %1$s Users on %2$s"
+msgstr "Sunt acum %1$s Utilizatori pe %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:939
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Bine ați venit la %s! "
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:942
+#, php-format
+msgid ""
+"%1$s,\n"
+"Welcome to the Community at %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"You can login here: %5$s\n"
+"\n"
+"Enjoy!\n"
+"\n"
+"%2$s Team"
+msgstr ""
+"%1$s,\n"
+"Bine aţi venit in Comunitatea %2$s!\n"
+"\n"
+"Nume Utilizator: %3$s\n"
+"Parola: %4$s\n"
+"Vă puteţi loga aici: %5$s\n"
+"\n"
+"Bucuraţi-vă de din plin de site!\n"
+"\n"
+"Echipa %2$s "
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:973
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Resetare Parola"
+
+#. translators: In this string, %1$s is the user's username, %2$s is the blog's name/title, %3$s is the blog's url, %4$s the reset password link
+#: classes/models/MnglUser.php:976
+#, php-format
+msgid ""
+"Someone requested to reset your password for %1$s on %2$s at %3$s\n"
+"\n"
+"To reset your password visit the following address, otherwise just ignore this email and nothing will happen.\n"
+"\n"
+"%4$s"
+msgstr ""
+"Cineva a solicitat sa va resetati parola pentru %1$s pe %2$s la %3$s\n"
+"\n"
+"Pentru a-ti reseta parola urmeaza link-ul. Poti ignora acest E-mail, nu ti se va intampla nimic.\n"
+"\n"
+"%4$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1002
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Parola Pierduta/Schimbată"
+
+#. translators: In this string, %1$s is the user's screenname and %2$s is their profile url
+#: classes/models/MnglUser.php:1005
+#, php-format
+msgid ""
+"Password Lost and Changed for user: %1$s\n"
+"You can view %1$s's profile here: %2$s"
+msgstr ""
+"Parolă pierdută si schimbată pentru Utilizatorul: %1$s\n"
+"Poti vedea profilul lui %1$s's aici: %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:1018
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Parola Noua"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:1021
+#, php-format
+msgid ""
+"%1$s,\n"
+"\n"
+"Your Password was successfully reset on %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"\n"
+"You can login here: %5$s"
+msgstr ""
+"%1$s,\n"
+"\n"
+"Parola resetata cu succes pe %2$s!\n"
+"\n"
+"Numa Utilizator: %3$s\n"
+"Parola: %4$s\n"
+"\n"
+"Logheaza-te aici: %5$s"
+
+#: classes/views/mngl-boards/board_comment.php:17
+#: classes/views/mngl-boards/board_post.php:42
+#: classes/views/mngl-boards/board_post.php:79
+#: classes/views/mngl-friends/list.php:54
+#: plus/classes/views/mngl-plus-messages/list.php:9
+msgid "Delete"
+msgstr "Şterge"
+
+#: classes/views/mngl-boards/board_post.php:10
+#, php-format
+msgid "Posted on %s's Board"
+msgstr "Postat pe Tabla lui %s"
+
+#: classes/views/mngl-boards/board_post.php:17
+#, php-format
+msgid "Post from %s's Board:"
+msgstr "Postat de la Tabla lui %s"
+
+#: classes/views/mngl-boards/board_post.php:35
+#: classes/views/mngl-boards/board_post.php:74
+#: classes/views/mngl-boards/comment_form.php:36
+msgid "Comment"
+msgstr "Comentează"
+
+#: classes/views/mngl-boards/board_post.php:38
+#: classes/views/mngl-boards/board_post.php:76
+msgid "View"
+msgstr "Vezi "
+
+#: classes/views/mngl-boards/board_post.php:93
+#, php-format
+msgid "Show all %d comments"
+msgstr "Arata toate %d comentarii "
+
+#: classes/views/mngl-boards/comment_form.php:15
+msgid "Write a comment."
+msgstr "Lasa-i un comentariu."
+
+#: classes/views/mngl-boards/display.php:4
+msgid "Board"
+msgstr "Tabla Mea"
+
+#: classes/views/mngl-boards/display.php:5
+msgid "Info"
+msgstr "Info"
+
+#: classes/views/mngl-boards/display.php:20
+msgid "What's on your mind?"
+msgstr "Ce faci acum?"
+
+#: classes/views/mngl-boards/display.php:31
+msgid "Share"
+msgstr "Spune-le!"
+
+#: classes/views/mngl-boards/display.php:49
+msgid "Show Older Posts"
+msgstr "Arată postări mai vechi"
+
+#: classes/views/mngl-boards/display.php:56
+#: classes/views/mngl-profiles/edit.php:9
+#: classes/views/shared/signup_form.php:5
+msgid "First Name"
+msgstr "Nume"
+
+#: classes/views/mngl-boards/display.php:62
+#: classes/views/mngl-profiles/edit.php:13
+#: classes/views/shared/signup_form.php:9
+msgid "Last Name"
+msgstr "Prenume"
+
+#: classes/views/mngl-boards/display.php:69
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/shared/signup_form.php:27
+msgid "Bio"
+msgstr "Biografie"
+
+#: classes/views/mngl-boards/display.php:75
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/profile.php:39
+msgid "Birthday"
+msgstr "Data Naşterii"
+
+#: classes/views/mngl-boards/display.php:81
+#: classes/views/mngl-profiles/profile.php:42
+#: classes/views/shared/signup_form.php:15
+msgid "Website"
+msgstr "Website"
+
+#: classes/views/mngl-boards/display.php:87
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/profile.php:36
+#: classes/views/shared/signup_form.php:21
+msgid "Location"
+msgstr "Localitate"
+
+#: classes/views/mngl-boards/display.php:93
+#: classes/views/mngl-profiles/edit.php:47
+#: classes/views/mngl-profiles/profile.php:33
+#: classes/views/shared/signup_form.php:33
+msgid "Gender"
+msgstr "Genul"
+
+#: classes/views/mngl-boards/private.php:1
+#, php-format
+msgid "%1$s's profile is only visible to %2$s friends."
+msgstr "%1$s's profilul este vizibil numai pentru %2$s prieteni."
+
+#: classes/views/mngl-friends/add_button.php:1
+#: classes/views/mngl-friends/friend_requested.php:1
+msgid "Friendship Requested"
+msgstr "Cereri de Prietenie"
+
+#: classes/views/mngl-friends/add_button.php:1
+msgid "Add as a Friend"
+msgstr "Adaugă ca Prieten"
+
+#: classes/views/mngl-friends/already_friend.php:1
+msgid "Friend"
+msgstr "Prieten "
+
+#: classes/views/mngl-friends/list.php:8
+#, php-format
+msgid "%s's Friends"
+msgstr "%s's Prieteni "
+
+#: classes/views/mngl-friends/list.php:12
+msgid "Search Friends..."
+msgstr "Cauta-ţi Prietenii... "
+
+#: classes/views/mngl-friends/list.php:21
+#, php-format
+msgid "%s Friend Was Found"
+msgid_plural "%s Friends Were Found"
+msgstr[0] "%s Prieten a fost gasit "
+msgstr[1] "%s Prieteni au fost gasiti"
+msgstr[2] "%s Prieteni au fost gasiti"
+
+#: classes/views/mngl-friends/list.php:26
+#: classes/views/mngl-profiles/directory.php:28
+#: plus/classes/views/mngl-plus-messages/list.php:17
+#: plus/classes/views/mngl-plus-messages/list.php:71
+msgid "Previous Page"
+msgstr "Pagina Anterioară"
+
+#: classes/views/mngl-friends/list.php:69
+#: classes/views/mngl-profiles/directory.php:63
+#: plus/classes/views/mngl-plus-messages/list.php:24
+#: plus/classes/views/mngl-plus-messages/list.php:78
+msgid "Next Page"
+msgstr "Pagina Urmatoare "
+
+#: classes/views/mngl-friends/me.php:2
+msgid "That's You!"
+msgstr "Acesta eşti tu!"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "Edit"
+msgstr "Editează-ți Profilul"
+
+#: classes/views/mngl-friends/no_friends_found.php:1
+msgid "Apparently you have no friends ... boo hoo :("
+msgstr "Se pare că nu aveţi nici un prieten... boo hoo :( "
+
+#: classes/views/mngl-friends/requests.php:16
+#, php-format
+msgid "%s wants to be your friend."
+msgstr "%s vrea să fie prietenul tău."
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Accept"
+msgstr "Acceptă"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: classes/views/mngl-friends/requests.php:25
+msgid "You don't currently have any friend requests."
+msgstr "Momentan nu aveţi nicio cerere de prietenie."
+
+#: classes/views/mngl-options/default_friend.php:2
+msgid "Default Friend"
+msgstr "Prieten Implicit "
+
+#: classes/views/mngl-options/default_friends_added.php:1
+msgid "Default Friends Were Added"
+msgstr "Sunt adăugaţi prieteni impliciţi"
+
+#: classes/views/mngl-options/form.php:2
+msgid "Mingle: Options"
+msgstr "Mingle: Opţiuni"
+
+#: classes/views/mngl-options/form.php:9
+msgid "Mingle Pages"
+msgstr "Pagini Mingle"
+
+#: classes/views/mngl-options/form.php:10
+#, php-format
+msgid "Before you can get going with Mingle, you must configure where Mingle pages on your website will appear. You'll want to %1$screate a new page%2$s for each of these pages that mingle needs to work. You should give your page a title and optionally put some content into the page ... just know that once you set the page up here, the page's content will not display."
+msgstr "Inainte de a continua, trebuie configurezi unde vor aparea paginile Mingle in site. Va fi nevoie sa %1$screezi o pagina noua%2$s pentru fiecare pagina cu care Mingle va lucra. "
+
+#: classes/views/mngl-options/form.php:13
+msgid "Profile Page"
+msgstr "Profilul Meu"
+
+#: classes/views/mngl-options/form.php:17
+msgid "Activity Page"
+msgstr "Activitate"
+
+#: classes/views/mngl-options/form.php:24
+msgid "Profile Edit Page"
+msgstr "Editare Profil"
+
+#: classes/views/mngl-options/form.php:28
+msgid "Directory Page"
+msgstr "Utilizatori"
+
+#: classes/views/mngl-options/form.php:35
+msgid "Friends Page"
+msgstr "Prieteni"
+
+#: classes/views/mngl-options/form.php:39
+msgid "Login Page"
+msgstr "Logare"
+
+#: classes/views/mngl-options/form.php:46
+msgid "Friend Requests Page"
+msgstr "Cereri de Prietenie"
+
+#: classes/views/mngl-options/form.php:50
+msgid "Signup Page"
+msgstr "Inregistrare "
+
+#: classes/views/mngl-options/form.php:60
+msgid "Profile Options"
+msgstr "Optiuni Profil"
+
+#: classes/views/mngl-options/form.php:62
+msgid "Pretty Profile Urls"
+msgstr "Pretty Profile Urls "
+
+#: classes/views/mngl-options/form.php:63
+msgid "When checked, Pretty Profile Urls will allow users to type their screenname following your site's domain name for their url. Note, if you do not have Apache rewrite functioning and have not selected something other than \"Default\" under your General Permalink settings, this will not work."
+msgstr "Cand este bifat Pretty Urls permite utilizatorilor sa-si scrie numele dupa numele site-ului. Important, daca nu aveti activat modul rewrite la Apache sau daca nu aveti selectata metoda standard de la Legaturi Permanente aceasta optiune nu va functiona."
+
+#: classes/views/mngl-options/form.php:64
+msgid "User Registration Email Spam Protection"
+msgstr "Protectie impotriva inregistrarilor de tip spam. "
+
+#: classes/views/mngl-options/form.php:65
+msgid "When checked, Mingle will use advanced email lookup techniques to validate the user signup to prevent against user registration spam."
+msgstr "Când este bifat, Mingle va utiliza tehnici avansate de căutare pentru a valida inregistrarea utilizatorilor noi si a prevenii inregistrarile de tip spam."
+
+#: classes/views/mngl-options/form.php:66
+msgid "Prevent Subscribers Access to the WordPress Admin"
+msgstr "Preveniti Accesul Utilizatorilor la WordPress Admin"
+
+#: classes/views/mngl-options/form.php:67
+msgid "When checked, Mingle will redirect non-admin users to their activity page if attempting to go anywhere within /wp-admin."
+msgstr "Cand este selectat, Mingle va redirectiona utilizatorii care incearca sa acceseze pagina wp-admin la pagina Activitate."
+
+#: classes/views/mngl-options/form.php:70
+msgid "Default Friends"
+msgstr "Prieteni Impliciţi"
+
+#: classes/views/mngl-options/form.php:72
+msgid "These Users will be added as a friends to all new signups."
+msgstr "Aceşti utilizatori vor fi adăugati în calitate de prieteni, la toate înscrierile noi. "
+
+#: classes/views/mngl-options/form.php:88
+msgid "Add a Default Friend"
+msgstr "Adăugaţi ca prieten Implicit"
+
+#: classes/views/mngl-options/form.php:91
+msgid "Invisible Users"
+msgstr "Utilizatori Invizibili"
+
+#: classes/views/mngl-options/form.php:93
+msgid "Any users checked below will not be visible to Mingle. They won't have a profile page, friends, be listed in the directory or show up anywhere in mingle."
+msgstr "Toti utilizatori selectati mai jos nu va fi vizibili in Mingle. Ei nu vor avea o pagina de profil, prieteni si nici nu vor aparea in lista utilizatorilor."
+
+#: classes/views/mngl-options/form.php:94
+msgid "Hold down Control Key (the Command Key if you're on a Mac) or the Shift Key to select multiple users."
+msgstr "Apasa tasta control si selecteaza cu click stanga toti utilizatorii care nu vrei sa apara in Mingle."
+
+#: classes/views/mngl-options/form.php:97
+msgid "Field Display Options"
+msgstr "Optiuni Afisare"
+
+#: classes/views/mngl-options/form.php:99
+msgid "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+msgstr "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+
+#: classes/views/mngl-options/form.php:102
+msgid "Show Name Fields"
+msgstr "Arată câmpul Nume"
+
+#: classes/views/mngl-options/form.php:107
+#: classes/views/mngl-options/form.php:116
+#: classes/views/mngl-options/form.php:125
+#: classes/views/mngl-options/form.php:134
+#: classes/views/mngl-options/form.php:143
+#: classes/views/mngl-options/form.php:152
+#: classes/views/mngl-options/form.php:159
+#: plus/classes/views/mngl-plus-options/custom_field.php:13
+msgid "Show on the Signup Page"
+msgstr "Arată în pagina Inregistrare"
+
+#: classes/views/mngl-options/form.php:111
+msgid "Show Website Field"
+msgstr "Arată câmpul Website"
+
+#: classes/views/mngl-options/form.php:120
+msgid "Show Location Field"
+msgstr "Arată câmpul Localitate"
+
+#: classes/views/mngl-options/form.php:129
+msgid "Show Bio Field"
+msgstr "Arată câmpul Biografie"
+
+#: classes/views/mngl-options/form.php:138
+msgid "Show Birthday Field"
+msgstr "Arată câmpul Data Naşterii"
+
+#: classes/views/mngl-options/form.php:147
+msgid "Show Gender Field"
+msgstr "Arată câmpul Genul"
+
+#: classes/views/mngl-options/form.php:156
+msgid "Show Password Field"
+msgstr "Arată câmpul Parola"
+
+#: classes/views/mngl-options/form.php:168
+msgid "Update Options"
+msgstr "Actualizeaza Opţiuni"
+
+#: classes/views/mngl-options/form.php:173
+msgid "Add Default Friends to Existing Users"
+msgstr "Adauga Prieteni Impliciti pentru Utilizatorii Existenţi"
+
+#: classes/views/mngl-options/options_saved.php:1
+msgid "Options saved."
+msgstr "Opţiuni Salvate."
+
+#: classes/views/mngl-profiles/directory.php:13
+msgid "Search Users..."
+msgstr "Cauta-ți prietenii..."
+
+#: classes/views/mngl-profiles/directory.php:23
+#, php-format
+msgid "%s User Was Found"
+msgid_plural "%s Users Were Found"
+msgstr[0] "%s Utilizator a fost găsit "
+msgstr[1] "%s Utilizatori au fost găsiti"
+msgstr[2] "%s Utilizatori au fost găsiti"
+
+#: classes/views/mngl-profiles/edit.php:6
+msgid "Information"
+msgstr "Info"
+
+#: classes/views/mngl-profiles/edit.php:17
+msgid "Email"
+msgstr "Email"
+
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/edit.php:47
+#: plus/classes/views/mngl-plus-custom-fields/edit_fields.php:9
+msgid "private"
+msgstr "privat"
+
+#: classes/views/mngl-profiles/edit.php:35
+msgid "URL"
+msgstr "Site"
+
+#: classes/views/mngl-profiles/edit.php:52
+#: classes/views/mngl-users/reset_password.php:4
+#: classes/views/shared/login_form.php:5
+#: classes/views/shared/login_widget.php:22
+#: classes/views/shared/signup_form.php:48
+msgid "Password"
+msgstr "Parolă"
+
+#: classes/views/mngl-profiles/edit.php:56
+#: classes/views/mngl-users/reset_password.php:8
+#: classes/views/shared/signup_form.php:52
+msgid "Password Confirmation"
+msgstr "Confirmare Parolă"
+
+#: classes/views/mngl-profiles/edit.php:60
+msgid "Avatar"
+msgstr "Avatar"
+
+#: classes/views/mngl-profiles/edit.php:68
+#: plus/classes/views/mngl-plus-options/custom_field.php:9
+msgid "Privacy"
+msgstr "Confidenţialitate"
+
+#: classes/views/mngl-profiles/edit.php:70
+msgid "Notification Settings"
+msgstr "Setare Notificări"
+
+#: classes/views/mngl-profiles/edit.php:78
+#, php-format
+msgid "Don't Send Me \"%s\" Notifications"
+msgstr "Nu vreau sa primesc notificari cu \"%s\" "
+
+#: classes/views/mngl-profiles/edit.php:85
+msgid "Update"
+msgstr "Actualizare "
+
+#: classes/views/mngl-profiles/edit_avatar.php:3
+msgid "delete"
+msgstr "șterge"
+
+#: classes/views/mngl-profiles/profile.php:26
+#: plus/classes/views/mngl-plus-options/custom_field.php:6
+msgid "Name"
+msgstr "Nume"
+
+#: classes/views/mngl-profiles/profile_saved.php:1
+msgid "Your Profile has been saved."
+msgstr "Profilul Tău a fost salvat."
+
+#: classes/views/mngl-users/forgot_password.php:1
+msgid "Request a Password Reset"
+msgstr "Necesită Resetarea Parolei"
+
+#: classes/views/mngl-users/forgot_password.php:4
+msgid "Enter Your Username or Email Address"
+msgstr "Introduceți Numele de Utilizator sau Adresa de Email"
+
+#: classes/views/mngl-users/forgot_password.php:8
+msgid "Request Password Reset"
+msgstr "Necesită Resetarea Parolei"
+
+#: classes/views/mngl-users/forgot_password_requested.php:1
+msgid "Successfully requested password reset"
+msgstr "Parolă resetată cu succes."
+
+#: classes/views/mngl-users/forgot_password_requested.php:2
+msgid "Please click on the confirmation link that was just sent to your email address."
+msgstr "Accesați link-ul de confirmare din Emailul care va fost trimis."
+
+#: classes/views/mngl-users/reset_password.php:1
+msgid "Enter your new password"
+msgstr "Introduceți noua Parolă"
+
+#: classes/views/mngl-users/reset_password.php:12
+msgid "Reset Password"
+msgstr "Resetare Parolă"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:1
+msgid "Password successfully reset"
+msgstr "Parolă resetată cu succes."
+
+#: classes/views/mngl-users/reset_password_thankyou.php:2
+msgid "Your new password has been emailed to you."
+msgstr "Noua Parolă ți-a fost trimisă pe Email."
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+#, php-format
+msgid "Thanks for Registering for %s!"
+msgstr "Vă mulţumim pentru inregistrarea pe %s!"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+msgid "You should shortly receive an email with your password."
+msgstr "In scurt timp veți primi un Email cu Parola setată."
+
+#: classes/views/shared/already_logged_in.php:1
+#, php-format
+msgid "You're already logged in. %1$sLogout.%2$s"
+msgstr "Sunteți deja autentificat. %1$sIeșire.%2$s "
+
+#: classes/views/shared/login_form.php:3
+#: classes/views/shared/login_widget.php:20
+#: classes/views/shared/signup_form.php:38
+msgid "Username"
+msgstr "Nume Utilizator"
+
+#: classes/views/shared/login_form.php:7
+#: classes/views/shared/login_widget.php:24
+msgid "Remember Me"
+msgstr "Ține-ma minte!"
+
+#: classes/views/shared/login_form.php:10
+#: classes/views/shared/login_widget.php:27
+msgid "Log In"
+msgstr "Intrați!"
+
+#: classes/views/shared/login_form.php:19
+#: classes/views/shared/login_widget.php:36
+msgid "Register"
+msgstr "Inregistrare!"
+
+#: classes/views/shared/login_form.php:23
+#: classes/views/shared/login_widget.php:40
+msgid "Lost Password?"
+msgstr "Ați pierdut parola?"
+
+#: classes/views/shared/login_widget.php:7
+msgid "Activity"
+msgstr "Activitate"
+
+#: classes/views/shared/login_widget.php:8
+msgid "Profile"
+msgstr "Profilul Meu "
+
+#: classes/views/shared/login_widget.php:9
+msgid "Settings"
+msgstr "Setări"
+
+#: classes/views/shared/login_widget.php:11
+msgid "Friend Requests"
+msgstr "Cereri de Prietenie"
+
+#: classes/views/shared/login_widget.php:14
+msgid "Logout"
+msgstr "Ieșire!"
+
+#: classes/views/shared/login_widget.php:17
+#, php-format
+msgid "Login to connect with Others on %s"
+msgstr "Intrați pentru a comunica cu alții pe %s"
+
+#: classes/views/shared/login_widget.php:46
+msgid "Directory"
+msgstr "Utilizatori "
+
+#: classes/views/shared/must_configure.php:1
+#, php-format
+msgid "Mingle must be configured. Go to the %s to setup your new social network!"
+msgstr "Mingle trebuie configurat. Du-te la %s pentru a configura noua ta retea de socializare! "
+
+#: classes/views/shared/must_configure.php:1
+msgid "Mingle Admin Page"
+msgstr "Pagina de Administrare Mingle"
+
+#: classes/views/shared/signup_form.php:42
+msgid "E-mail"
+msgstr "E-mail"
+
+#: classes/views/shared/signup_form.php:56
+msgid "A password will be e-mailed to you."
+msgstr "In scurt timp veți primi un Email cu Parola setată."
+
+#: classes/views/shared/signup_form.php:59
+msgid "Sign Up"
+msgstr "Inregistrați-vă!"
+
+#: classes/views/shared/unauthorized.php:16
+#, php-format
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr "Nu sunteți autorizat pentru a vizualiza această pagină.%s și încercați din nou."
+
+#: classes/views/shared/unauthorized.php:16
+msgid "Login"
+msgstr "Intrați!"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Don't have a Login?"
+msgstr "Nu aveți un cont pe site?"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Register for an Account."
+msgstr "Înregistrați-vă acum!"
+
+#: classes/views/shared/user_grid.php:3
+msgid "Show All"
+msgstr "Arată Tot"
+
+#: classes/widgets/MnglLoginWidget.php:7
+msgid "Mingle Login"
+msgstr "Intrați!"
+
+#: classes/widgets/MnglLoginWidget.php:50
+#: classes/widgets/MnglUsersWidget.php:56
+msgid "Title"
+msgstr "Titlu"
+
+#: classes/widgets/MnglUsersWidget.php:7
+msgid "Mingle Users Grid"
+msgstr "Utilizatori Mingle Grid"
+
+#: classes/widgets/MnglUsersWidget.php:21
+msgid "Users"
+msgstr "Utilizatori "
+
+#: classes/widgets/MnglUsersWidget.php:51
+msgid "Mingle Users"
+msgstr "Utilizatori Mingle "
+
+#: classes/widgets/MnglUsersWidget.php:57
+msgid "# of Grid Columns"
+msgstr "# coloane Grind "
+
+#: classes/widgets/MnglUsersWidget.php:58
+msgid "# of Grid Rows"
+msgstr "# randuri Grind "
+
+#: classes/widgets/MnglUsersWidget.php:60
+msgid "Grid Type"
+msgstr "Tipuri de Grind "
+
+#: classes/widgets/MnglUsersWidget.php:62
+msgid "Random Mingle Users"
+msgstr "Utilizatorii Mingle Aleatori"
+
+#: classes/widgets/MnglUsersWidget.php:63
+msgid "Recent Mingle Users"
+msgstr "Cei mai noi Utilizatori Mingle"
+
+#: js/mingle.js.php:66
+msgid "Are you sure you want to delete this post?"
+msgstr "Ești sigur(ă) că vrei să ștergi acest post?"
+
+#: js/mingle.js.php:82
+msgid "Are you sure you want to delete this comment?"
+msgstr "Ești sigur(ă) că vrei să ștergi acest comentariu?"
+
+#: js/mingle.js.php:118
+msgid "Are you sure you want to delete this friend?"
+msgstr "Ești sigur(ă) că vrei să ștergi acest prieten?"
+
+#: js/mingle.js.php:192
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Ești sigur(ă) că vrei să ștergi acest avatar?"
+
+#: js/mingle.js.php:237
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Loading..."
+msgstr "Încarcă..."
+
+#. translators: Please don't translate this string ... You can see what this date format means here http://docs.jquery.com/UI/Datepicker/formatDate ... try to select a relevant format for those using Mingle in your language.
+#: js/mingle.js.php:295
+msgid "MM d, yy"
+msgstr "MM d, yy"
+
+#. translators: Please don't translate this string ... This option indicates whether the first day on the calendar is a Sunday or Monday -- Sunday is represented as a '0' and Monday is represented as a '1'
+#: js/mingle.js.php:298
+msgid "0"
+msgstr "0"
+
+#: js/mingle.js.php:300
+msgid "January"
+msgstr "Ianuarie"
+
+#: js/mingle.js.php:300
+msgid "February"
+msgstr "Februarie"
+
+#: js/mingle.js.php:300
+msgid "March"
+msgstr "Martie"
+
+#: js/mingle.js.php:300
+msgid "April"
+msgstr "Aprilie"
+
+#: js/mingle.js.php:300
+#: js/mingle.js.php:303
+msgid "May"
+msgstr "Mai"
+
+#: js/mingle.js.php:300
+msgid "June"
+msgstr "Iunie"
+
+#: js/mingle.js.php:300
+msgid "July"
+msgstr "Iulie"
+
+#: js/mingle.js.php:300
+msgid "August"
+msgstr "August"
+
+#: js/mingle.js.php:300
+msgid "September"
+msgstr "Septembrie"
+
+#: js/mingle.js.php:300
+msgid "October"
+msgstr "Octombrie"
+
+#: js/mingle.js.php:300
+msgid "November"
+msgstr "Noiembrie"
+
+#: js/mingle.js.php:300
+msgid "December"
+msgstr "Decembrie"
+
+#. translators: This is the short version of the month name...
+#: js/mingle.js.php:303
+msgid "Jan"
+msgstr "Ian"
+
+#: js/mingle.js.php:303
+msgid "Feb"
+msgstr "Feb"
+
+#: js/mingle.js.php:303
+msgid "Mar"
+msgstr "Mar"
+
+#: js/mingle.js.php:303
+msgid "Apr"
+msgstr "Apr"
+
+#: js/mingle.js.php:303
+msgid "Jun"
+msgstr "Iunie"
+
+#: js/mingle.js.php:303
+msgid "Jul"
+msgstr "Iulie"
+
+#: js/mingle.js.php:303
+msgid "Aug"
+msgstr "Aug"
+
+#: js/mingle.js.php:303
+msgid "Sept"
+msgstr "Sept"
+
+#: js/mingle.js.php:303
+msgid "Oct"
+msgstr "Oct"
+
+#: js/mingle.js.php:303
+msgid "Nov"
+msgstr "Noi"
+
+#: js/mingle.js.php:303
+msgid "Dec"
+msgstr "Dec"
+
+#: js/mingle.js.php:305
+msgid "Sunday"
+msgstr "Duminică"
+
+#: js/mingle.js.php:305
+msgid "Monday"
+msgstr "Luni"
+
+#: js/mingle.js.php:305
+msgid "Tuesday"
+msgstr "Marți"
+
+#: js/mingle.js.php:305
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: js/mingle.js.php:305
+msgid "Thursday"
+msgstr "Joi"
+
+#: js/mingle.js.php:305
+msgid "Friday"
+msgstr "Vineri"
+
+#: js/mingle.js.php:305
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#. translators: This is the short version of the day name...
+#: js/mingle.js.php:308
+msgid "Sun"
+msgstr "Du"
+
+#: js/mingle.js.php:308
+msgid "Mon"
+msgstr "Lu"
+
+#: js/mingle.js.php:308
+msgid "Tue"
+msgstr "Ma"
+
+#: js/mingle.js.php:308
+msgid "Wed"
+msgstr "Mi"
+
+#: js/mingle.js.php:308
+msgid "Thu"
+msgstr "Joi"
+
+#: js/mingle.js.php:308
+msgid "Fri"
+msgstr "Vi"
+
+#: js/mingle.js.php:308
+msgid "Sat"
+msgstr "Sâm"
+
+#. translators: This is the minimized short version of the day name
+#: js/mingle.js.php:311
+msgid "Su"
+msgstr "D"
+
+#: js/mingle.js.php:311
+msgid "Mo"
+msgstr "L"
+
+#: js/mingle.js.php:311
+msgid "Tu"
+msgstr "Ma"
+
+#: js/mingle.js.php:311
+msgid "We"
+msgstr "Mi"
+
+#: js/mingle.js.php:311
+msgid "Th"
+msgstr "J"
+
+#: js/mingle.js.php:311
+msgid "Fr"
+msgstr "V"
+
+#: js/mingle.js.php:311
+msgid "Sa"
+msgstr "S"
+
+#. translators: Please don't translate this string ... Just set it to 'isRTL: true' if your language is drawn from Right-to-Left
+#: js/mingle.js.php:314
+msgid "isRTL: false"
+msgstr "isRTL: false"
+
+#: plus/classes/controllers/MnglPlusAppController.php:197
+msgid "Send Message To..."
+msgstr "Trimite Mesaj Catre..."
+
+#: plus/classes/controllers/MnglPlusAppController.php:197
+msgid "No results"
+msgstr "Nici un rezultat"
+
+#: plus/classes/controllers/MnglPlusAppController.php:197
+msgid "Searching..."
+msgstr "Căutare..."
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:8
+msgid "You"
+msgstr "Tu"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:23
+msgid ", "
+msgstr ","
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:25
+msgid " and "
+msgstr "și"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:30
+#, php-format
+msgid "Between %s"
+msgstr "Între %s "
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:9
+msgid "Text Input"
+msgstr "Introduceți Textul"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:10
+msgid "Text Area"
+msgstr "Zonă Text"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:11
+msgid "Checkbox"
+msgstr "Casetă de selectare"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:12
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:13
+msgid "Date"
+msgstr "Data"
+
+#: plus/classes/models/MnglPlusMessage.php:18
+msgid "Private Message"
+msgstr "Mesaj Privat"
+
+#: plus/classes/models/MnglPlusMessage.php:19
+msgid "Sent when someone sends you a message"
+msgstr "Trimis atunci când cineva vă trimite un mesaj"
+
+#: plus/classes/models/MnglPlusMessage.php:21
+msgid "Private Message Reply"
+msgstr "Răspuns Mesaj Privat"
+
+#: plus/classes/models/MnglPlusMessage.php:22
+msgid "Sent when someone replies to a message you were included on"
+msgstr "Trimis atunci când cineva răspunde la un mesaj in care ati fost inclus "
+
+#: plus/classes/models/MnglPlusMessage.php:32
+msgid "(no subject)"
+msgstr "(fară subiect)"
+
+#: plus/classes/models/MnglPlusMessage.php:223
+msgid "There must be at least one recipient"
+msgstr "Trebuie să existe cel puţin un destinatar"
+
+#: plus/classes/models/MnglPlusMessage.php:226
+msgid "Message can't be blank"
+msgstr "Mesajul nu poate fi gol"
+
+#: plus/classes/models/MnglPlusMessage.php:271
+#, php-format
+msgid "%s sent you a message."
+msgstr "%s ți-a trimis un mesaj."
+
+#: plus/classes/models/MnglPlusMessage.php:272
+#: plus/classes/models/MnglPlusMessage.php:301
+#, php-format
+msgid ""
+"To reply to this message, follow the link below:\n"
+"%s"
+msgstr ""
+"Pentru a răspunde la acest mesaj, urmaţi link-ul de mai jos:\n"
+"%s"
+
+#: plus/classes/models/MnglPlusMessage.php:283
+#, php-format
+msgid "%1$s sent you a message on %2$s..."
+msgstr "%1$s ți-a trimis un mesaj pe %2$s..."
+
+#: plus/classes/models/MnglPlusMessage.php:300
+#, php-format
+msgid "%s sent a message in reply to a thread."
+msgstr "%s trimis un mesaj ca răspuns la un thread."
+
+#: plus/classes/models/MnglPlusMessage.php:312
+#, php-format
+msgid "%1$s replied to a thread on %2$s..."
+msgstr "%1$s răspuns la un thread pe %2$s..."
+
+#: plus/classes/models/MnglPlusOptions.php:32
+msgid "Mingle Plus Inbox Page must Not be blank"
+msgstr "Pagina Inbox de la Mingle Plus nu poate fi goală."
+
+#: plus/classes/views/mngl-plus-messages/button.php:1
+#, php-format
+msgid "Send %s a Message"
+msgstr "Trimite %s un Mesaj"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:8
+msgid "Recipients"
+msgstr "Beneficiarii"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:14
+msgid "Subject"
+msgstr "Subiect"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:18
+msgid "Message"
+msgstr "Mesaj"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:22
+msgid "Send"
+msgstr "Trimite"
+
+#: plus/classes/views/mngl-plus-messages/list.php:1
+msgid "Compose a Message"
+msgstr "Scrieți un Mesaj"
+
+#: plus/classes/views/mngl-plus-messages/list.php:7
+msgid "Mark as Read"
+msgstr "Marcați ca Citit"
+
+#: plus/classes/views/mngl-plus-messages/list.php:8
+msgid "Mark as Unread"
+msgstr "Marcați ca Necitit"
+
+#: plus/classes/views/mngl-plus-messages/list.php:11
+msgid "Apply"
+msgstr "Aplică"
+
+#: plus/classes/views/mngl-plus-messages/list.php:62
+#: plus/classes/views/mngl-plus-messages/view.php:16
+msgid "No Messages Were Found"
+msgstr "Nu au fost Găsite Mesaje"
+
+#: plus/classes/views/mngl-plus-messages/message_sent.php:1
+msgid "Message Sent."
+msgstr "Mesaj Trimis"
+
+#: plus/classes/views/mngl-plus-messages/view.php:1
+msgid "Back to Messages"
+msgstr "Înapoi la Mesaje"
+
+#: plus/classes/views/mngl-plus-messages/view.php:23
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Reply"
+msgstr "Răspunde"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:1
+msgid "Add a Custom Field"
+msgstr "Adaugă Câmp Prestabilit"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:1
+msgid "These fields will be added to each user's profile."
+msgstr "Aceste câmpuri vor fi adăugate la profilul fiecarui utilizator."
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_option_button.php:3
+msgid "Add an Option"
+msgstr "Adaugă o Opțiune"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_option_button.php:4
+msgid "These options added to this dropdown."
+msgstr "Aceste optiuni adăugate la acest dropdown."
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:7
+msgid "Type"
+msgstr "Tip"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:8
+msgid "Default Value"
+msgstr "Valoare prestabilită"
+
+#: plus/classes/views/mngl-plus-options/custom_field_option.php:5
+msgid "Label"
+msgstr "Etichetă"
+
+#: plus/classes/views/mngl-plus-options/custom_field_option.php:6
+msgid "Value"
+msgstr "Valoare"
+
+#: plus/classes/views/mngl-plus-options/custom_fields.php:1
+msgid "Custom Fields"
+msgstr "Câmp Prestabilit"
+
+#: plus/classes/views/mngl-plus-options/pages.php:1
+msgid "MinglePlus Pages"
+msgstr "Pagini MinglePlus "
+
+#: plus/classes/views/mngl-plus-options/pages.php:2
+msgid "Now setup your MinglePlus Pages to start taking advantage of MinglePlus' awesome features."
+msgstr "Acum, configurati paginile MinglePlus pentru beneficia de toate super avantajele MinglePlus."
+
+#: plus/classes/views/mngl-plus-options/pages.php:3
+msgid "Inbox Page"
+msgstr "Mesaje primite"
+
+#: plus/classes/views/shared/plus_pages_links.php:1
+msgid "Inbox"
+msgstr "Mesaje primite"
+
+#: plus/js/mingle-plus.js.php:57
+msgid "Are you sure you want to delete this message?"
+msgstr "Ești sigur(ă) că vrei să ștergi acest mesaj?"
+
+#: plus/js/mingle-plus.js.php:76
+msgid "Are you sure you want to delete these messages?"
+msgstr "Ești sigur(ă) că vrei să ștergi aceste mesaje?"
+
+#. Plugin URI of an extension
+msgid "http://blairwilliams.com/mingle"
+msgstr "http://blairwilliams.com/mingle"
+
+#. Description of an extension
+msgid "The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network."
+msgstr "Cea mai usoara cale pentru a-ti transforma site-ul intr-o Retea Sociala."
+
+#. Author of an extension
+msgid "Blair Williams"
+msgstr "Blair Williams"
+
+#. Author URI of an extension
+msgid "http://blairwilliams.com"
+msgstr "http://blairwilliams.com"
+

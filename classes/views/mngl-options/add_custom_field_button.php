@@ -1,0 +1,1 @@
+<p id="mngl-add-button"><a href="javascript:mngl_add_field(<?php echo $index; ?>)" class="button">+ <?php _e('Add a Custom Field', 'mingle'); ?></a><br/><span class="description"><?php _e('These fields will be added to each user\'s profile.', 'mingle'); ?></span></p>

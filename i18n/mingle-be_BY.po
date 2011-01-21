@@ -1,0 +1,1368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mingle\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mingle\n"
+"POT-Creation-Date: 2010-02-05 18:15-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: FatCow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: D:\\mingle\n"
+
+#. #-#-#-#-#  mingle.pot (Mingle 0.0.21)  #-#-#-#-#
+#. Plugin Name of an extension
+#: classes/controllers/MnglAppController.php:186
+msgid "Mingle"
+msgstr "Mingle"
+
+#: classes/controllers/MnglBoardsController.php:13
+#, php-format
+msgid "%1$s posted to %2$s's board"
+msgstr "%1$s змесцавана на %2$s дошцы"
+
+#: classes/controllers/MnglBoardsController.php:16
+#, php-format
+msgid "%1$s commented on %2$s's post"
+msgstr "%1$s прокомментировано ў  запісы %2$s"
+
+#: classes/controllers/MnglFriendsController.php:14
+#, php-format
+msgid "%1$s is now friends with %2$s"
+msgstr "%1$s зараз френды з %2$s"
+
+#: classes/controllers/MnglFriendsController.php:165
+#: classes/views/mngl-profiles/profile.php:43
+#: classes/views/shared/login_widget.php:10
+msgid "Friends"
+msgstr "Френды"
+
+#: classes/controllers/MnglHelpController.php:20
+#, php-format
+msgid "Mingle must be configured. Go to the %1$sadmin page%2$s to setup your new social network!"
+msgstr "Mingle павінен быць сканфігураваны. Выкарыстоўвайце %1$sадминку%2$s для налады вашай сацыяльнай сеткі!"
+
+#: classes/controllers/MnglProfilesController.php:13
+#, php-format
+msgid "%1$s updated %2$s profile"
+msgstr "%1$s абнавіў(а) %2$s інфармацыю пра сябе"
+
+#: classes/helpers/MnglAppHelper.php:108
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d секунда назад"
+msgstr[1] "%d секунд назад"
+
+#: classes/helpers/MnglAppHelper.php:114
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d хвіліна назад"
+msgstr[1] "%d мінуць назад"
+
+#: classes/helpers/MnglAppHelper.php:120
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d гадзіна назад"
+msgstr[1] "%d гадзін назад"
+
+#: classes/helpers/MnglAppHelper.php:126
+#, php-format
+msgid "yesterday"
+msgid_plural "%d days ago"
+msgstr[0] "учора"
+msgstr[1] "%d дзён назад"
+
+#: classes/helpers/MnglAppHelper.php:132
+#, php-format
+msgid "last week"
+msgid_plural "%d weeks ago"
+msgstr[0] "тыдзень назад"
+msgstr[1] "%d тыдняў назад"
+
+#: classes/helpers/MnglAppHelper.php:138
+#, php-format
+msgid "last month"
+msgid_plural "%d months ago"
+msgstr[0] "месяц назад"
+msgstr[1] "%d месяцаў назад"
+
+#: classes/helpers/MnglAppHelper.php:144
+#, php-format
+msgid "last year"
+msgid_plural "%d years ago"
+msgstr[0] "год назад"
+msgstr[1] "%d гадоў назад"
+
+#: classes/helpers/MnglAppHelper.php:178
+#, php-format
+msgid "Powered by %1$sMingle%2$s"
+msgstr "Powered by %1$sMingle%2$s"
+
+#: classes/helpers/MnglBoardsHelper.php:17
+msgid "Read More"
+msgstr "Чытаць далей"
+
+#: classes/helpers/MnglOptionsHelper.php:29
+msgid "Full Name"
+msgstr "Імя і прозвішча"
+
+#: classes/helpers/MnglOptionsHelper.php:30
+msgid "Screen Name"
+msgstr "Адлюстроўванае імя"
+
+#: classes/helpers/MnglOptionsHelper.php:39
+msgid "Public"
+msgstr "публічная"
+
+#: classes/helpers/MnglOptionsHelper.php:40
+#: classes/views/mngl-options/form.php:148
+msgid "Private"
+msgstr "асабістая"
+
+#: classes/helpers/MnglOptionsHelper.php:41
+msgid "Hidden"
+msgstr "Утоены"
+
+#: classes/helpers/MnglProfileHelper.php:16
+msgid "Female"
+msgstr "Жаночы"
+
+#: classes/helpers/MnglProfileHelper.php:17
+msgid "Male"
+msgstr "Мужчынскі"
+
+#: classes/helpers/MnglProfileHelper.php:26
+msgid "I Want My Profile to Only Be Visible To Me and My Friends"
+msgstr "Маю асабістую старонку могуць убачыць толькі мае френды"
+
+#: classes/helpers/MnglProfileHelper.php:27
+msgid "I Want My Profile to Be Visible To The World"
+msgstr "Маю асабістую старонку могуць бачыць усё"
+
+#: classes/models/MnglNotification.php:12
+msgid "Sent when someone requests you as a friend"
+msgstr "Адсылаецца, калі хтосьці запрашае вас стаць сваім френдом"
+
+#: classes/models/MnglNotification.php:14
+msgid "Sent when a friendship has been confirmed"
+msgstr "Адсылаецца, калі прынята прапанова стаць френдом"
+
+#: classes/models/MnglNotification.php:16
+msgid "Sent when someone posts to your Board"
+msgstr "Адсылаецца, калі хтосьці пакінуў запіс на вашай Дошцы для запісаў"
+
+#: classes/models/MnglNotification.php:18
+msgid "Sent when someone posts to one of your Board Posts or on a comment thread that you've participated in"
+msgstr "Адсылаецца, калі хто-небудзь пакінуў запіс на вашай Дошцы для запісаў ці ў абмеркаванні, у якім удзельнічаеце і вы"
+
+#: classes/models/MnglNotification.php:35
+#, php-format
+msgid "%1$s has requested you as a friend on %2$s!"
+msgstr "%1$s запрасіў(а) вас у френды на %2$s!"
+
+#: classes/models/MnglNotification.php:36
+#, php-format
+msgid "Please visit %s to Accept or Ignore this request."
+msgstr "Калі ласка перайдзіце на  %s, каб прыняць ці праігнараваць гэту прапанову"
+
+#: classes/models/MnglNotification.php:43
+#, php-format
+msgid "%1$s wants to be your Friend on %2$s"
+msgstr "%1$s жадае быць вашым френдом на %2$s"
+
+#: classes/models/MnglNotification.php:64
+#: classes/models/MnglNotification.php:77
+#, php-format
+msgid "You're now friends with %1$s on %2$s!"
+msgstr "Зараз вы френд  %1$s на %2$s!"
+
+#: classes/models/MnglNotification.php:65
+#, php-format
+msgid "Visit %1$s to see %2$s profile."
+msgstr "Наведаеце %1$s каб убачыць дошку паведамленняў  %2$s."
+
+#: classes/models/MnglNotification.php:73
+#, php-format
+msgid "%1$s Has Confirmed Your Friend Request on %2$s"
+msgstr "%1$s плинял Ваша прапанова пра тое, каб стаць френдом на  %2$s"
+
+#: classes/models/MnglNotification.php:78
+#, php-format
+msgid "Visit %s to see %s profile."
+msgstr "Наведаеце %s, каб убачыць асабістую старонку %s."
+
+#: classes/models/MnglNotification.php:86
+#, php-format
+msgid "You're Now Friends With %1$s on %2$s"
+msgstr "Вы зараз френды з %1$s на %2$s"
+
+#: classes/models/MnglNotification.php:108
+#, php-format
+msgid "%1$s posted this on your Board at %2$s"
+msgstr "%1$s змясціў гэта на вашу Дошку для запісаў у  %2$s"
+
+#: classes/models/MnglNotification.php:109
+#, php-format
+msgid "Visit %s to see your Board"
+msgstr "Наведаеце %s, каб убачыць вашу Дошку для запісаў"
+
+#: classes/models/MnglNotification.php:117
+#, php-format
+msgid "%1$s Posted to Your Board on %2$s"
+msgstr "Новы запіс %1$s на вашай Дошцы запісаў сайта  %2$s"
+
+#: classes/models/MnglNotification.php:156
+#, php-format
+msgid "%1$s commented on your Board Post on %2$s"
+msgstr "каментар ад %1$s на вашай Дошцы запісаў сайта %2$s"
+
+#: classes/models/MnglNotification.php:157
+#, php-format
+msgid "View this comment from %1$s's Board at %2$s."
+msgstr "Гэты каментар з дошкі запісаў %1$s можа быць прагледжаны па спасылцы %2$s."
+
+#: classes/models/MnglNotification.php:166
+#, php-format
+msgid "%1$s commented on a Post on your Board on %2$s"
+msgstr "каментар ад %1$s на запіс на вашай Дошцы запісаў у адказ на %2$s"
+
+#: classes/models/MnglNotification.php:172
+#, php-format
+msgid "%1$s commented on %2$s's Board Post"
+msgstr "каментар ад %1$s на  %2$s Дошцы запісаў"
+
+#: classes/models/MnglNotification.php:182
+#, php-format
+msgid "%1$s commented on %2$s's Board Post on %3$s"
+msgstr "каментар ад %1$s на %2$s Дошцы запісаў у адказ на %3$s"
+
+#: classes/models/MnglNotification.php:228
+msgid "Thanks!"
+msgstr "Дзякуй!"
+
+#: classes/models/MnglNotification.php:229
+#, php-format
+msgid "%s Team"
+msgstr "Сайт %s"
+
+#: classes/models/MnglNotification.php:230
+#, php-format
+msgid "If you want to stop future emails like this from coming to you, please modify your notification settings at %1$s or contact the system administrator at %2$s."
+msgstr "Калі Вы не жадаеце каб вам працягвалі прыходзіць такія паведамленні,зменіце   свае параметры апавяшчэнняў на %1$s або звяжыцеся з сістэмным адміністратарам на  %2$s."
+
+#: classes/models/MnglOptions.php:172
+msgid "The Profile Page Must Not Be Blank."
+msgstr "Старонка для асабістай старонкі пользователы не павінна быць пусты"
+
+#: classes/models/MnglOptions.php:175
+msgid "The Profile Edit Page Must Not Be Blank."
+msgstr "Старонка рэдагавання звестак пра сябе не павінна быць пусты"
+
+#: classes/models/MnglOptions.php:178
+msgid "The Friends Page Must Not Be Blank."
+msgstr "Старонка спісу френдов не павінна быць пусты"
+
+#: classes/models/MnglOptions.php:181
+msgid "The Friend Request Page Must Not Be Blank."
+msgstr "Старонка прапаноў стаць френдом не павінна быць пусты"
+
+#: classes/models/MnglOptions.php:184
+msgid "The Activity Page Must Not Be Blank."
+msgstr "Старонка дошкі паведамленняў не павінна быць пусты"
+
+#: classes/models/MnglUpdate.php:43
+msgid "MinglePlus Username"
+msgstr "Імя карыстача ў MinglePlus"
+
+#: classes/models/MnglUpdate.php:44
+msgid "MinglePlus Password"
+msgstr "Пароль MinglePlus"
+
+#: classes/models/MnglUpdate.php:45
+msgid "Your MinglePlus Username or Password was Invalid"
+msgstr "Ваша MinglePlus імя карыстача  ці пароль апынуліся няслушнымі"
+
+#: classes/models/MnglUpdate.php:135
+#, php-format
+msgid "Your Username & Password was accepted<br/>Now you can %1$sUpgrade Automatically!%2$s"
+msgstr "Ваша імя карыстача і пароль дапушчальныя<br/>Зараз вы можаце %1$s абнавіцца аўтаматычна!%2$s"
+
+#: classes/models/MnglUpdate.php:145
+#: classes/views/shared/errors.php:11
+msgid "ERROR"
+msgstr "Памылка "
+
+#: classes/models/MnglUpdate.php:180
+msgid "Save"
+msgstr "Захаваць"
+
+#: classes/models/MnglUser.php:161
+#: classes/models/MnglUser.php:162
+msgid "Her"
+msgstr "Яго"
+
+#: classes/models/MnglUser.php:163
+msgid "She"
+msgstr "Яна"
+
+#: classes/models/MnglUser.php:167
+msgid "His"
+msgstr "Яго"
+
+#: classes/models/MnglUser.php:168
+msgid "Him"
+msgstr "Яму"
+
+#: classes/models/MnglUser.php:169
+msgid "He"
+msgstr "Ён"
+
+#: classes/models/MnglUser.php:173
+msgid "His/Her"
+msgstr "Яго/Яе"
+
+#: classes/models/MnglUser.php:174
+msgid "Him/Her"
+msgstr "Яму/Ёй"
+
+#: classes/models/MnglUser.php:175
+msgid "He/She"
+msgstr "Ён/Яна"
+
+#: classes/models/MnglUser.php:258
+#: classes/models/MnglUser.php:301
+msgid "Username must not be blank"
+msgstr "Імя карыстача не можа быць пустым"
+
+#: classes/models/MnglUser.php:261
+msgid "Username must only contain letters, numbers and/or underscores"
+msgstr "Імя карыстача можа ўтрымоўваць толькі літары, лікі, знак падкрэслення"
+
+#: classes/models/MnglUser.php:267
+msgid "Username is Already Taken."
+msgstr "Імя карыстача ўжо скарыстана"
+
+#: classes/models/MnglUser.php:270
+msgid "Email must not be blank"
+msgstr "Паштовы адрас не можа быць пустым"
+
+#: classes/models/MnglUser.php:273
+msgid "Email must be a real and properly formatted email address"
+msgstr "Паштовы адрас не можа быць пустым."
+
+#: classes/models/MnglUser.php:276
+msgid "Email Address has already been used by another user."
+msgstr "Паштовы адрас ужо скарыстаны іншым карыстачом"
+
+#: classes/models/MnglUser.php:279
+msgid "You must select your Gender."
+msgstr "Вы павінны паказаць сваю падлогу."
+
+#: classes/models/MnglUser.php:284
+#: classes/models/MnglUser.php:346
+msgid "You must enter a Password."
+msgstr "Вы павінны паказаць пароль."
+
+#: classes/models/MnglUser.php:287
+#: classes/models/MnglUser.php:349
+msgid "You must enter a Password Confirmation."
+msgstr "Вы павінны ўвесці пацверджанне пароля."
+
+#: classes/models/MnglUser.php:290
+#: classes/models/MnglUser.php:352
+msgid "Your Password and Password Confirmation don't match."
+msgstr "Пароль і пацверджанне пароля не супадаюць."
+
+#: classes/models/MnglUser.php:307
+msgid "Username was not found"
+msgstr "Імя карыстача не знойдзена"
+
+#: classes/models/MnglUser.php:314
+msgid "Your Password was Incorrect"
+msgstr "Няслушны пароль"
+
+#: classes/models/MnglUser.php:325
+msgid "You must enter a Username or Password"
+msgstr "Вы павінны ўвесці імя карыстача ці пароль."
+
+#: classes/models/MnglUser.php:335
+msgid "That Username or Email wasn't found."
+msgstr "Такое імя карыстача (ці электронная пошта) не знойдзена"
+
+#: classes/models/MnglUser.php:363
+msgid "Password Must Match Password Confirmation."
+msgstr "Пароль і пацверджанне пароля павінны супадаць"
+
+#: classes/models/MnglUser.php:372
+msgid "Your Avatar wasn't able to be saved."
+msgstr "Ваша Аватара не можа быць захавана"
+
+#: classes/models/MnglUser.php:381
+msgid "Your Avatar must be a valid jpg, gif or png."
+msgstr "Ваша Аватара павінна быць карэктным файлам у фармаце jpg,gif або png."
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:893
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Рэгістрацыя новага карыстача"
+
+#. translators: In this string, %1$s is the blog's name/title, %2$s is the user's real name, %3$s is the user's username, %4$s is the user's email, and %5$s is the user's profile url
+#: classes/models/MnglUser.php:896
+#, php-format
+msgid ""
+"A new user just joined your community at %1$s!\n"
+"\n"
+"Name: %2$s\n"
+"Username: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"You can view this user's profile here: %5$s"
+msgstr ""
+"Новы карыстач толькі што ўступіў у вашу супольнасць на t %1$s!\n"
+"\n"
+"Імя: %2$s\n"
+"Імя карыстача: %3$s\n"
+"E-Mail: %4$s\n"
+"\n"
+"Спасылка для прагляду персанальных дадзеных карыстача: %5$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:907
+#, php-format
+msgid "Welcome to %s!"
+msgstr "Сардэчна запрашаем на сайт  %s!"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:910
+#, php-format
+msgid ""
+"%1$s,\n"
+"Welcome to the Community at %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"You can login here: %5$s\n"
+"\n"
+"Enjoy!\n"
+"\n"
+"%2$s Team"
+msgstr ""
+"%1$s,\n"
+"Сардэчна запрашаем у супольнасць на сайце  %2$s!\n"
+"\n"
+"Імя карыстача: %3$s\n"
+"Пароль: %4$s\n"
+"Спасылка для ўваходу на сайт: %5$s\n"
+"\n"
+"Поспехаў!\n"
+"\n"
+"Сайт %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:941
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] скід пароля"
+
+#. translators: In this string, %1$s is the user's username, %2$s is the blog's name/title, %3$s is the blog's url, %4$s the reset password link
+#: classes/models/MnglUser.php:944
+#, php-format
+msgid ""
+"Someone requested to reset your password for %1$s on %2$s at %3$s\n"
+"\n"
+"To reset your password visit the following address, otherwise just ignore this email and nothing will happen.\n"
+"\n"
+"%4$s"
+msgstr ""
+"Хтосьці запытаў скід вашага пароля для %1$s на %2$s у %3$s\n"
+"\n"
+"Каб скінуць ваш пароль, перайдзіце па паказанай спасылцы. Калі вы не жадаеце змяніць ваш пароль, проста праігнаруйце гэта паведамленне\n"
+"\n"
+"%4$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:970
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] пароль скінуты/зменены"
+
+#. translators: In this string, %1$s is the user's screenname and %2$s is their profile url
+#: classes/models/MnglUser.php:973
+#, php-format
+msgid ""
+"Password Lost and Changed for user: %1$s\n"
+"You can view %1$s's profile here: %2$s"
+msgstr ""
+"Пароль скінуты і зменены для карыстача: %1$s\n"
+"Вы можаце ўбачыць персанальныя дадзеныя  %1$s's па спасылцы: %2$s"
+
+#. translators: In this string, %s is the Blog Name/Title
+#: classes/models/MnglUser.php:986
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] ваш новы пароль"
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the blog's name/title, %3$s is the user's username, %4$s is the user's password, and %5$s is the blog's URL...
+#: classes/models/MnglUser.php:989
+#, php-format
+msgid ""
+"%1$s,\n"
+"\n"
+"Your Password was successfully reset on %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"\n"
+"You can login here: %5$s"
+msgstr ""
+"%1$s,\n"
+"\n"
+"Ваш пароль быў паспяхова скінуты на  %2$s!\n"
+"\n"
+"Імя карыстача: %3$s\n"
+"Пароль: %4$s\n"
+"\n"
+"Спасылка для ўваходу: %5$s"
+
+#: classes/views/mngl-boards/board_comment.php:17
+#: classes/views/mngl-boards/board_post.php:42
+#: classes/views/mngl-boards/board_post.php:79
+#: classes/views/mngl-friends/list.php:54
+#: plus/classes/views/mngl-plus-messages/list.php:9
+msgid "Delete"
+msgstr "Выдаліць"
+
+#: classes/views/mngl-boards/board_post.php:10
+#, php-format
+msgid "Posted on %s's Board"
+msgstr "Змесцавана ў %s"
+
+#: classes/views/mngl-boards/board_post.php:17
+#, php-format
+msgid "Post from %s's Board:"
+msgstr "Запіс з дошкі запісаў %s:"
+
+#: classes/views/mngl-boards/board_post.php:35
+#: classes/views/mngl-boards/board_post.php:74
+#: classes/views/mngl-boards/comment_form.php:36
+msgid "Comment"
+msgstr "Каментар"
+
+#: classes/views/mngl-boards/board_post.php:38
+#: classes/views/mngl-boards/board_post.php:76
+msgid "View"
+msgstr "Прагледзець"
+
+#: classes/views/mngl-boards/board_post.php:93
+#, php-format
+msgid "Show all %d comments"
+msgstr "Паказаць усё %d каментароў"
+
+#: classes/views/mngl-boards/comment_form.php:15
+msgid "Write a comment."
+msgstr "Напісаць каментар"
+
+#: classes/views/mngl-boards/display.php:10
+msgid "What's on your mind?"
+msgstr "Тэкст паведамлення"
+
+#: classes/views/mngl-boards/display.php:21
+msgid "Share"
+msgstr "Апублікаваць"
+
+#: classes/views/mngl-boards/display.php:39
+msgid "Show Older Posts"
+msgstr "Паказаць больш старыя запісы"
+
+#: classes/views/mngl-boards/private.php:1
+#, php-format
+msgid "%1$s's profile is only visible to %2$s friends."
+msgstr "Прафайл %1$s  могуць бачыць толькі %2$s френды."
+
+#: classes/views/mngl-friends/add_button.php:1
+#: classes/views/mngl-friends/friend_requested.php:1
+msgid "Friendship Requested"
+msgstr "Зроблена прапанова стаць френдом"
+
+#: classes/views/mngl-friends/add_button.php:1
+msgid "Add as a Friend"
+msgstr "Дадаць як френда"
+
+#: classes/views/mngl-friends/already_friend.php:1
+msgid "Friend"
+msgstr "френд"
+
+#: classes/views/mngl-friends/list.php:8
+#, php-format
+msgid "%s's Friends"
+msgstr "френды %s"
+
+#: classes/views/mngl-friends/list.php:12
+msgid "Search Friends..."
+msgstr "Знайсці френдов"
+
+#: classes/views/mngl-friends/list.php:21
+#, php-format
+msgid "%s Friend Was Found"
+msgid_plural "%s Friends Were Found"
+msgstr[0] "%s френд быў знойдзены"
+msgstr[1] "%s френдов было знойдзена"
+
+#: classes/views/mngl-friends/list.php:26
+#: classes/views/mngl-profiles/directory.php:28
+#: plus/classes/views/mngl-plus-messages/list.php:17
+#: plus/classes/views/mngl-plus-messages/list.php:71
+msgid "Previous Page"
+msgstr "Папярэдняя старонка"
+
+#: classes/views/mngl-friends/list.php:69
+#: classes/views/mngl-profiles/directory.php:63
+#: plus/classes/views/mngl-plus-messages/list.php:24
+#: plus/classes/views/mngl-plus-messages/list.php:78
+msgid "Next Page"
+msgstr "Наступная старонка"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "That's You!"
+msgstr "Гэтыя Вы!"
+
+#: classes/views/mngl-friends/me.php:2
+msgid "Edit"
+msgstr "Рэдагаваць"
+
+#: classes/views/mngl-friends/no_friends_found.php:1
+msgid "Apparently you have no friends ... boo hoo :("
+msgstr "Вы не маеце френдов"
+
+#: classes/views/mngl-friends/requests.php:16
+#, php-format
+msgid "%s wants to be your friend."
+msgstr "%s жадае быць вашым френдом"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Accept"
+msgstr "Пагадзіцца"
+
+#: classes/views/mngl-friends/requests.php:16
+msgid "Ignore"
+msgstr "Ігнараваць"
+
+#: classes/views/mngl-friends/requests.php:25
+msgid "You don't currently have any friend requests."
+msgstr "Вы цяпер не маеце прапаноў стаць френдом"
+
+#: classes/views/mngl-options/default_friend.php:2
+msgid "Default Friend"
+msgstr "Френд па змаўчанні"
+
+#: classes/views/mngl-options/default_friends_added.php:1
+msgid "Default Friends Were Added"
+msgstr "Френды па змаўчанні дададзены"
+
+#: classes/views/mngl-options/form.php:2
+msgid "Mingle: Options"
+msgstr "Налады Mingle"
+
+#: classes/views/mngl-options/form.php:9
+msgid "Mingle Pages"
+msgstr "старонкі Mingle"
+
+#: classes/views/mngl-options/form.php:10
+#, php-format
+msgid "Before you can get going with Mingle, you must configure where Mingle pages on your website will appear. You'll want to %1$screate a new page%2$s for each of these pages that mingle needs to work. You should give your page a title and optionally put some content into the page ... just know that once you set the page up here, the page's content will not display."
+msgstr "Да таго, як пачаць працаваць з  Mingle, вы павінны паказаць, якія старонкі вашага сайта  Mingle будзе выкарыстоўваць для сваіх мэт. Вы можаце захацець%1$s стварыць новыя старонкі %2$s адмыслова для гэтай мэты. Вы павінны вызначыць загалоўкі для гэтых старонак. Таксама вы можаце змясціць якое-небудзь утрыманне на гэтыя старонкі, але гэта ўтрыманне перастане паказвацца карыстачу, як толькі вы пакажаце, што Mingle будзе выкарыстоўваць гэтыя старонкі для сваіх мэт."
+
+#: classes/views/mngl-options/form.php:13
+msgid "Profile Page"
+msgstr "Асабістая старонка"
+
+#: classes/views/mngl-options/form.php:17
+msgid "Activity Page"
+msgstr "Дошка для запісаў"
+
+#: classes/views/mngl-options/form.php:24
+msgid "Profile Edit Page"
+msgstr "Рэдагаванне седений пра сябе"
+
+#: classes/views/mngl-options/form.php:28
+msgid "Directory Page"
+msgstr "Спіс усіх карыстачоў"
+
+#: classes/views/mngl-options/form.php:35
+msgid "Friends Page"
+msgstr "Спіс френдов"
+
+#: classes/views/mngl-options/form.php:39
+msgid "Login Page"
+msgstr "Старонка ўваходу"
+
+#: classes/views/mngl-options/form.php:46
+msgid "Friend Requests Page"
+msgstr "Спіс прапаноў стаць френдом"
+
+#: classes/views/mngl-options/form.php:50
+msgid "Signup Page"
+msgstr "Старонка рэгістрацыі"
+
+#: classes/views/mngl-options/form.php:60
+msgid "Profile Options"
+msgstr "Налады карыстача"
+
+#: classes/views/mngl-options/form.php:62
+msgid "Pretty Profile Urls"
+msgstr "Прыгожае імя асабістай старонкі"
+
+#: classes/views/mngl-options/form.php:63
+msgid "When checked, Pretty Profile Urls will allow users to type their screenname following your site's domain name for their url. Note, if you do not have Apache rewrite functioning and have not selected something other than \"Default\" under your General Permalink settings, this will not work."
+msgstr "Уключэнне \"Прыгожае імя персанальнай старонкі\" дае магчымасць карыстачам  атрымаць прамую спасылку на сваю асабістую старонку, дапоўніўшы даменнае імя вашага сайта сваім экранным імем. Гэта не будзе працаваць, калі ў вас не працуе функцыянальнасць Apache rewrite ці ў наладах \"Сталых спасылак(ЧПУ)\" абрана значэнне \"Па Змаўчанні\"."
+
+#: classes/views/mngl-options/form.php:64
+msgid "User Registration Email Spam Protection"
+msgstr "Абарона ад спамерскіх рэгістрацый"
+
+#: classes/views/mngl-options/form.php:65
+msgid "When checked, Mingle will use advanced email lookup techniques to validate the user signup to prevent against user registration spam."
+msgstr "Уключэнне гэтай опцыі ўключае пашыраную праверку email для праверкі рэгістрацыі карыстача"
+
+#: classes/views/mngl-options/form.php:66
+msgid "Prevent Subscribers Access to the WordPress Admin"
+msgstr "Зачыніць доступ Падпісантам да адміністрацыйнай панэлі WordPress"
+
+#: classes/views/mngl-options/form.php:67
+msgid "When checked, Mingle will redirect non-admin users to their activity page if attempting to go anywhere within /wp-admin."
+msgstr "Пры выстаўленым сцяжку, Mingle будзе перанакіроўваць не-адміністратараў на іх персанальныя старонкі пры спробе прайсці па любой спасылцы адміністрацыйнай панэлі WordPress ( /wp-admin)."
+
+#: classes/views/mngl-options/form.php:70
+msgid "Default Friends"
+msgstr "Френды па змаўчанні"
+
+#: classes/views/mngl-options/form.php:72
+msgid "These Users will be added as a friends to all new signups."
+msgstr "Гэтыя карыстачы будуць дададзены як френды для ўсіх новых рэгістрацый."
+
+#: classes/views/mngl-options/form.php:88
+msgid "Add a Default Friend"
+msgstr "Дадаць френда па змаўчанні"
+
+#: classes/views/mngl-options/form.php:91
+msgid "Invisible Users"
+msgstr "Нябачныя карыстачы"
+
+#: classes/views/mngl-options/form.php:93
+msgid "Any users checked below will not be visible to Mingle. They won't have a profile page, friends, be listed in the directory or show up anywhere in mingle."
+msgstr "Абярыце карыстачоў, котрых вы жадаеце зрабіць нябачнымі(напрыклад,адміністратараў). Яны не будуць паказаны ў спісе карыстачоў, іх нельга будзе зрабіць френдами, нельга будзе зайсці на іх асабістыя старонкі і т д"
+
+#: classes/views/mngl-options/form.php:94
+msgid "Hold down Control Key (the Command Key if you're on a Mac) or the Shift Key to select multiple users."
+msgstr "Каб абраць некалькіх карыстачоў, утрымлівайце клавішу Shift ці Ctrl (Command Key, калі вы выкарыстоўваеце Mac) "
+
+#: classes/views/mngl-options/form.php:97
+msgid "Field Display Options"
+msgstr "Налады паказу палёў"
+
+#: classes/views/mngl-options/form.php:99
+msgid "Configure the fields you'd like your users to see, and if they will be able to display them on their profiles. <code>Public</code> indicates that the field will be available to the users and that the value they enter into it will show up on their public profiles. <code>Private</code> indicates that the field will be available to the users but the value they enter into it will not show up on their public profiles. <code>Hidden</code> indicates that this field won't be visible to the users or on their public profiles."
+msgstr "Наладзьце палі, якія будуць бачыць вашы карыстачы, і пакажыце, ці могуць яны паказваць гэтыя палі ў сваіх прафайлах.  <code>Public</code> (публічнае) азначае, што поле будзе даступна для карыстачоў і значэнне, якое яны ўвядуць у гэта поле, будзе паказвацца ў іх публічных прафайлах. <code>Privatec</code> (прыватнае) азначае, што поле будзе даступна для саміх карыстачоў, але  значэнне, якое яны ўвядуць у гэта поле, НЕ будзе паказвацца ў іх публічных прафайлах. <code>Hidden</code> (утоенае) азначае, што яно не будзе бачным ні для саміх карыстачоў, ні для іх прафайлаў."
+
+#: classes/views/mngl-options/form.php:102
+msgid "Show Name Fields"
+msgstr "Паказаць поле \"Ваша імя\""
+
+#: classes/views/mngl-options/form.php:107
+#: classes/views/mngl-options/form.php:116
+#: classes/views/mngl-options/form.php:125
+#: classes/views/mngl-options/form.php:134
+#: classes/views/mngl-options/form.php:143
+#: classes/views/mngl-options/form.php:150
+msgid "Show on the Signup Page"
+msgstr "Паказаць на Старонцы рэгістрацыі"
+
+#: classes/views/mngl-options/form.php:111
+msgid "Show Website Field"
+msgstr "Паказаць поле Сайт"
+
+#: classes/views/mngl-options/form.php:120
+msgid "Show Location Field"
+msgstr "Паказаць поле Горад"
+
+#: classes/views/mngl-options/form.php:129
+msgid "Show Bio Field"
+msgstr "Паказаць поле звестак пра сябе"
+
+#: classes/views/mngl-options/form.php:138
+msgid "Show Gender Field"
+msgstr "Паказаць поле \"Ваша падлога\""
+
+#: classes/views/mngl-options/form.php:147
+msgid "Show Password Field"
+msgstr "Паказаць поле \"Пароль\""
+
+#: classes/views/mngl-options/form.php:159
+msgid "Update Options"
+msgstr "Абнавіць налады"
+
+#: classes/views/mngl-options/form.php:164
+msgid "Add Default Friends to Existing Users"
+msgstr "Дадаць френдов па змаўчанні да існых карыстачоў"
+
+#: classes/views/mngl-options/options_saved.php:1
+msgid "Options saved."
+msgstr "Налады захаваны."
+
+#: classes/views/mngl-profiles/directory.php:13
+msgid "Search Users..."
+msgstr "Знайсці карыстачоў..."
+
+#: classes/views/mngl-profiles/directory.php:23
+#, php-format
+msgid "%s User Was Found"
+msgid_plural "%s Users Were Found"
+msgstr[0] "%s карыстач быў знойдзены"
+msgstr[1] "%s карыстачоў было знойдзена"
+
+#: classes/views/mngl-profiles/edit.php:6
+msgid "Information"
+msgstr "Інфармацыя"
+
+#: classes/views/mngl-profiles/edit.php:9
+#: classes/views/shared/signup_form.php:5
+msgid "First Name"
+msgstr "Імя"
+
+#: classes/views/mngl-profiles/edit.php:13
+#: classes/views/shared/signup_form.php:9
+msgid "Last Name"
+msgstr "Прозвішча"
+
+#: classes/views/mngl-profiles/edit.php:17
+msgid "Email"
+msgstr "Email"
+
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/shared/signup_form.php:27
+msgid "Bio"
+msgstr "Трохі пра сябе"
+
+#: classes/views/mngl-profiles/edit.php:23
+#: classes/views/mngl-profiles/edit.php:29
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/edit.php:41
+msgid "private"
+msgstr "прыватны"
+
+#: classes/views/mngl-profiles/edit.php:29
+msgid "URL"
+msgstr "URL"
+
+#: classes/views/mngl-profiles/edit.php:35
+#: classes/views/mngl-profiles/profile.php:36
+#: classes/views/shared/signup_form.php:21
+msgid "Location"
+msgstr "Горад"
+
+#: classes/views/mngl-profiles/edit.php:41
+#: classes/views/mngl-profiles/profile.php:33
+#: classes/views/shared/signup_form.php:33
+msgid "Gender"
+msgstr "Падлога"
+
+#: classes/views/mngl-profiles/edit.php:46
+#: classes/views/mngl-users/reset_password.php:4
+#: classes/views/shared/login_form.php:5
+#: classes/views/shared/login_widget.php:22
+#: classes/views/shared/signup_form.php:47
+msgid "Password"
+msgstr "Пароль"
+
+#: classes/views/mngl-profiles/edit.php:50
+#: classes/views/mngl-users/reset_password.php:8
+#: classes/views/shared/signup_form.php:51
+msgid "Password Confirmation"
+msgstr "Пацверджанне пароля"
+
+#: classes/views/mngl-profiles/edit.php:54
+msgid "Avatar"
+msgstr "Аватар"
+
+#: classes/views/mngl-profiles/edit.php:61
+#: plus/classes/views/mngl-plus-options/custom_field.php:5
+msgid "Privacy"
+msgstr "Прыватнасць"
+
+#: classes/views/mngl-profiles/edit.php:63
+msgid "Notification Settings"
+msgstr "Налады апавяшчэнняў"
+
+#: classes/views/mngl-profiles/edit.php:71
+#, php-format
+msgid "Don't Send Me \"%s\" Notifications"
+msgstr "Не адпраўляць мне  \"%s\" апавяшчэнні"
+
+#: classes/views/mngl-profiles/edit.php:78
+msgid "Update"
+msgstr "Абнаўленне"
+
+#: classes/views/mngl-profiles/edit_avatar.php:3
+msgid "delete"
+msgstr "выдаліць"
+
+#: classes/views/mngl-profiles/profile.php:26
+#: plus/classes/views/mngl-plus-options/custom_field.php:2
+msgid "Name"
+msgstr "Імя"
+
+#: classes/views/mngl-profiles/profile.php:39
+#: classes/views/shared/signup_form.php:15
+msgid "Website"
+msgstr "Сайт"
+
+#: classes/views/mngl-profiles/profile_saved.php:1
+msgid "Your Profile has been saved."
+msgstr "Ваш прафайл захаваны."
+
+#: classes/views/mngl-users/forgot_password.php:1
+msgid "Request a Password Reset"
+msgstr "Запытаць скід пароля"
+
+#: classes/views/mngl-users/forgot_password.php:4
+msgid "Enter Your Username or Email Address"
+msgstr "Увядзіце імя карыстача ці адрас электроннай пошты"
+
+#: classes/views/mngl-users/forgot_password.php:8
+msgid "Request Password Reset"
+msgstr "Запытаць скід пароля"
+
+#: classes/views/mngl-users/forgot_password_requested.php:1
+msgid "Successfully requested password reset"
+msgstr "Скід пароля паспяхова запытаны"
+
+#: classes/views/mngl-users/forgot_password_requested.php:2
+msgid "Please click on the confirmation link that was just sent to your email address."
+msgstr "Калі ласка, перайдзіце па спасылцы пацверджання, паказанай у высланым на ваш адрас лісце"
+
+#: classes/views/mngl-users/reset_password.php:1
+msgid "Enter your new password"
+msgstr "Увядзіце Ваш новы пароль"
+
+#: classes/views/mngl-users/reset_password.php:12
+msgid "Reset Password"
+msgstr "Скід пароля"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:1
+msgid "Password successfully reset"
+msgstr "Пароль паспяхова скінуты"
+
+#: classes/views/mngl-users/reset_password_thankyou.php:2
+msgid "Your new password has been emailed to you."
+msgstr "Ваш новы пароль будзе адпраўлены на вашу электронную пошту"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+#, php-format
+msgid "Thanks for Registering for %s!"
+msgstr "Дзякуй Вам за рэгістрацыю на  сайце %s!"
+
+#: classes/views/mngl-users/signup_thankyou.php:1
+msgid "You should shortly receive an email with your password."
+msgstr "У ближайжее час Вы атрымаеце ліст з Вашым паролем"
+
+#: classes/views/shared/already_logged_in.php:1
+#, php-format
+msgid "You're already logged in. %1$sLogout.%2$s"
+msgstr "Вы ўжо ўвайшлі. %1$sВыход.%2$s"
+
+#: classes/views/shared/login_form.php:3
+#: classes/views/shared/login_widget.php:20
+#: classes/views/shared/signup_form.php:37
+msgid "Username"
+msgstr "Імя карыстача"
+
+#: classes/views/shared/login_form.php:7
+#: classes/views/shared/login_widget.php:24
+msgid "Remember Me"
+msgstr "Запомніць мяне"
+
+#: classes/views/shared/login_form.php:10
+#: classes/views/shared/login_widget.php:27
+msgid "Log In"
+msgstr "Увайсці"
+
+#: classes/views/shared/login_form.php:19
+#: classes/views/shared/login_widget.php:36
+msgid "Register"
+msgstr "Рэгістрацыя"
+
+#: classes/views/shared/login_form.php:23
+#: classes/views/shared/login_widget.php:40
+msgid "Lost Password?"
+msgstr "Забыліся пароль?"
+
+#: classes/views/shared/login_widget.php:7
+msgid "Activity"
+msgstr "Дошка запісаў"
+
+#: classes/views/shared/login_widget.php:8
+msgid "Profile"
+msgstr "Асабістая старонка"
+
+#: classes/views/shared/login_widget.php:9
+msgid "Settings"
+msgstr "Налады"
+
+#: classes/views/shared/login_widget.php:11
+msgid "Friend Requests"
+msgstr "Прапановы стаць френдом"
+
+#: classes/views/shared/login_widget.php:14
+msgid "Logout"
+msgstr "Выйсці"
+
+#: classes/views/shared/login_widget.php:17
+#, php-format
+msgid "Login to connect with Others on %s"
+msgstr "Уваход у супольнасць на %s"
+
+#: classes/views/shared/login_widget.php:46
+msgid "Directory"
+msgstr "Спіс карыстачоў"
+
+#: classes/views/shared/must_configure.php:1
+#, php-format
+msgid "Mingle must be configured. Go to the %s to setup your new social network!"
+msgstr "Mingle павінен быць сканфігураваны. Выкарыстоўвайце %s  для налады вашай сацыяльнай сеткі!"
+
+#: classes/views/shared/must_configure.php:1
+msgid "Mingle Admin Page"
+msgstr "Старонка адміністравання ўбудовы Mingle"
+
+#: classes/views/shared/signup_form.php:41
+msgid "E-mail"
+msgstr "E-mail"
+
+#: classes/views/shared/signup_form.php:55
+msgid "A password will be e-mailed to you."
+msgstr "Пароль будзе адпраўлены вам па электроннай пошце"
+
+#: classes/views/shared/signup_form.php:58
+msgid "Sign Up"
+msgstr "Увайсці"
+
+#: classes/views/shared/unauthorized.php:16
+#, php-format
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr "Вы не аўтарызаваны для прагляду гэтай старонкі. Чаму б вам не %s, а потым паспрабаваць яшчэ раз?"
+
+#: classes/views/shared/unauthorized.php:16
+msgid "Login"
+msgstr "Увайсці"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Don't have a Login?"
+msgstr "Вы яшчэ не зарэгістраваны?"
+
+#: classes/views/shared/unauthorized.php:18
+msgid "Register for an Account."
+msgstr "Рэгістрацыя на сайце "
+
+#: classes/views/shared/user_grid.php:3
+msgid "Show All"
+msgstr "Паказаць усіх"
+
+#: classes/widgets/MnglLoginWidget.php:7
+msgid "Mingle Login"
+msgstr "Лагін Mingle"
+
+#: classes/widgets/MnglLoginWidget.php:50
+#: classes/widgets/MnglUsersWidget.php:56
+msgid "Title"
+msgstr "Загаловак"
+
+#: classes/widgets/MnglUsersWidget.php:7
+msgid "Mingle Users Grid"
+msgstr "Табліца карыстачоў Mingle"
+
+#: classes/widgets/MnglUsersWidget.php:21
+msgid "Users"
+msgstr "Карыстачы"
+
+#: classes/widgets/MnglUsersWidget.php:51
+msgid "Mingle Users"
+msgstr "Карыстачы Mingle"
+
+#: classes/widgets/MnglUsersWidget.php:57
+msgid "# of Grid Columns"
+msgstr "колькасць калонак табліцы"
+
+#: classes/widgets/MnglUsersWidget.php:58
+msgid "# of Grid Rows"
+msgstr "колькасць радкоў у табліцы"
+
+#: classes/widgets/MnglUsersWidget.php:60
+msgid "Grid Type"
+msgstr "Тып табліцы"
+
+#: classes/widgets/MnglUsersWidget.php:62
+msgid "Random Mingle Users"
+msgstr "Выпадкова абраны карыстач Mingle"
+
+#: classes/widgets/MnglUsersWidget.php:63
+msgid "Recent Mingle Users"
+msgstr "Найноўшыя карыстачы Mingle"
+
+#: js/mingle.js.php:72
+msgid "Are you sure you want to delete this post?"
+msgstr "Вы ўпэўнены, што жадаеце выдаліць гэты запіс?"
+
+#: js/mingle.js.php:88
+msgid "Are you sure you want to delete this comment?"
+msgstr "Вы ўпэўнены што жадаеце выдаліць гэты каментар?"
+
+#: js/mingle.js.php:125
+msgid "Are you sure you want to delete this friend?"
+msgstr "Вы ўпэўнены, што жадаеце выдаліць гэтага френда?"
+
+#: js/mingle.js.php:199
+msgid "Are you sure you want to delete your avatar?"
+msgstr "Вы ўпэўнены, што жадаеце выдаліць усе аватары?"
+
+#: js/mingle.js.php:244
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: plus/classes/controllers/MnglPlusAppController.php:152
+msgid "Send Message To..."
+msgstr "Адправіць паведамленне для..."
+
+#: plus/classes/controllers/MnglPlusAppController.php:152
+msgid "No results"
+msgstr "Няма вынікаў"
+
+#: plus/classes/controllers/MnglPlusAppController.php:152
+msgid "Searching..."
+msgstr "Пошук..."
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:8
+msgid "You"
+msgstr "Вы"
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:23
+msgid ", "
+msgstr ","
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:25
+msgid " and "
+msgstr " і "
+
+#: plus/classes/helpers/MnglPlusMessagesHelper.php:30
+#, php-format
+msgid "Between %s"
+msgstr "Паміж %s"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:9
+msgid "Text Input"
+msgstr "Увод тэксту"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:10
+msgid "Text Area"
+msgstr "Вобласць тэксту"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:11
+msgid "Checkbox"
+msgstr "Сцяжок"
+
+#: plus/classes/helpers/MnglPlusOptionsHelper.php:12
+msgid "Dropdown"
+msgstr "Выпадальны спіс"
+
+#: plus/classes/models/MnglPlusMessage.php:18
+msgid "Private Message"
+msgstr "Асабістае паведамленне"
+
+#: plus/classes/models/MnglPlusMessage.php:19
+msgid "Sent when someone sends you a message"
+msgstr "Адсылаецца, калі хтосьці адпраўляе Вам паведамленне"
+
+#: plus/classes/models/MnglPlusMessage.php:21
+msgid "Private Message Reply"
+msgstr "Адказ на прыватнае паведамленне"
+
+#: plus/classes/models/MnglPlusMessage.php:22
+msgid "Sent when someone replies to a message you were included on"
+msgstr "Адсылаецца, калі хтосьці адказвае на паведамленне."
+
+#: plus/classes/models/MnglPlusMessage.php:32
+msgid "(no subject)"
+msgstr "(няма загалоўка)"
+
+#: plus/classes/models/MnglPlusMessage.php:223
+msgid "There must be at least one recipient"
+msgstr "Павінна быць не меней аднаго адрасата"
+
+#: plus/classes/models/MnglPlusMessage.php:226
+msgid "Message can't be blank"
+msgstr "Паведамленне не можа быць пустым"
+
+#: plus/classes/models/MnglPlusMessage.php:271
+#, php-format
+msgid "%s sent you a message."
+msgstr "%s адправіў Вам паведамленне."
+
+#: plus/classes/models/MnglPlusMessage.php:272
+#: plus/classes/models/MnglPlusMessage.php:301
+#, php-format
+msgid ""
+"To reply to this message, follow the link below:\n"
+"%s"
+msgstr ""
+"Каб адказаць на гэта паведамленне, прайдзіце па гэтай спасылцы:\n"
+"%s"
+
+#: plus/classes/models/MnglPlusMessage.php:283
+#, php-format
+msgid "%1$s sent you a message on %2$s..."
+msgstr "%1$s адправіў Вам паведамленне на %2$s..."
+
+#: plus/classes/models/MnglPlusMessage.php:300
+#, php-format
+msgid "%s sent a message in reply to a thread."
+msgstr "%s адправіў паведамленне ў адказ на абмеркаванне."
+
+#: plus/classes/models/MnglPlusMessage.php:312
+#, php-format
+msgid "%1$s replied to a thread on %2$s..."
+msgstr "%1$s адказаў у абмеркаванні на %2$s..."
+
+#: plus/classes/models/MnglPlusOptions.php:29
+msgid "Mingle Plus Inbox Page must Not be blank"
+msgstr "Ліст \"уваходныя паведамленні\" павінен быць запоўнены"
+
+#: plus/classes/views/mngl-plus-messages/button.php:1
+#, php-format
+msgid "Send %s a Message"
+msgstr "Адправіць паведамленне для %s"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:8
+msgid "Recipients"
+msgstr "Атрымальнікі"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:14
+msgid "Subject"
+msgstr "Загаловак"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:18
+msgid "Message"
+msgstr "Паведамленне"
+
+#: plus/classes/views/mngl-plus-messages/composer.php:22
+msgid "Send"
+msgstr "Адправіць"
+
+#: plus/classes/views/mngl-plus-messages/list.php:1
+msgid "Compose a Message"
+msgstr "Стварыць  паведамленне"
+
+#: plus/classes/views/mngl-plus-messages/list.php:7
+msgid "Mark as Read"
+msgstr "Паставіць пазнаку \"прачытана\""
+
+#: plus/classes/views/mngl-plus-messages/list.php:8
+msgid "Mark as Unread"
+msgstr "Прыбраць пазнаку \"прачытана\""
+
+#: plus/classes/views/mngl-plus-messages/list.php:11
+msgid "Apply"
+msgstr "Ужыць"
+
+#: plus/classes/views/mngl-plus-messages/list.php:62
+#: plus/classes/views/mngl-plus-messages/view.php:16
+msgid "No Messages Were Found"
+msgstr "Паведамленні не знойдзены"
+
+#: plus/classes/views/mngl-plus-messages/message_sent.php:1
+msgid "Message Sent."
+msgstr "Паведамленні адпраўлены"
+
+#: plus/classes/views/mngl-plus-messages/view.php:1
+msgid "Back to Messages"
+msgstr "Назад да паведамленняў"
+
+#: plus/classes/views/mngl-plus-messages/view.php:23
+#: plus/classes/views/mngl-plus-messages/view.php:28
+msgid "Reply"
+msgstr "Адказаць"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:3
+msgid "Add a Custom Field"
+msgstr "Дадаць наладжвальнае поле"
+
+#: plus/classes/views/mngl-plus-options/add_custom_field_button.php:4
+msgid "These fields will be added to each user's profile."
+msgstr "Гэтыя палі будуць дададзены на кожную Асабістую старонку карыстача."
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:3
+msgid "Type"
+msgstr "Тып"
+
+#: plus/classes/views/mngl-plus-options/custom_field.php:4
+msgid "Default Value"
+msgstr "Значэнне па змаўчанні"
+
+#: plus/classes/views/mngl-plus-options/custom_fields.php:1
+msgid "Custom Fields"
+msgstr "Наладжвальныя палі"
+
+#: plus/classes/views/mngl-plus-options/pages.php:1
+msgid "MinglePlus Pages"
+msgstr "старонкі MinglePlus"
+
+#: plus/classes/views/mngl-plus-options/pages.php:2
+msgid "Now setup your MinglePlus Pages to start taking advantage of MinglePlus' awesome features."
+msgstr "Зараз наладзьце MinglePlus лісты, каб скарыстацца ўсімі перавагамі MinglePlus"
+
+#: plus/classes/views/mngl-plus-options/pages.php:3
+msgid "Inbox Page"
+msgstr "Ліст уваходных паведамленняў"
+
+#: plus/classes/views/shared/plus_pages_links.php:1
+msgid "Inbox"
+msgstr "Уваходныя"
+
+#: plus/js/mingle-plus.js.php:33
+msgid "Are you sure you want to delete this message?"
+msgstr "Вы ўпэўнены, што жадаеце выдаліць гэта паведамленне?"
+
+#: plus/js/mingle-plus.js.php:52
+msgid "Are you sure you want to delete these messages?"
+msgstr "Вы ўпэўнены, што жадаеце выдаліць гэтыя паведамленні?"
+
+#. Plugin URI of an extension
+msgid "http://blairwilliams.com/mingle"
+msgstr "http://blairwilliams.com/mingle"
+
+#. Description of an extension
+msgid "The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network."
+msgstr "Самы лёгкі шлях ператварыць ваш стандартны сайт на Wordpress са звычайнай тэмай Wordpress у сацыяльную сетку "
+
+#. Author of an extension
+msgid "Blair Williams"
+msgstr "Blair Williams"
+
+#. Author URI of an extension
+msgid "http://blairwilliams.com"
+msgstr "http://blairwilliams.com"
+
+#~ msgid "Sex"
+#~ msgstr "Падлога"
+#~ msgid "Display Name"
+#~ msgstr "Адлюстроўванае імя"
+

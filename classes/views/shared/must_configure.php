@@ -1,0 +1,1 @@
+<div class="error" style="padding-top: 5px; padding-bottom: 5px;"><?php printf(__('Mingle must be configured. Go to the %s to setup your new social network!', 'mingle'), '<a href="?page=mingle-options">'.__('Mingle Admin Page', 'mingle').'</a>'); ?></div>

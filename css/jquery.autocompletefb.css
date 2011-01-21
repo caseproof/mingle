@@ -1,0 +1,91 @@
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: Window;
+	overflow: hidden;
+	z-index: 99999;
+}
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+}
+.ac_loading {
+	background : Window url('indicator.gif') right center no-repeat;
+}
+.ac_odd {
+	background-color: #eee;
+}
+.ac_over {
+	background-color: #0A246A;
+	color: HighlightText;
+}
+.ac_moreItems {
+	text-align: center;
+	background-color: InactiveCaption;
+	color: InactiveCaptionText;
+	margin: 0px;
+	padding: 0px 5px;
+	cursor: default;
+	display: block;
+	width: 100%;
+	font: bold menu 12px;
+	overflow: hidden;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+form { 
+	width   : 550px; 
+	margin  : 50px,50px; 
+	border  : 1px solid #999; 
+	padding : 20px 30px 10px; 
+}
+.p {cursor: pointer;}
+.acfb-input{
+	border:medium none;
+	margin:0pt;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0pt;
+	padding:3px 0pt 2px;
+	width:150px;
+}
+/* TextboxList sample CSS */
+* html ul.acfb-holder,*:first-child+html ul.acfb-holder { 
+	padding-bottom: 2px; 
+}
+ul.acfb-holder { 
+	margin  : 0; 
+	padding : 4px 5px 0; 
+	border  : 1px solid #999; 
+	height  : auto !important; 
+	height  : 1%; 
+	overflow: hidden; 
+	font    : 11px "Lucida Grande", "Verdana"; 
+}
+ul.acfb-holder li { 
+	float   : left; 
+	margin  : 0 5px 4px 0; 
+	list-style-type: none; 
+}
+ul.acfb-holder li.acfb-data { 
+	border-radius         : 6px; 
+	-moz-border-radius    : 6px; 
+	-webkit-border-radius : 6px; 
+	border     : 1px solid #CAD8F3; 
+	padding    : 1px 5px 2px; 
+	background : #DEE7F8; 
+}
