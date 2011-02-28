@@ -4,7 +4,7 @@ class MnglAppController
 {
   function MnglAppController()
   {
-	  add_filter('mngl-show-powered-by', array(&$this, 'show_powered_by'));
+    add_filter('mngl-show-powered-by', array(&$this, 'show_powered_by'));
     add_filter('the_content', array( &$this, 'page_route' ), 100);
     add_action('wp_enqueue_scripts', array(&$this, 'load_scripts'), 1);
     add_action('admin_enqueue_scripts', array(&$this,'load_admin_scripts'));
@@ -96,7 +96,7 @@ class MnglAppController
         break;
       case $mngl_options->directory_page_id:
         ob_start();
-        $mngl_profiles_controller->directory($this->get_param('mdp'),false,$this->get_param('q'));
+        $mngl_profiles_controller->directory($this->get_param('mdp'),false,$this->get_param('sq'));
         $content = ob_get_contents();
         ob_end_clean();
         break;
@@ -189,10 +189,8 @@ class MnglAppController
   function enqueue_mngl_scripts()
   {
     global $mngl_blogurl;
-    if(MnglUtils::rewriting_on())
-      $mngl_js = $mngl_blogurl . '/mingle-js/mingle.js';
-    else
-      $mngl_js = $mngl_blogurl . '/index.php?mingle_js=mingle';
+
+    $mngl_js = $mngl_blogurl . '/index.php?mingle_js=mingle';
 
     if(MnglUtils::is_version_at_least( '3.0-beta2' ))
       wp_enqueue_style( 'jquery-ui-all', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css' );
@@ -243,12 +241,7 @@ class MnglAppController
       $this->standalone_route($controller, $action);
       exit;
     }
-    else if( MnglUtils::rewriting_on() and preg_match("#/mingle-js/(.+)\.js.*#", $_SERVER['REQUEST_URI'], $matches) )
-    {
-      $this->standalone_route('js', $matches[1]);
-      exit;
-    }
-    else if( !MnglUtils::rewriting_on() and !empty($mingle_js) )
+    else if( !empty($mingle_js) )
     {
       $this->standalone_route('js', $mingle_js);
       exit;
@@ -319,7 +312,7 @@ class MnglAppController
       else if($action=='ignore_friend')
         $mngl_friends_controller->ignore_friend($this->get_param('request_id'));
       else if($action=='search')
-        $mngl_friends_controller->list_friends($this->get_param('mdp'),$this->get_param('u'),true,$this->get_param('q'));
+        $mngl_friends_controller->list_friends($this->get_param('mdp'),$this->get_param('u'),true,$this->get_param('sq'));
     }
     else if($controller=='boards')
     {
@@ -352,7 +345,7 @@ class MnglAppController
       if($action=='delete_avatar')
         $mngl_profiles_controller->delete_avatar($this->get_param('user_id'));
       else if($action=='search')
-        $mngl_profiles_controller->directory($this->get_param('mdp'),true,$this->get_param('q'));
+        $mngl_profiles_controller->directory($this->get_param('mdp'),true,$this->get_param('sq'));
     }
     else if($controller=='options')
     {
@@ -377,7 +370,7 @@ class MnglAppController
     else if($controller=='messages')
     {
       if($action=='lookup_friends')
-        $mngl_messages_controller->lookup_friends($this->get_param('q'));
+        $mngl_messages_controller->lookup_friends($this->get_param('sq'));
       else if($action=='mngl_process_reply_form')
         $mngl_messages_controller->create_reply( $this->get_param('mngl_thread_id'),
                                                  $this->get_param('mngl_reply') );
@@ -438,7 +431,7 @@ class MnglAppController
   // Utility function to grab the parameter whether it's a get or post
   function get_param($param, $default='')
   {
-    return (isset($_POST[$param])?$_POST[$param]:(isset($_GET[$param])?$_GET[$param]:$default));
+    return (isset($_REQUEST[$param])?$_REQUEST[$param]:$default);
   }
   
   function get_param_delimiter_char($link)
