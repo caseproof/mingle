@@ -83,6 +83,17 @@
   vertical-align: top;
 }
 
+.profile-edit-table, .profile-edit-table tr td, #mngl-friends-directory table, #mngl-friends-directory tr td, #mngl-profile-results table, #mngl-profile-results tr td, #mngl_message_composer table, #mngl_message_composer tr td, .mngl-board table, .mngl-board tr td {
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+#mngl-profile-results tr td, #mngl-friends-directory tr td {
+  padding-left: 10px !important;
+  margin-left: 10px !important;
+}
+
 .mngl-board-profile-image-wrap {
   width: 48px;
   height: 48px;
@@ -263,10 +274,13 @@ ul.friends-list {
 }
 
 .mngl-profile-body {
+  border: 0 !important;
   width: 100%;
+  margin-left: 10px !important;
 }
 
 .mngl-profile-table {
+  border: 0 !important;
   width: 100%;
 }
 
@@ -280,6 +294,11 @@ ul.friends-list {
 
 .mngl-profile-table a {
   text-decoration: none !important;
+}
+
+.mngl-profile-table tr td, .mngl-profile-table table {
+  border: 0 !important;
+  padding: 0 !important;
 }
 
 .mngl-profile-name {

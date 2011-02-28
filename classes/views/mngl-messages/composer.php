@@ -36,7 +36,7 @@ jQuery(function() {
 	jQuery("#mngl_message_recipients").autocomplete({
 		source: function(request, response) {
 			jQuery.getJSON("<?php echo MNGL_SCRIPT_URL . "&controller=messages&action=lookup_friends"; ?>", {
-				q: extractLast(request.term)
+				sq: extractLast(request.term)
 			}, response);
 		},
 		search: function() {
