@@ -12,9 +12,9 @@ class MnglMessagesController
   {
     global $mngl_user;
     
-    if (isset($_GET['u']) && !empty($_GET['u']))
+    if (isset($_GET['mu']) && !empty($_GET['mu']))
     {
-      $to_id = $_GET['u'];
+      $to_id = $_GET['mu'];
       $curr_user =& MnglUser::get_stored_profile_by_id($to_id);
       $to = $curr_user->screenname.", ";
     }

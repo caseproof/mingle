@@ -90,7 +90,7 @@ class MnglAppController
         if($this->get_param('mbpost'))
           $mngl_boards_controller->display_board_post($mngl_board_post->get_one($this->get_param('mbpost'),true));
         else
-          $mngl_profiles_controller->profile($this->get_param('u'));
+          $mngl_profiles_controller->profile($this->get_param('mu'));
         $content = ob_get_contents();
         ob_end_clean();
         break;
@@ -108,7 +108,7 @@ class MnglAppController
         break;
       case $mngl_options->friends_page_id:
         ob_start();
-        $mngl_friends_controller->list_friends($this->get_param('mdp'), $this->get_param('u'));
+        $mngl_friends_controller->list_friends($this->get_param('mdp'), $this->get_param('mu'));
         $content = ob_get_contents();
         ob_end_clean();
         break;
@@ -127,7 +127,7 @@ class MnglAppController
         else if( $action and $action == 'mngl_process_forgot_password' )
           $mngl_users_controller->process_forgot_password_form();
         else if( $action and $action == 'reset_password')
-          $mngl_users_controller->display_reset_password_form($this->get_param('mkey'),$this->get_param('u'));
+          $mngl_users_controller->display_reset_password_form($this->get_param('mkey'),$this->get_param('mu'));
         else if( $action and $action == 'mngl_process_reset_password_form')
           $mngl_users_controller->process_reset_password_form();
         else
@@ -280,7 +280,7 @@ class MnglAppController
           $query_vars['pagename'] = $pagename;
 
           // Artificially set the GET variable
-          $_GET['u'] = $match_val[1];
+          $_REQUEST['mu'] = $match_val[1];
 
           // Unset the indeterminate query_var['name'] now that we have a pagename
           unset($query_vars['name']);
@@ -312,7 +312,7 @@ class MnglAppController
       else if($action=='ignore_friend')
         $mngl_friends_controller->ignore_friend($this->get_param('request_id'));
       else if($action=='search')
-        $mngl_friends_controller->list_friends($this->get_param('mdp'),$this->get_param('u'),true,$this->get_param('sq'));
+        $mngl_friends_controller->list_friends($this->get_param('mdp'),$this->get_param('mu'),true,$this->get_param('sq'));
     }
     else if($controller=='boards')
     {
@@ -325,9 +325,9 @@ class MnglAppController
       else if($action=='delete_comment')
         $mngl_boards_controller->delete_comment($this->get_param('board_comment_id'));
       else if($action=='older_posts')
-        $mngl_boards_controller->show_older_posts($this->get_param('u'),$this->get_param('mdp'),$this->get_param('loc'));
+        $mngl_boards_controller->show_older_posts($this->get_param('mu'),$this->get_param('mdp'),$this->get_param('loc'));
       else if($action=='clear_status')
-        $mngl_boards_controller->clear_status($this->get_param('u'));
+        $mngl_boards_controller->clear_status($this->get_param('mu'));
     }
     else if($controller=='activity')
     {
