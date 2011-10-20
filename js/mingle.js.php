@@ -44,7 +44,7 @@ function mngl_clear_status(user_id)
   jQuery.ajax( {
     type: "POST",
     url: '<?php echo MNGL_SCRIPT_URL; ?>',
-    data: "controller=boards&action=clear_status&u=" + user_id,
+    data: "controller=boards&action=clear_status&mu=" + user_id,
     success: function(html) {
       jQuery('.mngl-profile-status').slideUp();
     }
@@ -57,7 +57,7 @@ function mngl_show_older_posts( pagenum, loc, screenname )
   jQuery.ajax( {
     type: "POST",
     url: '<?php echo MNGL_SCRIPT_URL; ?>',
-    data: "controller=boards&action=older_posts&mdp=" + pagenum + "&loc=" + loc + "&u=" + screenname,
+    data: "controller=boards&action=older_posts&mdp=" + pagenum + "&loc=" + loc + "&mu=" + screenname,
     success: function(html) {
       jQuery('#mngl-older-posts').replaceWith(html);
       mngl_load_growables();
@@ -180,7 +180,7 @@ function mngl_search_directory( search_query )
   jQuery.ajax( {
     type: "POST",
     url: '<?php echo MNGL_SCRIPT_URL; ?>',
-    data: "&controller=profile&action=search&q=" + search_query,
+    data: "&controller=profile&action=search&sq=" + search_query,
     success: function(html) {
       jQuery( '#mngl-profile-results' ).replaceWith(html);
       if( search_query != '' )
@@ -201,7 +201,7 @@ function mngl_search_friends( search_query, page_params )
   jQuery.ajax( {
     type: "POST",
     url: '<?php echo MNGL_SCRIPT_URL; ?>',
-    data: "&controller=friends&action=search&q=" + search_query + page_params,
+    data: "&controller=friends&action=search&sq=" + search_query + page_params,
     success: function(html) {
       jQuery( '#mngl-friends-directory' ).replaceWith(html);
     }

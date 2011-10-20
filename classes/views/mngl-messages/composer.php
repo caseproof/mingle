@@ -36,7 +36,7 @@ jQuery(function() {
 	jQuery("#mngl_message_recipients").autocomplete({
 		source: function(request, response) {
 			jQuery.getJSON("<?php echo MNGL_SCRIPT_URL . "&controller=messages&action=lookup_friends"; ?>", {
-				q: extractLast(request.term)
+				sq: extractLast(request.term)
 			}, response);
 		},
 		search: function() {
@@ -63,6 +63,6 @@ jQuery(function() {
 		}
 	});
 	
-	<?php echo (((isset($_POST['action']) and ($_POST['action'] == 'mngl_process_composer_form')) or (isset($_GET['u']) and !empty($_GET['u'])))?'':"jQuery('#mngl_message_composer').hide();"); ?>
+	<?php echo (((isset($_POST['action']) and ($_POST['action'] == 'mngl_process_composer_form')) or (isset($_GET['mu']) and !empty($_GET['mu'])))?'':"jQuery('#mngl_message_composer').hide();"); ?>
 });
 </script>

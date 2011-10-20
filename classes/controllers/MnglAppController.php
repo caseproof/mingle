@@ -4,7 +4,7 @@ class MnglAppController
 {
   function MnglAppController()
   {
-	  add_filter('mngl-show-powered-by', array(&$this, 'show_powered_by'));
+    add_filter('mngl-show-powered-by', array(&$this, 'show_powered_by'));
     add_filter('the_content', array( &$this, 'page_route' ), 100);
     add_action('wp_enqueue_scripts', array(&$this, 'load_scripts'), 1);
     add_action('admin_enqueue_scripts', array(&$this,'load_admin_scripts'));
@@ -90,13 +90,13 @@ class MnglAppController
         if($this->get_param('mbpost'))
           $mngl_boards_controller->display_board_post($mngl_board_post->get_one($this->get_param('mbpost'),true));
         else
-          $mngl_profiles_controller->profile($this->get_param('u'));
+          $mngl_profiles_controller->profile($this->get_param('mu'));
         $content = ob_get_contents();
         ob_end_clean();
         break;
       case $mngl_options->directory_page_id:
         ob_start();
-        $mngl_profiles_controller->directory($this->get_param('mdp'),false,$this->get_param('q'));
+        $mngl_profiles_controller->directory($this->get_param('mdp'),false,$this->get_param('sq'));
         $content = ob_get_contents();
         ob_end_clean();
         break;
@@ -108,7 +108,7 @@ class MnglAppController
         break;
       case $mngl_options->friends_page_id:
         ob_start();
-        $mngl_friends_controller->list_friends($this->get_param('mdp'), $this->get_param('u'));
+        $mngl_friends_controller->list_friends($this->get_param('mdp'), $this->get_param('mu'));
         $content = ob_get_contents();
         ob_end_clean();
         break;
@@ -127,7 +127,7 @@ class MnglAppController
         else if( $action and $action == 'mngl_process_forgot_password' )
           $mngl_users_controller->process_forgot_password_form();
         else if( $action and $action == 'reset_password')
-          $mngl_users_controller->display_reset_password_form($this->get_param('mkey'),$this->get_param('u'));
+          $mngl_users_controller->display_reset_password_form($this->get_param('mkey'),$this->get_param('mu'));
         else if( $action and $action == 'mngl_process_reset_password_form')
           $mngl_users_controller->process_reset_password_form();
         else
@@ -189,10 +189,8 @@ class MnglAppController
   function enqueue_mngl_scripts()
   {
     global $mngl_blogurl;
-    if(MnglUtils::rewriting_on())
-      $mngl_js = $mngl_blogurl . '/mingle-js/mingle.js';
-    else
-      $mngl_js = $mngl_blogurl . '/index.php?mingle_js=mingle';
+
+    $mngl_js = $mngl_blogurl . '/index.php?mingle_js=mingle';
 
     if(MnglUtils::is_version_at_least( '3.0-beta2' ))
       wp_enqueue_style( 'jquery-ui-all', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css' );
@@ -243,12 +241,7 @@ class MnglAppController
       $this->standalone_route($controller, $action);
       exit;
     }
-    else if( MnglUtils::rewriting_on() and preg_match("#/mingle-js/(.+)\.js.*#", $_SERVER['REQUEST_URI'], $matches) )
-    {
-      $this->standalone_route('js', $matches[1]);
-      exit;
-    }
-    else if( !MnglUtils::rewriting_on() and !empty($mingle_js) )
+    else if( !empty($mingle_js) )
     {
       $this->standalone_route('js', $mingle_js);
       exit;
@@ -287,7 +280,7 @@ class MnglAppController
           $query_vars['pagename'] = $pagename;
 
           // Artificially set the GET variable
-          $_GET['u'] = $match_val[1];
+          $_REQUEST['mu'] = $match_val[1];
 
           // Unset the indeterminate query_var['name'] now that we have a pagename
           unset($query_vars['name']);
@@ -319,7 +312,7 @@ class MnglAppController
       else if($action=='ignore_friend')
         $mngl_friends_controller->ignore_friend($this->get_param('request_id'));
       else if($action=='search')
-        $mngl_friends_controller->list_friends($this->get_param('mdp'),$this->get_param('u'),true,$this->get_param('q'));
+        $mngl_friends_controller->list_friends($this->get_param('mdp'),$this->get_param('mu'),true,$this->get_param('sq'));
     }
     else if($controller=='boards')
     {
@@ -332,9 +325,9 @@ class MnglAppController
       else if($action=='delete_comment')
         $mngl_boards_controller->delete_comment($this->get_param('board_comment_id'));
       else if($action=='older_posts')
-        $mngl_boards_controller->show_older_posts($this->get_param('u'),$this->get_param('mdp'),$this->get_param('loc'));
+        $mngl_boards_controller->show_older_posts($this->get_param('mu'),$this->get_param('mdp'),$this->get_param('loc'));
       else if($action=='clear_status')
-        $mngl_boards_controller->clear_status($this->get_param('u'));
+        $mngl_boards_controller->clear_status($this->get_param('mu'));
     }
     else if($controller=='activity')
     {
@@ -352,7 +345,7 @@ class MnglAppController
       if($action=='delete_avatar')
         $mngl_profiles_controller->delete_avatar($this->get_param('user_id'));
       else if($action=='search')
-        $mngl_profiles_controller->directory($this->get_param('mdp'),true,$this->get_param('q'));
+        $mngl_profiles_controller->directory($this->get_param('mdp'),true,$this->get_param('sq'));
     }
     else if($controller=='options')
     {
@@ -377,7 +370,7 @@ class MnglAppController
     else if($controller=='messages')
     {
       if($action=='lookup_friends')
-        $mngl_messages_controller->lookup_friends($this->get_param('q'));
+        $mngl_messages_controller->lookup_friends($this->get_param('sq'));
       else if($action=='mngl_process_reply_form')
         $mngl_messages_controller->create_reply( $this->get_param('mngl_thread_id'),
                                                  $this->get_param('mngl_reply') );
@@ -438,7 +431,7 @@ class MnglAppController
   // Utility function to grab the parameter whether it's a get or post
   function get_param($param, $default='')
   {
-    return (isset($_POST[$param])?$_POST[$param]:(isset($_GET[$param])?$_GET[$param]:$default));
+    return (isset($_REQUEST[$param])?$_REQUEST[$param]:$default);
   }
   
   function get_param_delimiter_char($link)
