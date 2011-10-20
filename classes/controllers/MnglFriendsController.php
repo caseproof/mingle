@@ -31,7 +31,7 @@ class MnglFriendsController
     else if( isset($user_param) and 
              !empty($user_param) and
              $user = MnglUser::get_stored_profile_by_screenname($user_param) )
-      $page_params = '&u=' . $user_param;
+      $page_params = '&mu=' . $user_param;
     else
     {
       require MNGL_VIEWS_PATH . "/shared/unauthorized.php";

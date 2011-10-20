@@ -1004,7 +1004,7 @@ class MnglUser
     $permalink = get_permalink($mngl_options->login_page_id);
     $delim     = MnglAppController::get_param_delimiter_char($permalink);
     
-    $reset_password_link = "{$permalink}{$delim}action=reset_password&mkey={$key}&u={$this->screenname}";
+    $reset_password_link = "{$permalink}{$delim}action=reset_password&mkey={$key}&mu={$this->screenname}";
 
     // Send password email to new user
     $from_name     = $mngl_blogname; //senders name

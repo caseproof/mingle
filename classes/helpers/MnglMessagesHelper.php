@@ -42,8 +42,8 @@ class MnglMessagesHelper {
       if(isset($_POST['mngl_message_body']) and !empty($_POST['mngl_message_body']))
         return '';
     }
-    else if(isset($_GET['u']) and !empty($_GET['u']))
-      $recipients = explode(',',$_GET['u']);
+    else if(isset($_GET['mu']) and !empty($_GET['mu']))
+      $recipients = explode(',',$_GET['mu']);
     else
       return '';
     
