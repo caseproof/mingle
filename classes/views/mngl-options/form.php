@@ -12,50 +12,50 @@
   <tr class="form-field">
     <td valign="top" style="text-align: right; width: 150px;"><?php _e('Profile Page', 'mingle'); ?>*: </td>
     <td style="width: 150px;">
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->profile_page_id_str, $mngl_options->profile_page_id, __("Profile") )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->profile_page_id_str, $mngl_options->profile_page_id, __("Profile", 'mingle') )?>
     </td>
     <td valign="top" style="text-align: right; width: 150px;"><?php _e('Activity Page', 'mingle'); ?>*: </td>
     <td style="width: 150px;">
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->activity_page_id_str, $mngl_options->activity_page_id, __("Activity") )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->activity_page_id_str, $mngl_options->activity_page_id, __("Activity", 'mingle') )?>
     </td>
     <td>&nbsp;</td>
   </tr>
   <tr class="form-field">
     <td valign="top" style="text-align: right;"><?php _e('Profile Edit Page', 'mingle'); ?>*: </td>
     <td>
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->profile_edit_page_id_str, $mngl_options->profile_edit_page_id, __("Account") )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->profile_edit_page_id_str, $mngl_options->profile_edit_page_id, __("Account", 'mingle') )?>
     </td>
     <td valign="top" style="text-align: right;"><?php _e('Directory Page', 'mingle'); ?>: </td>
     <td>
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->directory_page_id_str, $mngl_options->directory_page_id, __("Directory"), true )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->directory_page_id_str, $mngl_options->directory_page_id, __("Directory", 'mingle'), true )?>
     </td>
     <td>&nbsp;</td>
   </tr>
   <tr class="form-field">
     <td valign="top" style="text-align: right;"><?php _e('Friends Page', 'mingle'); ?>*: </td>
     <td>
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->friends_page_id_str, $mngl_options->friends_page_id, __("Directory") )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->friends_page_id_str, $mngl_options->friends_page_id, __("Directory", 'mingle') )?>
     </td>
     <td valign="top" style="text-align: right;"><?php _e('Login Page', 'mingle'); ?>: </td>
     <td>
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->login_page_id_str, $mngl_options->login_page_id, __("Login"), true )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->login_page_id_str, $mngl_options->login_page_id, __("Login", 'mingle'), true )?>
     </td>
     <td>&nbsp;</td>
   </tr>
   <tr class="form-field">
     <td valign="top" style="text-align: right;"><?php _e('Friend Requests Page', 'mingle'); ?>*: </td>
     <td>
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->friend_requests_page_id_str, $mngl_options->friend_requests_page_id, __("Friends") )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->friend_requests_page_id_str, $mngl_options->friend_requests_page_id, __("Friends", 'mingle') )?>
     </td>
     <td valign="top" style="text-align: right;"><?php _e('Signup Page', 'mingle'); ?>: </td>
     <td>
-      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->signup_page_id_str, $mngl_options->signup_page_id, __("Signup"), true )?>
+      <?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->signup_page_id_str, $mngl_options->signup_page_id, __("Signup", 'mingle'), true )?>
     </td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td valign="top" style="text-align: right;"><?php _e('Inbox Page', 'mingle'); ?>*: </td>
-    <td><?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->inbox_page_id_str, $mngl_options->inbox_page_id, __("Inbox") )?></td>
+    <td><?php MnglOptionsHelper::wp_pages_dropdown( $mngl_options->inbox_page_id_str, $mngl_options->inbox_page_id, __("Inbox", 'mingle') )?></td>
     <td valign="top" style="text-align: right;">&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>

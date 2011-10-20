@@ -4,7 +4,7 @@ Donate link: http://blairwilliams.com/mingle-donate
 Tags: social, social network, network, networking, facebook, facebook wall, linkedin, twitter, mingle, wpmingle, wp-mingle, wpmingle.com, blair, blair williams, blairwilliams.com, pretty link, prettylink, pretty-link, buddypress, buddy-press, buddy press, widget, admin, page, pages, post, posts, posting, plugin, sidebar, comment, comments, commenting, images, mingle, friends, friend, avatar, avatars, gravatar, directory, users, user, profile, profiles, activity, activities, email, notification, notify, privacy, member, membership site, members, membership sites, community, communities, messaging, messages, message, ajax, javascript, login, logout, signup, signin, register, lost password, google, links, link, linking, twitter, international, internationalized, i18n, albanian, armenian, bulgarian, dutch, english, french, german, italian, persian, polish, romanian, russian, spanish, swedish, turkish, microblog, microblogging, premium, membership
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 0.0.32
+Stable tag: 0.1.0
 
 The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network.
 
@@ -82,6 +82,9 @@ If you have any issues please post something here:
 [Mingle FAQ](http://blairwilliams.com/mingle "Mingle FAQ")
 
 == Changelog ==
+
+= 0.1.0 =
+* Fixed some conflicts with the latest version of WordPress
 
 = 0.0.32 =
 * Added an admin option to disable the "Powered by Mingle" links
@@ -287,6 +290,9 @@ If you have any issues please post something here:
 * First Release
 
 == Upgrade Notice ==
+
+= 0.1.0 =
+Fixed some conflicts with the latest version of WordPress
 
 = 0.0.31 =
 If Mingle has been conflicting with other javascript on your site, this fix could help.
