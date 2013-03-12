@@ -1,7 +1,7 @@
 <?php
 
 class MnglUser
-{ 
+{
   var $profile_name;
   
   var $userdata;
@@ -475,25 +475,25 @@ class MnglUser
         require_once(ABSPATH.'wp-admin/includes/image.php');
         require_once(ABSPATH.'wp-includes/media.php');
         $tmp_image = $target_path . '/tmp_' . md5(trim(strtolower($this->email)));
-        move_uploaded_file($_FILES[ $this->avatar_str ]['tmp_name'], $tmp_image);
-        $resized_image = image_resize( $tmp_image, 600, 600, false, null, $target_path );
-      
-        if ( !is_wp_error($resized_image) and $resized_image )
+        move_uploaded_file($_FILES[$this->avatar_str]['tmp_name'], $tmp_image);
+        $meta = getimagesize($tmp_image);
+        $ext = MnglAppHelper::get_extension($meta['mime']);
+        $image = wp_get_image_editor( $tmp_image );
+        
+        if (!is_wp_error($image))
         {
-          $full_image = $resized_image;
+          $image->resize(600, 600, true);
+          $image_path = $target_path . '/' . md5(trim(strtolower($this->email))) . "_" . time() . ".{$ext}";
+          $image->save($image_path);
           unlink($tmp_image);
         }
         else
-          $full_image = $tmp_image;
+        {
+          $image_path = $target_path . '/' . md5(trim(strtolower($this->email))) . "_" . time() . ".{$ext}";
+          copy($tmp_image, $image_path);
+          unlink($tmp_image);
+        }
         
-        $avatar_meta = getimagesize($full_image);
-        $ext = MnglAppHelper::get_extension($avatar_meta['mime']); 
-        $image_path = $target_path . '/' . md5(trim(strtolower($this->email))) . "_" . time() . ".{$ext}";
-
-        // Rename the full image
-        copy($full_image, $image_path);
-        unlink($full_image);
-
         $this->delete_avatars();
         $this->avatar = basename($image_path);
       }
@@ -1004,7 +1004,7 @@ class MnglUser
     $permalink = get_permalink($mngl_options->login_page_id);
     $delim     = MnglAppController::get_param_delimiter_char($permalink);
     
-    $reset_password_link = "{$permalink}{$delim}action=reset_password&mkey={$key}&mu={$this->screenname}";
+    $reset_password_link = "{$permalink}{$delim}action=reset_password&mkey={$key}&u={$this->screenname}";
 
     // Send password email to new user
     $from_name     = $mngl_blogname; //senders name
