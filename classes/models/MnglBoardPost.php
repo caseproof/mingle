@@ -16,7 +16,7 @@ class MnglBoardPost
 
     if( !isset($this_object) or 
         empty($this_object) or
-        !is_object(&$this_object) )
+        !is_object($this_object) )
       $this_object =& new MnglBoardPost();
     
     return $this_object;
