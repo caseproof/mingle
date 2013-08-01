@@ -8,7 +8,7 @@ class MnglBoardsHelper
 
     if( !isset($this_object) or 
         empty($this_object) or
-        !is_object(&$this_object) )
+        !is_object($this_object) )
       $this_object =& new MnglBoardsHelper();
     
     return $this_object;
