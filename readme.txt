@@ -2,9 +2,9 @@
 Contributors: supercleanse
 Donate link: http://blairwilliams.com/mingle-donate
 Tags: social, social network, network, networking, facebook, facebook wall, linkedin, twitter, mingle, wpmingle, wp-mingle, wpmingle.com, blair, blair williams, blairwilliams.com, pretty link, prettylink, pretty-link, buddypress, buddy-press, buddy press, widget, admin, page, pages, post, posts, posting, plugin, sidebar, comment, comments, commenting, images, mingle, friends, friend, avatar, avatars, gravatar, directory, users, user, profile, profiles, activity, activities, email, notification, notify, privacy, member, membership site, members, membership sites, community, communities, messaging, messages, message, ajax, javascript, login, logout, signup, signin, register, lost password, google, links, link, linking, twitter, international, internationalized, i18n, albanian, armenian, bulgarian, dutch, english, french, german, italian, persian, polish, romanian, russian, spanish, swedish, turkish, microblog, microblogging, premium, membership
-Requires at least: 3.0
-Tested up to: 3.2.1
-Stable tag: 0.1.0
+Requires at least: 3.7
+Tested up to: 3.8
+Stable tag: 0.1.1
 
 The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network.
 
@@ -16,11 +16,7 @@ You can now try Mingle out in our Mingle Community! Come be my friend at:
 [Mingle WordPress Community](http://wpmingle.com "Mingle WordPress Community")
 
 = Community Builders =
-If you're planning on launching Mingle as part of a Premium Membership site we've seen great success with people using [Wishlist Member](http://blairwilliams.com/wishlistmember "Wishlist Member") (aff link) and
-
-[Affiliate Royale](http://www.affiliateroyale.com "Affiliate Royale")
-
-FYI, Affiliate Royale is a WordPress pluginthat was created by the same people who brought you Pretty Link and Mingle.
+If you're planning on launching Mingle as part of a Premium Membership site we've seen great success with people using [MemberPress](http://memberpress "MemberPress") and [Affiliate Royale](http://www.affiliateroyale.com "Affiliate Royale") ...
 
 = Note =
 Mingle still hasn't been tested with every theme or browser in existence yet. However, Mingle was developed and works exceptionally well on most themes.
@@ -82,6 +78,9 @@ If you have any issues please post something here:
 [Mingle FAQ](http://blairwilliams.com/mingle "Mingle FAQ")
 
 == Changelog ==
+
+= 0.1.1 =
+* Fixed some conflicts with PHP 5.4
 
 = 0.1.0 =
 * Fixed some conflicts with the latest version of WordPress
@@ -290,6 +289,9 @@ If you have any issues please post something here:
 * First Release
 
 == Upgrade Notice ==
+
+= 0.1.0 =
+Fixed some conflicts with php 5.4
 
 = 0.1.0 =
 Fixed some conflicts with the latest version of WordPress

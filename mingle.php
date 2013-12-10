@@ -3,11 +3,11 @@
 Plugin Name: Mingle
 Plugin URI: http://blairwilliams.com/mingle
 Description: The simplest way to turn your standard WordPress website with a standard WordPress theme into a Social Network.
-Version: 0.1.0
+Version: 0.1.1
 Author: Caseproof
 Author URI: http://caseproof.com
 Text Domain: mingle
-Copyright: 2004-2011, Caseproof, LLC
+Copyright: 2004-2014, Caseproof, LLC
 
 GNU General Public License, Free Software Foundation <http://creativecommons.org/licenses/GPL/2.0/>
 This program is free software; you can redistribute it and/or modify
