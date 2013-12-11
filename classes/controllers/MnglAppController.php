@@ -43,8 +43,8 @@ class MnglAppController
   {
     global $mngl_options_controller, $mngl_update;
   
-    add_menu_page(__('Mingle', 'mingle'), __('Mingle', 'mingle'), 8, 'mingle-options', array(&$mngl_options_controller,'route'), MNGL_URL . "/images/mingle_16.png");
-    add_submenu_page( 'mingle-options', __('Options', 'mingle'), __('Options', 'mingle'), 8, 'mingle-options', array(&$mngl_options_controller,'route') );
+    add_menu_page(__('Mingle', 'mingle'), __('Mingle', 'mingle'), 'administrator', 'mingle-options', array($mngl_options_controller,'route'), MNGL_URL . "/images/mingle_16.png");
+    add_submenu_page( 'mingle-options', __('Options', 'mingle'), __('Options', 'mingle'), 'administrator', 'mingle-options', array($mngl_options_controller,'route') );
   }
   
   function prevent_admin_access()
@@ -180,7 +180,7 @@ class MnglAppController
   {
     $admin_pages = apply_filters('mngl_admin_pages',array('mingle-options'));
     
-    $curr_page = $_GET['page'];
+    $curr_page = (isset($_GET['page']))?$_GET['page']:0;
 
     if(in_array($curr_page,$admin_pages))
       $this->enqueue_mngl_scripts();
@@ -385,11 +385,11 @@ class MnglAppController
     }
   }
   
-  function load_language()
+  public static function load_language()
   {
-    $path_from_plugins_folder = str_replace( ABSPATH, '', MNGL_PATH ) . '/i18n/';
+    $path_from_plugins_folder = str_replace( WP_PLUGIN_DIR, '', MNGL_PATH ) . '/i18n/';
     
-    load_plugin_textdomain( 'mingle', $path_from_plugins_folder );
+    load_plugin_textdomain( 'mingle', false, $path_from_plugins_folder );
   }
   
   function mingle_init()

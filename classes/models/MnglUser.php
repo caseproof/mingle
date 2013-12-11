@@ -68,9 +68,9 @@ class MnglUser
     MnglUtils::get_currentuserinfo();
     
     if( empty($id) )
-      $this->userdata =& $current_user;
+      $this->userdata = $current_user;
     else
-      $this->userdata =& MnglUtils::get_userdata($id);
+      $this->userdata = MnglUtils::get_userdata($id);
     
     // We're abstracting and simplifying user objects here
     $this->id         = $this->_get_metadata( 'ID' );
@@ -585,7 +585,7 @@ class MnglUser
     }
   }
   
-  function get_all( $where='', $order_by='', $limit='' )
+  public static function get_all( $where='', $order_by='', $limit='' )
   {
     global $wpdb, $mngl_friend, $user_id;
     
@@ -611,7 +611,7 @@ class MnglUser
   function get_avatar_meta($avfile='')
   {
     if(empty($avfile))
-      $avfile =& $this->avatar;
+      $avfile = $this->avatar;
 
     $avmeta = false;
     if(!empty($avfile) and file_exists( $this->_avatar_path() . "/" . $avfile ))
@@ -776,12 +776,12 @@ class MnglUser
     }
   }
   
-  function &get_stored_profile_by_id($user_id = '', $load_default = true)
+  public static function get_stored_profile_by_id($user_id = '', $load_default = true)
   { 
     return MnglUser::get_stored_profile($user_id, $load_default);
   }
   
-  function &get_stored_profile_by_screenname($screenname = '', $load_default = true)
+  function get_stored_profile_by_screenname($screenname = '', $load_default = true)
   {
     $user = '';
     
@@ -791,7 +791,7 @@ class MnglUser
     return MnglUser::get_stored_profile($user->ID, $load_default);
   }
   
-  function &get_stored_profile($user_id = '', $load_default = true)
+  public static function get_stored_profile($user_id = '', $load_default = true)
   { 
     global $mngl_options;
 
@@ -886,7 +886,7 @@ class MnglUser
     return $wpdb->get_var($query);
   }
   
-  function is_logged_in_and_visible()
+  public static function is_logged_in_and_visible()
   {
     global $current_user;
     MnglUtils::get_currentuserinfo();
@@ -894,7 +894,7 @@ class MnglUser
     return (MnglUtils::is_user_logged_in() and MnglUser::user_exists_and_visible($current_user->ID));
   }
   
-  function is_logged_in_and_current_user($user_id)
+  public static function is_logged_in_and_current_user($user_id)
   {
     global $current_user;
     MnglUtils::get_currentuserinfo();
@@ -902,12 +902,12 @@ class MnglUser
     return (MnglUser::is_logged_in_and_visible() and ($current_user->ID == $user_id));
   }
   
-  function is_logged_in_and_an_admin()
+  public static function is_logged_in_and_an_admin()
   {
     return (MnglUtils::is_user_logged_in() and MnglUser::is_admin());
   }
   
-  function is_admin()
+  public static function is_admin()
   {
     return current_user_can('level_10');
   }

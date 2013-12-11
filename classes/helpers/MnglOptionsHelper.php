@@ -2,7 +2,7 @@
 
 class MnglOptionsHelper
 {
-  function wp_pages_dropdown($field_name, $page_id=0, $auto_page='', $include_disabled=false)
+  public static function wp_pages_dropdown($field_name, $page_id=0, $auto_page='', $include_disabled=false)
   {
     $pages = MnglAppHelper::get_pages();
     $selected_page_id = (isset($_POST[$field_name])?$_POST[$field_name]:$page_id);
@@ -35,7 +35,7 @@ class MnglOptionsHelper
     }
   }
 
-  function profile_name_dropdown($field_name, $field_value)
+  public static function profile_name_dropdown($field_name, $field_value)
   {
     ?>
       <select name="<?php echo $field_name; ?>" id="<?php echo $field_name; ?>" class="mngl-dropdown mngl-profile-name-dropdown">
@@ -45,7 +45,7 @@ class MnglOptionsHelper
     <?php
   }
   
-  function field_visibility_dropdown($field_name, $field_value)
+  public static function field_visibility_dropdown($field_name, $field_value)
   {
     ?>
       <select name="<?php echo $field_name; ?>" id="<?php echo $field_name; ?>" class="mngl-dropdown mngl-field-visibility-dropdown">
@@ -56,7 +56,7 @@ class MnglOptionsHelper
     <?php
   }
   
-  function users_dropdown($field_name, $user_id)
+  public static function users_dropdown($field_name, $user_id)
   {
     $users = MnglUtils::get_raw_users();
       
@@ -76,11 +76,11 @@ class MnglOptionsHelper
     <?php
   }
   
-  function users_multiselect($field_name, $user_array)
+  public static function users_multiselect($field_name, $user_array)
   {
     $users = MnglUtils::get_raw_users();
 
-    $field_value = $_POST[$field_name];
+    $field_value = (isset($_POST[$field_name]))?$_POST[$field_name]:'';
     
     $check_selected = (is_array($user_array) or is_array($_POST[$field_name]));
     ?>
@@ -102,23 +102,23 @@ class MnglOptionsHelper
     <?php
   }
   
-  function display_field_visibility_buttons($field_name, $custom=false, $password=false)
+  public static function display_field_visibility_buttons($field_name, $custom=false, $password=false)
   {
     global $mngl_options;
     
     if($custom)
     {
-      $profile_edit_fields  =& $mngl_options->field_visibilities[ 'profile_edit'  ]['custom'];
-      $profile_front_fields =& $mngl_options->field_visibilities[ 'profile_front' ]['custom'];
-      $profile_info_fields  =& $mngl_options->field_visibilities[ 'profile_info'  ]['custom'];
-      $signup_page_fields   =& $mngl_options->field_visibilities[ 'signup_page'   ]['custom'];
+      $profile_edit_fields  = $mngl_options->field_visibilities[ 'profile_edit'  ]['custom'];
+      $profile_front_fields = $mngl_options->field_visibilities[ 'profile_front' ]['custom'];
+      $profile_info_fields  = $mngl_options->field_visibilities[ 'profile_info'  ]['custom'];
+      $signup_page_fields   = $mngl_options->field_visibilities[ 'signup_page'   ]['custom'];
     }
     else
     {
-      $profile_edit_fields  =& $mngl_options->field_visibilities[ 'profile_edit'  ];
-      $profile_front_fields =& $mngl_options->field_visibilities[ 'profile_front' ];
-      $profile_info_fields  =& $mngl_options->field_visibilities[ 'profile_info'  ];
-      $signup_page_fields   =& $mngl_options->field_visibilities[ 'signup_page'   ];
+      $profile_edit_fields  = $mngl_options->field_visibilities[ 'profile_edit'  ];
+      $profile_front_fields = $mngl_options->field_visibilities[ 'profile_front' ];
+      $profile_info_fields  = $mngl_options->field_visibilities[ 'profile_info'  ];
+      $signup_page_fields   = $mngl_options->field_visibilities[ 'signup_page'   ];
     }
     
     $password_style='';
@@ -156,7 +156,7 @@ class MnglOptionsHelper
     ?><span><?php _e('Signup Page', 'mingle'); ?></span><?php
   }
 
-  function render_array_checkbox($field_name, $field_value, $array_type, $array_index, $custom=false, $disabled=false)
+  public static function render_array_checkbox($field_name, $field_value, $array_type, $array_index, $custom=false, $disabled=false)
   {
     if($custom)
       $array_index_with_brackets = "[{$array_type}][custom][{$array_index}]";
@@ -183,7 +183,7 @@ class MnglOptionsHelper
 <?php
   }
 
-  function mailer_dropdown($subfield, $field_value)
+  public static function mailer_dropdown($subfield, $field_value)
   {
     global $mngl_options;
 
@@ -201,7 +201,7 @@ class MnglOptionsHelper
     <?php
   }
 
-  function smtp_encryption_dropdown($subfield, $field_value)
+  public static function smtp_encryption_dropdown($subfield, $field_value)
   {
     global $mngl_options;
 
@@ -219,7 +219,7 @@ class MnglOptionsHelper
     <?php
   }
   
-  function mailer_input($subfield, $value, $classes='', $type='text')
+  public static function mailer_input($subfield, $value, $classes='', $type='text')
   {
     global $mngl_options;
 
@@ -231,7 +231,7 @@ class MnglOptionsHelper
     <?php
   }
   
-  function get_current_value($field, $value)
+  public static function get_current_value($field, $value)
   {
     if(isset($_POST[$field]) and !empty($_POST[$field]))
       return $_POST[$field];
@@ -243,7 +243,7 @@ class MnglOptionsHelper
       return false;
   }
   
-  function get_current_value_with_subfield( $field, $subfield, $value )
+  public static function get_current_value_with_subfield( $field, $subfield, $value )
   {
     if(isset($_POST[$field][$subfield]) and !empty($_POST[$field][$subfield]))
       return $_POST[$field][$subfield];
@@ -253,7 +253,7 @@ class MnglOptionsHelper
       return false;
   }
 
-  function field_type_dropdown($field_name, $field_value, $index)
+  public static function field_type_dropdown($field_name, $field_value, $index)
   {
     ?>
       <select name="<?php echo $field_name; ?>" id="<?php echo $field_name; ?>" onchange="javascript:mngl_show_field_options( <?php echo $index; ?>, this.value )" class="mngl-dropdown mngl-field-type-dropdown">
@@ -266,4 +266,3 @@ class MnglOptionsHelper
     <?php
   }
 }
-?>

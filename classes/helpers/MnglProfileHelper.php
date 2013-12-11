@@ -2,7 +2,7 @@
 
 class MnglProfileHelper
 {
-  function sex_dropdown($field_name, $field_value, $classes='', $tabindex='')
+  public static function sex_dropdown($field_name, $field_value, $classes='', $tabindex='')
   { 
     if(!empty($classes))
       $classes = " {$classes}";
@@ -19,7 +19,7 @@ class MnglProfileHelper
     <?php
   }
   
-  function privacy_dropdown($field_name, $field_value)
+  public static function privacy_dropdown($field_name, $field_value)
   {
     ?>
       <select name="<?php echo $field_name; ?>" id="<?php echo $field_name; ?>" class="mngl-dropdown mngl-privacy-dropdown">
@@ -29,4 +29,3 @@ class MnglProfileHelper
     <?php
   }
 }
-?>

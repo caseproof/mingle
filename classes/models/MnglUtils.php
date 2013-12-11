@@ -2,7 +2,7 @@
 
 class MnglUtils
 {
-  function get_user_id_by_email($email)
+  public static function get_user_id_by_email($email)
   {
     if(isset($email) and !empty($email))
     {
@@ -15,7 +15,7 @@ class MnglUtils
     return '';
   }
   
-  function is_image($filename)
+  public static function is_image($filename)
   {
     if(!file_exists($filename))
       return false;
@@ -27,7 +27,7 @@ class MnglUtils
     return in_array($file_meta['mime'], $image_mimes);
   }
   
-  function rewriting_on()
+  public static function rewriting_on()
   {
     $permalink_structure = get_option('permalink_structure');
     
@@ -35,7 +35,7 @@ class MnglUtils
   }
   
   // Returns a list of just user data from the wp_users table
-  function get_raw_users($where = '', $order_by = 'user_login')
+  public static function get_raw_users($where = '', $order_by = 'user_login')
   {
     global $wpdb;
 
@@ -54,7 +54,7 @@ class MnglUtils
   }
 
   /* We issue this check because we may want to use the username as a slug at some point */
-  function username_is_available( $username )
+  public static function username_is_available( $username )
   {
     global $wpdb, $mngl_blogurl;
   
@@ -94,7 +94,7 @@ class MnglUtils
     return true;
   }
  
-  function get_permalink_pre_slug_uri($force=false,$trim=false)
+  public static function get_permalink_pre_slug_uri($force=false,$trim=false)
   {
     preg_match('#^([^%]*?)%#', get_option('permalink_structure'), $struct);
     $pre_slug_uri = $struct[1];
@@ -114,7 +114,7 @@ class MnglUtils
       return '/';
   }
   
-  function &php_get_browsercap_ini()
+  public static function php_get_browsercap_ini()
   {
     // Since it's a fairly expensive proposition to load the ini file
     // let's make sure we only do it once
@@ -123,9 +123,9 @@ class MnglUtils
     if(!isset($browsecap_ini))
     {
       if( version_compare(PHP_VERSION, '5.3.0') >= 0 )
-        $browsecap_ini =& parse_ini_file( MNGL_PATH . "/includes/php/php_browsecap.ini", true, INI_SCANNER_RAW );
+        $browsecap_ini = parse_ini_file( MNGL_PATH . "/includes/php/php_browsecap.ini", true, INI_SCANNER_RAW );
       else
-        $browsecap_ini =& parse_ini_file( MNGL_PATH . "/includes/php/php_browsecap.ini", true );
+        $browsecap_ini = parse_ini_file( MNGL_PATH . "/includes/php/php_browsecap.ini", true );
     }
     
     return $browsecap_ini;
@@ -134,13 +134,13 @@ class MnglUtils
   /* Needed because we don't know if the target uesr will have a browsercap file installed
      on their server ... particularly in a shared hosting environment this is difficult
   */
-  function php_get_browser($agent = NULL)
+  public static function php_get_browser($agent = NULL)
   {
     $agent=$agent?$agent:$_SERVER['HTTP_USER_AGENT'];
     $yu=array();
     $q_s=array("#\.#","#\*#","#\?#");
     $q_r=array("\.",".*",".?");
-    $brows =& MnglUtils::php_get_browsercap_ini();
+    $brows = MnglUtils::php_get_browsercap_ini();
 
     if(!empty($brows) and $brows and is_array($brows))
     {
@@ -178,7 +178,7 @@ class MnglUtils
     return $hu;
   }
   
-  function is_robot()
+  public static function is_robot()
   {
     $ua_string = trim(urldecode($_SERVER['HTTP_USER_AGENT']));
 
@@ -208,14 +208,14 @@ class MnglUtils
   
   /***** Captcha Utility Functions *****/
 
-  function str_encrypt($str)
+  public static function str_encrypt($str)
   { 
     $mystr = MnglUtils::RC4($str, MnglUtils::wp_salt());
     $mystr = rawurlencode(base64_encode($mystr));
     return $mystr;
   }
 
-  function str_decrypt($str) 
+  public static function str_decrypt($str) 
   {
     $mystr = base64_decode(rawurldecode($str));  
     $mystr = MnglUtils::RC4($mystr, MnglUtils::wp_salt());
@@ -223,12 +223,12 @@ class MnglUtils
   }
 
   // ------------------------------------------------------------------------------
-  // Function    : RC4($data, $key)
+  // public static function    : RC4($data, $key)
   // Description : ecncrypt/decrypt $data with the key in $keyfile with an rc4 algorithm 
   //               This was written by danzarrella in 2002 can be found on Zend.com
   // Return      : string (encrypted/decrypted)
   // ------------------------------------------------------------------------------
-  function RC4($data, $key)
+  public static function RC4($data, $key)
   {
     // initialize (modified by Simon Lee)
     $x=0; $j=0; $a=0; $temp=""; $Zcrypt=""; 
@@ -263,7 +263,7 @@ class MnglUtils
           return $Zcrypt; 
   }
   
-  function generate_random_code($characters)
+  public static function generate_random_code($characters)
   {
     /* list all possible characters, similar looking characters and vowels have been removed */
     $possible = '23456789bcdfghjkmnpqrstvwxyz';
@@ -277,7 +277,7 @@ class MnglUtils
     return $code;
   }
   
-  function is_version_at_least( $version )
+  public static function is_version_at_least( $version )
   {
     global $wp_version;
     
@@ -285,70 +285,69 @@ class MnglUtils
   }
   
 /* PLUGGABLE FUNCTIONS AS TO NOT STEP ON OTHER PLUGINS' CODE */
-  function get_currentuserinfo()
+  public static function get_currentuserinfo()
   {
     MnglUtils::_include_pluggables('get_currentuserinfo');
     return get_currentuserinfo();
   }
 
-  function &get_userdata($id)
+  public static function get_userdata($id)
   {
     MnglUtils::_include_pluggables('get_userdata');
     return get_userdata($id);
   }
 
-  function get_userdatabylogin($screenname)
+  public static function get_userdatabylogin($screenname)
   {
     MnglUtils::_include_pluggables('get_userdatabylogin');
     return get_userdatabylogin($screenname);
   }
 
-  function wp_mail($recipient, $subject, $message, $header)
+  public static function wp_mail($recipient, $subject, $message, $header)
   {
     MnglUtils::_include_pluggables('wp_mail');
     return wp_mail($recipient, $subject, $message, $header);
   }
 
-  function is_user_logged_in()
+  public static function is_user_logged_in()
   {
     MnglUtils::_include_pluggables('is_user_logged_in');
     return is_user_logged_in();
   }
 
-  function get_avatar( $id, $size )
+  public static function get_avatar( $id, $size )
   {
     MnglUtils::_include_pluggables('get_avatar');
     return get_avatar( $id, $size );
   }
   
-  function wp_hash_password( $password_str )
+  public static function wp_hash_password( $password_str )
   {
     MnglUtils::_include_pluggables('wp_hash_password');
     return wp_hash_password( $password_str );
   }
   
-  function wp_generate_password( $length, $special_chars )
+  public static function wp_generate_password( $length, $special_chars )
   {
     MnglUtils::_include_pluggables('wp_generate_password');
     return wp_generate_password( $length, $special_chars );
   }
   
-  function wp_redirect( $location, $status=302 )
+  public static function wp_redirect( $location, $status=302 )
   {
     MnglUtils::_include_pluggables('wp_redirect');
     return wp_redirect( $location, $status );
   }
   
-  function wp_salt( $scheme='auth' )
+  public static function wp_salt( $scheme='auth' )
   {
     MnglUtils::_include_pluggables('wp_salt');
     return wp_salt( $scheme );
   }
 
-  function _include_pluggables($function_name)
+  public static function _include_pluggables($function_name)
   {
     if(!function_exists($function_name))
       require_once(ABSPATH . WPINC . '/pluggable.php');
   }
 }
-?>

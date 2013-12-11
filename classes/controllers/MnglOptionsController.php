@@ -9,7 +9,7 @@ class MnglOptionsController
 
   function route()
   {
-    $action = (isset($_POST['action'])?$_POST['action']:$_GET['action']);
+    $action = (isset($_REQUEST['action'])?$_REQUEST['action']:false);
     if($action=='process-form')
       return $this->process_form();
     else if($action=='add_default_friends_to_all_users')

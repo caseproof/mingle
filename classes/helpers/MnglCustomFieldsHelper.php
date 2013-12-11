@@ -1,7 +1,7 @@
 <?php
 class MnglCustomFieldsHelper
 {
-  function custom_field($field,$field_value, $classes='')
+  public static function custom_field($field,$field_value, $classes='')
   {
     switch( $field['type'] )
     {
@@ -23,7 +23,7 @@ class MnglCustomFieldsHelper
     }
   }
   
-  function text_input($field, $value, $classes='')
+  public static function text_input($field, $value, $classes='')
   {
     $curr_val = MnglCustomFieldsHelper::get_current_value($field, $value);
     ?>
@@ -31,7 +31,7 @@ class MnglCustomFieldsHelper
     <?php
   }
   
-  function text_area($field, $value, $classes='')
+  public static function text_area($field, $value, $classes='')
   {  
     $curr_val = MnglCustomFieldsHelper::get_current_value($field, $value);
     ?>
@@ -39,7 +39,7 @@ class MnglCustomFieldsHelper
     <?php
   }
   
-  function dropdown($field, $value, $classes='')
+  public static function dropdown($field, $value, $classes='')
   {
     global $mngl_custom_field;
 
@@ -76,7 +76,7 @@ class MnglCustomFieldsHelper
     <?php    
   }
   
-  function date_input($field, $value, $classes='')
+  public static function date_input($field, $value, $classes='')
   {
     $curr_val = MnglCustomFieldsHelper::get_current_value($field, $value);
     ?>
@@ -84,7 +84,7 @@ class MnglCustomFieldsHelper
     <?php 
   }
   
-  function checkbox($field, $value, $classes='')
+  public static function checkbox($field, $value, $classes='')
   {
     $curr_val = MnglCustomFieldsHelper::get_current_value($field, $value);
     
@@ -98,7 +98,7 @@ class MnglCustomFieldsHelper
     <?php
   }
   
-  function get_current_value($field, $value)
+  public static function get_current_value($field, $value)
   {
     if(isset($_POST['mngl_custom'][$field['id']]) and !empty($_POST['mngl_custom'][$field['id']]))
       return $_POST['mngl_custom'][$field['id']];

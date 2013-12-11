@@ -1,7 +1,7 @@
 <?php
 
 class MnglMessagesHelper {
-  function format_party_list($parties)
+  public static function format_party_list($parties)
   {
     global $mngl_user;
     
@@ -30,7 +30,7 @@ class MnglMessagesHelper {
     return sprintf(__("Between %s", 'mingle'), $user_list);
   }
 
-  function get_pre_populate_tokens()
+  public static function get_pre_populate_tokens()
   {
     global $mngl_user, $mngl_friend;
 
@@ -62,5 +62,3 @@ class MnglMessagesHelper {
     return ",prePopulate:" . MnglAppHelper::json_encode($fmt_friends_array);
   }
 }
-
-?>

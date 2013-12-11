@@ -2,19 +2,19 @@
 
 class MnglBoardsHelper
 {
-  function &get_stored_object()
+  public static function get_stored_object()
   { 
     static $this_object;
 
     if( !isset($this_object) or 
         empty($this_object) or
         !is_object($this_object) )
-      $this_object =& new MnglBoardsHelper();
+      $this_object = new MnglBoardsHelper();
     
     return $this_object;
   }
 
-  function display_message($message_class, $message, $autoembed_media=true)
+  public static function display_message($message_class, $message, $autoembed_media=true)
   {
     $hidden = '';
 
@@ -34,7 +34,7 @@ class MnglBoardsHelper
     ?><span id="<?php echo $message_class; ?>"<?php echo $hidden; ?>><?php echo $formatted_message; ?></span><?php
   }
   
-  function format_message($message, $strip_newlines=false, $autoembed_media=true)
+  public static function format_message($message, $strip_newlines=false, $autoembed_media=true)
   {
     global $wp_smiliessearch, $wpsmiliestrans;
 
@@ -64,7 +64,7 @@ class MnglBoardsHelper
     return $message;
   }
 
-  function style_text($message)
+  public static function style_text($message)
   {
     $message = preg_replace('#\*([^\*\s].*?)\*#','<b>$1</b>',$message); 
     $message = preg_replace('#-([^-\s].+?)-#','<s>$1</s>',$message); 
@@ -72,7 +72,7 @@ class MnglBoardsHelper
     return $message;
   }
 
-  function parse_textile($content, $safe_tags = '<a>, <b>, <i>, <u>, <blockquote>, <code>')
+  public static function parse_textile($content, $safe_tags = '<a>, <b>, <i>, <u>, <blockquote>, <code>')
   {
     $content = ' ' . trim($content) . ' ';
     $modifiers = Array('\*\*'=>'b', '\__'=>'i', '\*'=>'strong', '\_'=>'em', '\-'=>'del', '\?\?'=>'cite', '%'=>'span', '\+'=>'ins', '\^'=>'sup', '\~'=>'sub', '@'=>'code');
@@ -91,7 +91,7 @@ class MnglBoardsHelper
     return $content;
   }
 
-  function strip_bbcodes($content)
+  public static function strip_bbcodes($content)
   {
     // The array of regex patterns to look for
     $format_search =  array(
@@ -121,7 +121,7 @@ class MnglBoardsHelper
     return preg_replace($format_search,$format_replace,$content);
   }
 
-  function parse_bbcodes($content)
+  public static function parse_bbcodes($content)
   {
     // The array of regex patterns to look for
     $format_search =  array(
@@ -154,11 +154,11 @@ class MnglBoardsHelper
 
     $content = preg_replace($format_search,$format_replace,$content);
 
-    $mngl_boards_helper =& MnglBoardsHelper::get_stored_object();
+    $mngl_boards_helper = MnglBoardsHelper::get_stored_object();
     return preg_replace_callback( '#\[list(=.)?\]\n?(.*?)\[/list\]\n?#is', array(&$mngl_boards_helper, 'format_bbcode_list'), $content );
   }
 
-  function format_bbcode_list($matches)
+  public static function format_bbcode_list($matches)
   {
     if(preg_match('#\=[a-z]#i', $matches[1]))
     {
@@ -192,15 +192,15 @@ class MnglBoardsHelper
     return "<{$tag}{$style}>{$list_item_str}</{$tag}>";
   }
 
-  function escape_code_blocks($content)
+  public static function escape_code_blocks($content)
   {
     $code_search = '#(\[code\]\n?)(.*?)(\[/code\]\n?)#is'; // Monospaced code [code]text[/code]
     
-    $mngl_boards_helper =& MnglBoardsHelper::get_stored_object();
+    $mngl_boards_helper = MnglBoardsHelper::get_stored_object();
     return preg_replace_callback( $code_search, array(&$mngl_boards_helper, 'escape_code_block_callback'), $content );
   }
 
-  function escape_code_block_callback($matches)
+  public static function escape_code_block_callback($matches)
   {
     $format_search =  array(
       '#\<#',
@@ -219,20 +219,20 @@ class MnglBoardsHelper
     return trim($matches[1]) . preg_replace( $format_search, $format_replace, $matches[2] ) . trim($matches[3]);
   }
 
-  function autoembed_media($message)
+  public static function autoembed_media($message)
   {
-    $mngl_boards_helper =& MnglBoardsHelper::get_stored_object();
+    $mngl_boards_helper = MnglBoardsHelper::get_stored_object();
     return preg_replace_callback( '#(https?://[^\s"]+)#im', array(&$mngl_boards_helper, 'autoembed_media_callback'), $message, 1 );
   }
   
-  function autoembed_media_callback($match)
+  public static function autoembed_media_callback($match)
   {
     global $wp_embed;
     $return = $wp_embed->shortcode( array( 'width' => 350 ), $match[1] );
     return "\n$return\n";
   }
 
-  function board_post_url($board_post_id)
+  public static function board_post_url($board_post_id)
   {
     global $mngl_options;
 
@@ -246,7 +246,7 @@ class MnglBoardsHelper
     return '';
   }
   
-  function &get_tagged_users($message)
+  public static function &get_tagged_users($message)
   {
     global $mngl_options;
     preg_match_all('#@([a-zA-Z0-9_\-\.]+)#', $message, $matches);
@@ -265,7 +265,7 @@ class MnglBoardsHelper
             !in_array($user_id,$mngl_options->invisible_users) )
         {
           $usernames[] = $username;
-          $users[] =& MnglUser::get_stored_profile_by_screenname($username);
+          $users[] = MnglUser::get_stored_profile_by_screenname($username);
         }
       }
     }
@@ -273,9 +273,9 @@ class MnglBoardsHelper
     return $users;
   }
   
-  function make_tags_clickable($message)
+  public static function make_tags_clickable($message)
   {
-    $users =& MnglBoardsHelper::get_tagged_users($message);
+    $users = MnglBoardsHelper::get_tagged_users($message);
   
     if($users and is_array($users))
     {

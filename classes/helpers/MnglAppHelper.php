@@ -2,11 +2,7 @@
 
 class MnglAppHelper
 {
-  function MnglAppHelper()
-  {
-  }
-
-  function get_avatar_img($user, $size, $filtered_img = false)
+  public static function get_avatar_img($user, $size, $filtered_img = false)
   {
     if($user)
     {
@@ -36,7 +32,7 @@ class MnglAppHelper
       return filtered_img;
   }
   
-  function link_avatar($user_id,$avatar_img)
+  public static function link_avatar($user_id,$avatar_img)
   {
     $user = MnglUser::get_stored_profile_by_id($user_id, false);
 
@@ -46,12 +42,12 @@ class MnglAppHelper
       return $avatar_img;
   }
   
-  function add_avatar_class($img, $class)
+  public static function add_avatar_class($img, $class)
   {
     return preg_replace('#(class=["\'])#', "$1{$class} ",$img);
   }
   
-  function get_avatar_img_by_id($user_id, $size, $filtered_img=false)
+  public static function get_avatar_img_by_id($user_id, $size, $filtered_img=false)
   {
     $user = MnglUser::get_stored_profile_by_id($user_id, false);
 
@@ -61,7 +57,7 @@ class MnglAppHelper
       return $filtered_img;
   }
   
-  function get_avatar_img_by_screenname($screenname, $size, $filtered_img=false)
+  public static function get_avatar_img_by_screenname($screenname, $size, $filtered_img=false)
   {
     $user = MnglUser::get_stored_profile_by_screenname($screenname, false);
 
@@ -71,7 +67,7 @@ class MnglAppHelper
       return $filtered_img;
   }
 
-  function get_pages()
+  public static function get_pages()
   {
     global $wpdb;
     
@@ -88,7 +84,7 @@ class MnglAppHelper
   }
   
   // Displays time as in how many seconds / minutes / hours / days / weeks ago
-  function time_ago($created_at_ts)
+  public static function time_ago($created_at_ts)
   {
     if(!isset($created_at_ts) or !$created_at_ts)
      return '';
@@ -147,28 +143,28 @@ class MnglAppHelper
     return $ago_str;
   }
   
-  function value_is_selected($field_name, $field_value, $selected_value)
+  public static function value_is_selected($field_name, $field_value, $selected_value)
   {
     if( (isset($_POST[$field_name]) and $_POST[$field_name] == $selected_value) or
         (!isset($_POST[$field_name]) and $field_value == $selected_value) )
       echo ' selected="selected"';
   }
   
-  function value_is_checked($field_name, $field_value)
+  public static function value_is_checked($field_name, $field_value)
   {
     if( (isset($_POST) and $_POST[$field_name] == 'on') or
         (!isset($_POST) and $field_value == 'on') )
       echo ' checked="checked"';
   }
 
-  function value_is_checked_with_array($field_name, $index, $field_value)
+  public static function value_is_checked_with_array($field_name, $index, $field_value)
   {
     if( ( $_POST['action'] == 'process_form' and isset( $_POST[ $field_name ][ $index ] ) ) or
         ( $_POST['action'] != 'process_form' and isset($field_value) ) )
       echo ' checked="checked"';
   }
   
-  function powered_by()
+  public static function powered_by()
   {
     $show_powered_by = apply_filters('mngl-show-powered-by',true);
     
@@ -180,7 +176,7 @@ class MnglAppHelper
     }
   }
   
-  function get_extension( $mimetype )
+  public static function get_extension( $mimetype )
   {
     switch( $mimetype )
     {
@@ -236,7 +232,7 @@ class MnglAppHelper
   }
   
   
-  function decode_unicode($val)
+  public static function decode_unicode($val)
   { 
     $val = preg_replace_callback("/%u([0-9a-fA-F]{4})/",
                                  create_function(
@@ -249,7 +245,7 @@ class MnglAppHelper
   
   // Detects whether an array is a true numerical array or an
   // associative array (or hash).
-  function array_type($item)
+  public static function array_type($item)
   {
     $array_type = 'unknown';
 
@@ -272,7 +268,7 @@ class MnglAppHelper
 
   // This eliminates the need to use php's built in json_encoder
   // which only works with PHP 5.2 and above.
-  function json_encode($json_array)
+  public static function json_encode($json_array)
   {
     $json_str = '';
 
@@ -331,7 +327,7 @@ class MnglAppHelper
 
   // This eliminates the need to use php's built in json_encoder
   // which only works with PHP 5.2 and above.
-  function json_decode(&$json_str,$type='array',$index = 0)
+  public static function json_decode(&$json_str,$type='array',$index = 0)
   {
     $json_array = array();
     $index_str = '';
@@ -499,7 +495,7 @@ class MnglAppHelper
     return array(-1,$json_array);
   }
 
-  function decode_json_unicode($val)
+  public static function decode_json_unicode($val)
   { 
     $val = preg_replace_callback("/\\\u([0-9a-fA-F]{4})/",
                                  create_function(
@@ -510,7 +506,7 @@ class MnglAppHelper
     return $val;
   }
   
-  function format_text($message)
+  public static function format_text($message)
   { 
     $message = stripslashes($message);
     
