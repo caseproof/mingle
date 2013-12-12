@@ -100,7 +100,7 @@ MAIL_BODY;
   {
     global $mngl_blogname, $mngl_options;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $board_post = $mngl_board_post->get_one($board_post_id);
     
@@ -127,7 +127,7 @@ MAIL_BODY;
       }
     }
     
-    $tagged_users =& MnglBoardsHelper::get_tagged_users($board_post->message);
+    $tagged_users = MnglBoardsHelper::get_tagged_users($board_post->message);
     
     if($tagged_users and is_array($tagged_users))
     {
@@ -158,7 +158,7 @@ MAIL_BODY;
   {
     global $mngl_blogname, $mngl_board_comment;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $board_comment = $mngl_board_comment->get_one($board_comment_id);
     $board_post    = $mngl_board_post->get_one($board_comment->board_post_id);
@@ -243,7 +243,7 @@ MAIL_BODY;
         MnglNotification::send_notification_email($commentor, $subject, $mail_body, 'board_comment');
 
       /*** Send notification to users tagged in the comment ***/
-      $tagged_users =& MnglBoardsHelper::get_tagged_users($board_comment->message);
+      $tagged_users = MnglBoardsHelper::get_tagged_users($board_comment->message);
       
       if($tagged_users and is_array($tagged_users))
       {
@@ -333,4 +333,3 @@ MAIL_SIGNATURE;
     return $signature;
   }
 }
-?>

@@ -80,7 +80,7 @@ class MnglFriendsController
     {
       global $mngl_friend;
       
-      $mngl_board_post =& MnglBoardPost::get_stored_object();
+      $mngl_board_post = MnglBoardPost::get_stored_object();
       
       $mngl_friend->accept_friend($request_id);
       
@@ -206,4 +206,3 @@ class MnglFriendsController
     }
   }
 }
-?>

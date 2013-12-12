@@ -15,7 +15,7 @@ class MnglMessagesController
     if (isset($_GET['mu']) && !empty($_GET['mu']))
     {
       $to_id = $_GET['mu'];
-      $curr_user =& MnglUser::get_stored_profile_by_id($to_id);
+      $curr_user = MnglUser::get_stored_profile_by_id($to_id);
       $to = $curr_user->screenname.", ";
     }
 
@@ -110,7 +110,7 @@ class MnglMessagesController
     {
       foreach($screennames as $screenname)
       {
-        $curr_user =& MnglUser::get_stored_profile_by_screenname($screenname);
+        $curr_user = MnglUser::get_stored_profile_by_screenname($screenname);
         
         if($curr_user and is_object($curr_user))
           $ids[] = $curr_user->id;
@@ -244,4 +244,3 @@ class MnglMessagesController
     }
   }
 }
-?>

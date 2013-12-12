@@ -10,14 +10,14 @@ class MnglBoardPost
     $this->table_name = "{$wpdb->prefix}mngl_board_posts";
   }
   
-  function &get_stored_object()
+  function get_stored_object()
   { 
     static $this_object;
 
     if( !isset($this_object) or 
         empty($this_object) or
         !is_object($this_object) )
-      $this_object =& new MnglBoardPost();
+      $this_object = new MnglBoardPost();
     
     return $this_object;
   }
@@ -197,4 +197,3 @@ class MnglBoardPost
     $this->create( $owner->id, $author->id, $vars_str, 'activity', $message_type, $visibility );
   }
 }
-?>

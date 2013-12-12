@@ -72,7 +72,7 @@ class MnglAppController
            $mngl_messages_controller, 
            $mngl_users_controller;
 
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
 
     switch( $post->ID )
     {  
@@ -474,4 +474,3 @@ class MnglAppController
     }
   }
 }
-?>

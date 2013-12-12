@@ -246,7 +246,7 @@ class MnglBoardsHelper
     return '';
   }
   
-  public static function &get_tagged_users($message)
+  public static function get_tagged_users($message)
   {
     global $mngl_options;
     preg_match_all('#@([a-zA-Z0-9_\-\.]+)#', $message, $matches);

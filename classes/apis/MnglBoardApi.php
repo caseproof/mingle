@@ -60,8 +60,7 @@ class MnglBoardApi
     */
   function add_activity($owner_login, $author_login, $message_type, $vars='', $visibility='personal')
   {
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     $mngl_board_post->add_activity_by_screenname( $owner_login, $author_login, $message_type, $vars, $visibility );
   }
 }
-?>

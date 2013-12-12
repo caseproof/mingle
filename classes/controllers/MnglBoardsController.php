@@ -22,7 +22,7 @@ class MnglBoardsController
   {
     global $mngl_options, $mngl_friend, $mngl_user, $mngl_app_helper, $mngl_board_comment, $current_user;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $page_start_index = (($page-1)*$page_size);
     
@@ -45,7 +45,7 @@ class MnglBoardsController
   function activity_display($user_id, $page=1, $page_size=15)
   {
     global $mngl_friend, $mngl_user, $mngl_app_helper, $mngl_board_comment, $current_user;
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $page_start_index = (($page-1)*$page_size);
     
@@ -63,7 +63,7 @@ class MnglBoardsController
   {
     global $mngl_options, $mngl_friend, $mngl_user, $mngl_app_helper, $mngl_board_comment, $current_user, $mngl_boards_controller;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $author_id = $mngl_user->id;
     $author = MnglUser::get_stored_profile_by_id($board_post->author_id);
@@ -82,7 +82,7 @@ class MnglBoardsController
           require MNGL_VIEWS_PATH . "/mngl-boards/board_post.php";
         else
         {
-          $user =& $owner;
+          $user = $owner;
           require( MNGL_VIEWS_PATH . '/mngl-boards/private.php' );
         }
         return;
@@ -95,7 +95,7 @@ class MnglBoardsController
   function display_comment($comment, $public=false, $comment_hidden_class='')
   {
     global $mngl_options, $mngl_friend, $mngl_user, $mngl_app_helper, $mngl_board_comment, $current_user;
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     $author_id = $mngl_user->id;
     require MNGL_VIEWS_PATH . "/mngl-boards/board_comment.php";
   }
@@ -112,7 +112,7 @@ class MnglBoardsController
   {
     global $mngl_friend, $mngl_user;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
 
     if( MnglUser::is_logged_in_and_visible() and
         ( ($owner_id==$author_id) or
@@ -140,7 +140,7 @@ class MnglBoardsController
   {
     global $mngl_friend, $mngl_board_comment, $mngl_user;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $board_post = $mngl_board_post->get_one($board_post_id);
     
@@ -167,7 +167,7 @@ class MnglBoardsController
   {
     global $mngl_user;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $board_post = $mngl_board_post->get_one($board_post_id);
 
@@ -186,7 +186,7 @@ class MnglBoardsController
   {
     global $mngl_board_comment, $mngl_user;
     
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
     
     $board_comment = $mngl_board_comment->get_one($board_comment_id);
     $board_post = $mngl_board_post->get_one($board_comment->board_post_id);
@@ -232,4 +232,3 @@ class MnglBoardsController
     }
   }
 }
-?>

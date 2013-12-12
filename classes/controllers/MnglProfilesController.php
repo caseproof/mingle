@@ -80,7 +80,7 @@ class MnglProfilesController
   {  
     global $mngl_user, $mngl_blogurl;
 
-    $mngl_board_post =& MnglBoardPost::get_stored_object();
+    $mngl_board_post = MnglBoardPost::get_stored_object();
 
     if(MnglUser::is_logged_in_and_visible())
     {
@@ -138,4 +138,3 @@ class MnglProfilesController
     }
   }
 }
-?>

@@ -294,7 +294,7 @@ class MnglDb
             $wpdb->query( $query );
           }
           
-          $user =& MnglUser::get_stored_profile_by_id( $avatar->user_id );
+          $user = MnglUser::get_stored_profile_by_id( $avatar->user_id );
           if(isset($user->avatars) and !empty($user->avatars) and is_array($user->avatars))
           {
             $new_avatars = array();
@@ -471,4 +471,3 @@ class MnglDb
     return $wpdb->get_results($query);
   }
 }
-?>
